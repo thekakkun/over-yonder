@@ -1,7 +1,13 @@
-import Game from "./components/game";
+import Game from "./components/Game";
+import Header from "./components/Header";
 
 function App() {
-  return <Game></Game>;
+  return (
+    <>
+      <Header></Header>
+      <Game></Game>
+    </>
+  );
 }
 
 export default App;
