@@ -1,36 +1,54 @@
-import { Degrees, degToRad, Radians, radToDeg } from "./math";
+import { Coordinates } from "../types/cartography";
+import { Degrees } from "../types/math";
+import { degToRad, radToDeg } from "./math";
 
-export interface Coordinates {
-  latitude: Degrees;
-  longitude: Degrees;
-}
-
+/**
+ * Test whether geolocation services are available in the browser.
+ * @returns Boolean value indicating availability of the geolocation service.
+ */
 export function geolocationAvailable() {
   return "geolocation" in navigator;
 }
 
+/**
+ * Calculate the shortest distance between two locations.
+ * @param loc1 Coordinates of first location.
+ * @param loc2 Coordinates of second location.
+ * @returns Shortest distance between the two locations, in kilometers.
+ */
 export function getDistance(loc1: Coordinates, loc2: Coordinates) {
   const R = 6371e3;
 
-  const lat1 = degToRad(loc1.latitude);
-  const lat2 = degToRad(loc2.latitude);
+  const lat1 = degToRad(loc1.lat);
+  const lat2 = degToRad(loc2.lat);
   const latDelta = lat2 - lat1;
-  const lonDelta = degToRad(loc2.longitude - loc1.longitude);
+  const lonDelta = degToRad(loc2.lon - loc1.lon);
   // TODO: Beware of floating point errors here
   const h = hav(latDelta) + Math.cos(lat1) * Math.cos(lat2) * hav(lonDelta);
 
   return 2 * R * Math.asin(Math.sqrt(h));
 }
 
-function hav(theta: Radians) {
+/**
+ * The haversine formula.
+ * @param theta The central angle between two points.
+ * @returns The haversine.
+ */
+function hav(theta: number) {
   return Math.sin(theta / 2) ** 2;
 }
 
-export function getBearing(loc1: Coordinates, loc2: Coordinates) {
-  const lat1 = degToRad(loc1.latitude);
-  const lat2 = degToRad(loc2.latitude);
-  const lon1 = degToRad(loc1.longitude);
-  const lon2 = degToRad(loc2.longitude);
+/**
+ * Calculate the absolute bearing from the first location to the second.
+ * @param loc1 Coordinates of first location.
+ * @param loc2 Coordinates of second location.
+ * @returns Compass heading from loc1 to loc2 in degrees.
+ */
+export function getBearing(loc1: Coordinates, loc2: Coordinates): Degrees {
+  const lat1 = degToRad(loc1.lat);
+  const lat2 = degToRad(loc2.lat);
+  const lon1 = degToRad(loc1.lon);
+  const lon2 = degToRad(loc2.lon);
 
   const y = Math.sin(lon2 - lon1) * Math.cos(lat2);
   const x =
