@@ -5,7 +5,7 @@ import Target from "./Target";
 
 export default function Game() {
   const gameLength = 5;
-  const [current, setCurrent] = useState<CurrentLocation>(getLocation());
+  
   const initCompleted = [
     {
       location: "Tokyo",
@@ -21,6 +21,7 @@ export default function Game() {
   const [completed, setCompleted] =
     useState<CompletedLocation[]>(initCompleted);
 
+  const [current, setCurrent] = useState<CurrentLocation>(getLocation());
   return (
     <>
       <Progress
