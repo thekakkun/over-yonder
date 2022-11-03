@@ -1,7 +1,10 @@
 import { useReducer, useState } from "react";
 import Button from "./components/Button";
 import Content from "./components/Content";
+import Game from "./components/Game";
 import Header from "./components/Header";
+import Intro from "./components/Intro";
+import Outro from "./components/Outro";
 import { Modes, StageList, ActionType } from "./types/game";
 import { getLocation } from "./utilities/game";
 
@@ -21,16 +24,28 @@ function App() {
   const [mode, setMode] = useState<Modes>("intro");
   const [stages, dispatch] = useReducer(reducer, initialStages);
 
+  const gameElement = (
+    <Game
+      gameLength={gameLength}
+      location={location}
+      mode={mode}
+      stages={stages}
+      dispatch={dispatch}
+    ></Game>
+  );
+
   return (
     <div className="h-screen flex flex-col items-center justify-between gap-1 pb-4">
       <Header></Header>
-      <Content
-        gameLength={gameLength}
-        location={location}
-        mode={mode}
-        stages={stages}
-        dispatch={dispatch}
-      ></Content>
+      <Content>
+        {mode === "intro" ? (
+          <Intro></Intro>
+        ) : ["guess", "answer"].includes(mode) ? (
+          gameElement
+        ) : (
+          <Outro></Outro>
+        )}
+      </Content>
       <Button
         gameLength={gameLength}
         location={location}

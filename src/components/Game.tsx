@@ -1,8 +1,17 @@
+import { Dispatch } from "react";
+import { Modes, StageList, ActionType } from "../types/game";
 import Compass from "./Compass";
-import { ContentProps } from "./Content";
 import Display from "./Display";
 import Progress from "./Progress";
 import Target from "./Target";
+
+interface GameProps {
+  gameLength: number;
+  location: GeolocationCoordinates;
+  mode: Modes;
+  stages: StageList;
+  dispatch: Dispatch<ActionType>;
+}
 
 export default function Game({
   gameLength,
@@ -10,7 +19,7 @@ export default function Game({
   mode,
   stages,
   dispatch,
-}: ContentProps) {
+}: GameProps) {
   const guessDisplay = (
     <>
       <Target target={stages[stages.length - 1]} dispatch={dispatch}></Target>
