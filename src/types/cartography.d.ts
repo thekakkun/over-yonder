@@ -1,6 +1,6 @@
 import { Degrees } from "./math";
 
 export interface Coordinates {
-  lat: Degrees;
-  lon: Degrees;
+  latitude: Degrees;
+  longitude: Degrees;
 }

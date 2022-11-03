@@ -1,25 +1,15 @@
-import { CompletedLocation, CurrentLocation } from "../types/game";
-
-interface UnplayedStageProps {
-  stage: number;
+interface StageProps {
+  stageNum: number;
+  location?: string;
+  score?: number;
 }
 
-interface CompletedStageProps extends CompletedLocation, UnplayedStageProps {
-  score: number;
-}
-
-interface CurrentStageProps extends CurrentLocation, UnplayedStageProps {}
-
-export default function Stage(
-  props: CompletedStageProps | CurrentStageProps | UnplayedStageProps
-) {
+export default function Stage({ stageNum, location, score }: StageProps) {
   return (
     <li className="flex-1 bg-slate-400">
-      <p className="text-center">{props.stage + 1}</p>
-      {"location" in props ? (
-        <p className="text-center">{props.location}</p>
-      ) : null}
-      {"score" in props ? <p className="text-center">{props.score}</p> : null}
+      <p className="text-center">{stageNum + 1}</p>
+      {"location" ? <p className="text-center">{location}</p> : null}
+      {"score" ? <p className="text-center">{score}</p> : null}
     </li>
   );
 }

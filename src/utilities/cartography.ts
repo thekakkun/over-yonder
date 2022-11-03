@@ -19,10 +19,10 @@ export function geolocationAvailable() {
 export function getDistance(loc1: Coordinates, loc2: Coordinates) {
   const R = 6371e3;
 
-  const lat1 = degToRad(loc1.lat);
-  const lat2 = degToRad(loc2.lat);
+  const lat1 = degToRad(loc1.latitude);
+  const lat2 = degToRad(loc2.latitude);
   const latDelta = lat2 - lat1;
-  const lonDelta = degToRad(loc2.lon - loc1.lon);
+  const lonDelta = degToRad(loc2.longitude - loc1.longitude);
   // TODO: Beware of floating point errors here
   const h = hav(latDelta) + Math.cos(lat1) * Math.cos(lat2) * hav(lonDelta);
 
@@ -45,10 +45,10 @@ function hav(theta: number) {
  * @returns Compass heading from loc1 to loc2 in degrees.
  */
 export function getBearing(loc1: Coordinates, loc2: Coordinates): Degrees {
-  const lat1 = degToRad(loc1.lat);
-  const lat2 = degToRad(loc2.lat);
-  const lon1 = degToRad(loc1.lon);
-  const lon2 = degToRad(loc2.lon);
+  const lat1 = degToRad(loc1.latitude);
+  const lat2 = degToRad(loc2.latitude);
+  const lon1 = degToRad(loc1.longitude);
+  const lon2 = degToRad(loc2.longitude);
 
   const y = Math.sin(lon2 - lon1) * Math.cos(lat2);
   const x =
