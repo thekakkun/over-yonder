@@ -5,5 +5,9 @@ interface DisplayProps {
 }
 
 export default function Display(props: DisplayProps) {
-  return <div>{props.children}</div>;
+  return (
+    <div className="h-full flex flex-col justify-between ">
+      {props.children}
+    </div>
+  );
 }

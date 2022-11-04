@@ -5,5 +5,5 @@ export interface ContentProps {
 }
 
 export default function Content(props: ContentProps) {
-  return <div> {props.children}</div>;
+  return <div className="grow p-2 w-full"> {props.children}</div>;
 }

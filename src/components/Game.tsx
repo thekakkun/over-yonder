@@ -1,8 +1,10 @@
 import { Dispatch } from "react";
-import { Modes, StageList, ActionType } from "../types/game";
+import { Modes, StageList, ActionType, CompletedLocation } from "../types/game";
 import Compass from "./Compass";
 import Display from "./Display";
+import Map from "./Map";
 import Progress from "./Progress";
+import Score from "./Score";
 import Target from "./Target";
 
 interface GameProps {
@@ -27,10 +29,21 @@ export default function Game({
     </>
   );
 
-  const answerDisplay = <></>;
+  const answerDisplay = (
+    <>
+      <Score
+        target={stages[stages.length - 1] as CompletedLocation}
+        location={location}
+      ></Score>
+      <Map
+        target={stages[stages.length - 1] as CompletedLocation}
+        location={location}
+      ></Map>
+    </>
+  );
 
   return (
-    <div className="flex-1 grid grid-rows-[auto_auto_1fr] grid-cols-1 items-center">
+    <div className="h-full flex flex-col gap-3">
       <Progress gameLength={gameLength} stages={stages}></Progress>
       <Display>{mode === "guess" ? guessDisplay : answerDisplay}</Display>
     </div>
