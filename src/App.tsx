@@ -17,7 +17,7 @@ function App() {
     altitude: null,
     accuracy: 0,
     altitudeAccuracy: null,
-    heading: 15,
+    heading: 180,
     speed: null,
   });
 
