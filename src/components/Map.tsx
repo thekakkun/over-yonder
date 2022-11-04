@@ -12,42 +12,39 @@ interface MapProps {
 }
 export default function Map({ target, location }: MapProps) {
   return (
-    <div className="h-full">
-      <ComposableMap
-        projection="geoAzimuthalEquidistant"
-        projectionConfig={{
-          rotate: [-location.longitude, -location.latitude, 0],
-          scale: 100,
-        }}
-        height={400}
-        width={300}
-      >
-        <Geographies geography={geoUrl}>
-          {({ geographies }) =>
-            geographies.map((geo) => (
-              <Geography
-                key={geo.rsmKey}
-                geography={geo}
-                fill={colors.slate[100]}
-                stroke={colors.slate[900]}
-              />
-            ))
-          }
-        </Geographies>
-        <Line
-          from={[location.longitude, location.latitude]}
-          to={[target.coordinates.longitude, target.coordinates.latitude]}
-          stroke={colors.red[400]}
-        ></Line>
-        <Line
-          from={[location.longitude, location.latitude]}
-          to={[
-            180 - Math.abs(target.coordinates.longitude),
-            -target.coordinates.latitude,
-          ]}
-          stroke={colors.green[400]}
-        ></Line>
-      </ComposableMap>
-    </div>
+    <ComposableMap
+      className="h-full"
+      projection="geoAzimuthalEquidistant"
+      projectionConfig={{
+        rotate: [-location.longitude, -location.latitude, 0],
+        scale: 300,
+      }}
+    >
+      <Geographies geography={geoUrl}>
+        {({ geographies }) =>
+          geographies.map((geo) => (
+            <Geography
+              key={geo.rsmKey}
+              geography={geo}
+              fill={colors.slate[100]}
+              stroke={colors.slate[900]}
+            />
+          ))
+        }
+      </Geographies>
+      <Line
+        from={[location.longitude, location.latitude]}
+        to={[target.coordinates.longitude, target.coordinates.latitude]}
+        stroke={colors.red[400]}
+      ></Line>
+      <Line
+        from={[location.longitude, location.latitude]}
+        to={[
+          180 - Math.abs(target.coordinates.longitude),
+          -target.coordinates.latitude,
+        ]}
+        stroke={colors.green[400]}
+      ></Line>
+    </ComposableMap>
   );
 }
