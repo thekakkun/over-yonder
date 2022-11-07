@@ -2,22 +2,31 @@ import colors from "tailwindcss/colors";
 
 import { CompletedLocation } from "../types/game";
 import { ComposableMap, Geographies, Geography, Line } from "react-simple-maps";
+import {
+  getBearing,
+  getCentralAngle,
+  getMidpoint,
+} from "../utilities/cartography";
 
-const geoUrl =
-  "https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json";
+const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
 interface MapProps {
   target: CompletedLocation;
   location: GeolocationCoordinates;
 }
 export default function Map({ target, location }: MapProps) {
+  const bearing = getBearing(location, target.coordinates);
+  const midpoint = getMidpoint(target.coordinates, location);
+  console.log(midpoint);
+
   return (
     <ComposableMap
-      className="h-full"
+      className="h-full border-2"
       projection="geoAzimuthalEquidistant"
       projectionConfig={{
-        rotate: [-location.longitude, -location.latitude, 0],
-        scale: 300,
+        rotate: [-location.longitude, -location.latitude, bearing],
+        center: [0, getCentralAngle(location, midpoint)],
+        scale: 400,
       }}
     >
       <Geographies geography={geoUrl}>
@@ -39,10 +48,7 @@ export default function Map({ target, location }: MapProps) {
       ></Line>
       <Line
         from={[location.longitude, location.latitude]}
-        to={[
-          180 - Math.abs(target.coordinates.longitude),
-          -target.coordinates.latitude,
-        ]}
+        to={[180 - Math.abs(location.longitude), -location.latitude]}
         stroke={colors.green[400]}
       ></Line>
     </ComposableMap>

@@ -1,6 +1,9 @@
 import { Coordinates } from "../types/cartography";
-import { Degrees } from "../types/math";
+import { Degrees, Radians } from "../types/math";
 import { degToRad, radToDeg } from "./math";
+
+/** The earth's radius in kms */
+const R = 6371e3;
 
 /**
  * Test whether geolocation services are available in the browser.
@@ -11,22 +14,23 @@ export function geolocationAvailable() {
 }
 
 /**
- * Calculate the shortest distance between two locations.
- * @param loc1 Coordinates of first location.
- * @param loc2 Coordinates of second location.
- * @returns Shortest distance between the two locations, in kilometers.
+ * Normalize compass bearing to [0, 360] degrees
+ * @param bearing Compass bearing in degrees
+ * @returns Normalized bearing
  */
-export function getDistance(loc1: Coordinates, loc2: Coordinates) {
-  const R = 6371e3;
+export function normalizeBearing(bearing: Degrees): Degrees {
+  return (bearing + 360) % 360;
+}
 
-  const lat1 = degToRad(loc1.latitude);
-  const lat2 = degToRad(loc2.latitude);
-  const latDelta = lat2 - lat1;
-  const lonDelta = degToRad(loc2.longitude - loc1.longitude);
-  // TODO: Beware of floating point errors here
-  const h = hav(latDelta) + Math.cos(lat1) * Math.cos(lat2) * hav(lonDelta);
-
-  return 2 * R * Math.asin(Math.sqrt(h));
+/**
+ * Normalize longitude value to [-180, 180] degrees
+ * @param longitude Longitude in degrees
+ * @returns Normalized longitude
+ */
+export function normalizeLongitude(
+  longitude: Coordinates["longitude"]
+): Coordinates["longitude"] {
+  return ((longitude + 540) % 360) - 180;
 }
 
 /**
@@ -34,8 +38,33 @@ export function getDistance(loc1: Coordinates, loc2: Coordinates) {
  * @param theta The central angle between two points.
  * @returns The haversine.
  */
-function hav(theta: number) {
+function hav(theta: Radians) {
   return Math.sin(theta / 2) ** 2;
+}
+
+/**
+ * The archaversine formula.
+ * @param h The haversine
+ * @returns The central angle between two points.
+ */
+function archav(h: number) {
+  return Math.acos(1 - 2 * h);
+}
+/**
+ * Calculate the shortest distance between two locations.
+ * @param loc1 Coordinates of first location.
+ * @param loc2 Coordinates of second location.
+ * @returns Shortest distance between the two locations, in kilometers.
+ */
+export function getDistance(loc1: Coordinates, loc2: Coordinates) {
+  const lonDelta = degToRad(loc2.longitude - loc1.longitude);
+  const lat1 = degToRad(loc1.latitude);
+  const lat2 = degToRad(loc2.latitude);
+  const latDelta = lat2 - lat1;
+  // TODO: Beware of floating point errors here
+  const h = hav(latDelta) + Math.cos(lat1) * Math.cos(lat2) * hav(lonDelta);
+
+  return 2 * R * Math.asin(Math.sqrt(h));
 }
 
 /**
@@ -56,5 +85,53 @@ export function getBearing(loc1: Coordinates, loc2: Coordinates): Degrees {
     Math.sin(lat1) * Math.cos(lat2) * Math.cos(lon2 - lon1);
   const theta = Math.atan2(y, x);
 
-  return (radToDeg(theta) + 360) % 360;
+  return normalizeBearing(radToDeg(theta));
+}
+
+/**
+ * Get the half-way point along a great circle path between the two points.
+ * @param loc1 Coordinates of first location.
+ * @param loc2 Coordinates of second location.
+ * @returns The latitude and longitude of the midpoint.
+ */
+export function getMidpoint(loc1: Coordinates, loc2: Coordinates): Coordinates {
+  const lat1 = degToRad(loc1.latitude);
+  const lat2 = degToRad(loc2.latitude);
+  const lon1 = degToRad(loc1.longitude);
+  const lon2 = degToRad(loc2.longitude);
+
+  const Bx = Math.cos(lat2) * Math.cos(lon2 - lon1);
+  const By = Math.cos(lat2) * Math.sin(lon2 - lon1);
+
+  const latitudeRad = Math.atan2(
+    Math.sin(lat1) + Math.sin(lat2),
+    Math.sqrt(Math.cos(lat1) + Bx) * (Math.cos(lat1) + Bx) + By ** 2
+  );
+  const longitudeRad = lon1 + Math.atan2(By, Math.cos(lat1) + Bx);
+
+  return {
+    latitude: radToDeg(latitudeRad),
+    longitude: normalizeLongitude(radToDeg(longitudeRad)),
+  };
+}
+
+/**
+ * Get the central angle btween the two points.
+ * @param loc1 Coordinates of first location.
+ * @param loc2 Coordinates of second location.
+ * @returns The central angle between the two coordinates
+ */
+export function getCentralAngle(loc1: Coordinates, loc2: Coordinates): Degrees {
+  const lat1 = degToRad(loc1.latitude);
+  const lat2 = degToRad(loc2.latitude);
+  const latDelta = lat2 - lat1;
+  const lon1 = degToRad(loc1.longitude);
+  const lon2 = degToRad(loc2.longitude);
+  const lonDelta = lon2 - lon1;
+
+  return radToDeg(
+    archav(
+      hav(latDelta) + (1 - hav(latDelta) - hav(lat1 + lat2)) * hav(lonDelta)
+    )
+  );
 }
