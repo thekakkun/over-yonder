@@ -91,13 +91,13 @@ export function getLocation(): CurrentLocation {
 
 export function getScore(
   location: GeolocationCoordinates,
-  current: CurrentLocation
+  target: CurrentLocation
 ) {
   if (location.heading === null) {
     throw Error("Heading not available");
   }
 
-  const bearing = getBearing(location, current.coordinates);
+  const bearing = getBearing(location, target.coordinates);
   const degreeDelta = Math.min(
     Math.abs(bearing - location.heading),
     360 - Math.abs(bearing - location.heading)
