@@ -9,7 +9,7 @@ import { Coordinates } from "./types/cartography";
 import { ActionType, Modes, StageList } from "./types/game";
 import { Degrees } from "./types/math";
 import { geolocationAvailable } from "./utilities/cartography";
-import { getLocation } from "./utilities/game";
+import { getHeading, getLocation } from "./utilities/game";
 
 function App() {
   const gameLength = 5;
@@ -26,13 +26,19 @@ function App() {
       })
     );
   }
-
-  const [bearing, setBearing] = useState<Degrees | null>(null);
-
+  const [heading, setHeading] = useState<Degrees | null>(null);
+  useEffect(() => {
+    window.addEventListener("deviceorientation", (event) =>
+      setHeading(getHeading(event))
+    );
+  }, []);
 
   function getContent() {
     if (location === null) {
       return <p>Location services are needed</p>;
+    }
+    if (heading === null) {
+      return <p>Device orientation data is needed</p>;
     }
 
     switch (mode) {
@@ -45,6 +51,7 @@ function App() {
           <Game
             gameLength={gameLength}
             location={location}
+            heading={heading}
             mode={mode}
             stages={stages}
             dispatch={dispatch}
@@ -64,10 +71,11 @@ function App() {
     <div className="h-screen flex flex-col items-center justify-between gap-1 pb-4">
       <Header></Header>
       <Content>{getContent()}</Content>
-      {location && (
+      {location && heading && (
         <Button
           gameLength={gameLength}
           location={location}
+          heading={heading}
           mode={mode}
           setMode={setMode}
           stages={stages}

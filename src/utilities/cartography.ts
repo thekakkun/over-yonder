@@ -91,18 +91,19 @@ export function getBearing(loc1: Coordinates, loc2: Coordinates): Degrees {
 /**
  * Return a destination point, vigen starting location, starting bearing,
  * and distance.
- * @param loc Coordinates of starting location.
+ * @param location Coordinates of starting location.
  * @param bearing Bearing from start point.
  * @param distance Distance to travel in km.
  * @returns Destination point.
  */
 export function getDestination(
-  loc: GeolocationCoordinates,
+  location: Coordinates,
+  heading: Degrees,
   distance: number
 ): Coordinates {
-  const lat = degToRad(loc.latitude);
-  const lon = degToRad(loc.longitude);
-  const theta = degToRad(loc.heading ?? 0);
+  const lat = degToRad(location.latitude);
+  const lon = degToRad(location.longitude);
+  const theta = degToRad(heading);
 
   const destLat = Math.asin(
     Math.sin(lat) * Math.cos(distance / R) +

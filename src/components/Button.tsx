@@ -1,11 +1,13 @@
 import { Dispatch } from "react";
 import { Coordinates } from "../types/cartography";
 import { ActionType, Modes, StageList } from "../types/game";
+import { Degrees } from "../types/math";
 import { getScore } from "../utilities/game";
 
 interface ButtonProps {
   gameLength: number;
   location: Coordinates;
+  heading: Degrees;
   mode: Modes;
   setMode: Dispatch<Modes>;
   stages: StageList;
@@ -26,6 +28,7 @@ export default function Button(props: ButtonProps) {
 function handleClick({
   gameLength,
   location,
+  heading,
   mode,
   setMode,
   stages,
@@ -41,7 +44,7 @@ function handleClick({
       setMode("answer");
       dispatch({
         type: "guess",
-        payload: getScore(location, stages[stages.length - 1]),
+        payload: getScore(location, heading, stages[stages.length - 1]),
       });
       break;
 

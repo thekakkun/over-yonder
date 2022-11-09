@@ -5,19 +5,21 @@ import {
   geoPath,
 } from "d3-geo";
 import { select } from "d3-selection";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import colors from "tailwindcss/colors";
 import { Coordinates } from "../types/cartography";
 
 import { CompletedLocation } from "../types/game";
+import { Degrees } from "../types/math";
 import { getBearing, getDestination } from "../utilities/cartography";
 
 interface MapProps {
   target: CompletedLocation;
   location: Coordinates;
+  heading: Degrees;
 }
 
-export default function Map({ target, location }: MapProps) {
+export default function Map({ target, location, heading }: MapProps) {
   const [geoJson, setGeoJson] = useState<ExtendedFeatureCollection | null>(
     null
   );
@@ -92,7 +94,7 @@ export default function Map({ target, location }: MapProps) {
         .attr("stroke-width", "3px");
       targetPath.attr("d", geoGenerator(targetLine));
 
-      const guessDest = getDestination(location, 5000);
+      const guessDest = getDestination(location, heading, 5000);
       const guessLine: GeoGeometryObjects = {
         type: "LineString",
         coordinates: [
@@ -109,9 +111,7 @@ export default function Map({ target, location }: MapProps) {
     }
   }
 
-  useEffect(() => {
-    drawMap();
-  }, [geoJson, svgSize]);
+  useCallback(drawMap, [geoJson, svgSize]);
 
   return <svg ref={svgRef} id="map" className="h-full"></svg>;
 }

@@ -1,8 +1,9 @@
+import { Coordinates } from "../types/cartography";
 import { CompletedLocation } from "../types/game";
 
 interface ScoreProps {
   target: CompletedLocation;
-  location: GeolocationCoordinates;
+  location: Coordinates;
 }
 
 export default function Score({ target }: ScoreProps) {
