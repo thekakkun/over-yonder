@@ -103,5 +103,7 @@ export function getScore(
     360 - Math.abs(bearing - location.heading)
   );
 
-  return Math.round((200 * degreeDelta) / 180);
+  console.log(degreeDelta);
+
+  return Math.round(200 * (1 - degreeDelta / 180));
 }

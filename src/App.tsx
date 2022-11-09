@@ -1,4 +1,4 @@
-import { useReducer, useState } from "react";
+import { useEffect, useReducer, useState } from "react";
 import Button from "./components/Button";
 import Content from "./components/Content";
 import Game from "./components/Game";
@@ -11,15 +11,10 @@ import { getLocation } from "./utilities/game";
 function App() {
   const gameLength = 5;
 
-  const [location, setLocation] = useState<GeolocationCoordinates>({
-    latitude: 43.6532,
-    longitude: -79.3733,
-    altitude: null,
-    accuracy: 0,
-    altitudeAccuracy: null,
-    heading: 30,
-    speed: null,
-  });
+  const [location, setLocation] = useState<GeolocationCoordinates | null>(null);
+  useEffect(() => {
+    navigator.geolocation.watchPosition((pos) => setLocation(pos.coords));
+  }, []);
 
   const [mode, setMode] = useState<Modes>("intro");
   const [stages, dispatch] = useReducer(reducer, initialStages);
@@ -27,14 +22,14 @@ function App() {
   const gameElement = (
     <Game
       gameLength={gameLength}
-      location={location}
+      location={location as GeolocationCoordinates}
       mode={mode}
       stages={stages}
       dispatch={dispatch}
     ></Game>
   );
 
-  return (
+  return location ? (
     <div className="h-screen flex flex-col items-center justify-between gap-1 pb-4">
       <Header></Header>
       <Content>
@@ -43,7 +38,7 @@ function App() {
         ) : ["guess", "answer"].includes(mode) ? (
           gameElement
         ) : (
-          <Outro></Outro>
+          <Outro stages={stages}></Outro>
         )}
       </Content>
       <Button
@@ -55,6 +50,8 @@ function App() {
         dispatch={dispatch}
       ></Button>
     </div>
+  ) : (
+    <p>This game requires location</p>
   );
 }
 
