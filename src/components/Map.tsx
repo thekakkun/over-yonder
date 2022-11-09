@@ -7,13 +7,14 @@ import {
 import { select } from "d3-selection";
 import { useEffect, useRef, useState } from "react";
 import colors from "tailwindcss/colors";
+import { Coordinates } from "../types/cartography";
 
 import { CompletedLocation } from "../types/game";
 import { getBearing, getDestination } from "../utilities/cartography";
 
 interface MapProps {
   target: CompletedLocation;
-  location: GeolocationCoordinates;
+  location: Coordinates;
 }
 
 export default function Map({ target, location }: MapProps) {

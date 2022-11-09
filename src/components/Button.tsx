@@ -1,10 +1,11 @@
 import { Dispatch } from "react";
+import { Coordinates } from "../types/cartography";
 import { ActionType, Modes, StageList } from "../types/game";
 import { getScore } from "../utilities/game";
 
 interface ButtonProps {
   gameLength: number;
-  location: GeolocationCoordinates;
+  location: Coordinates;
   mode: Modes;
   setMode: Dispatch<Modes>;
   stages: StageList;
@@ -13,7 +14,12 @@ interface ButtonProps {
 
 export default function Button(props: ButtonProps) {
   return (
-    <button className="rounded-full bg-slate-500 text-slate-50 w-3/4 p-4" onClick={() => handleClick(props)}>{buttonText(props)}</button>
+    <button
+      className="rounded-full bg-slate-500 text-slate-50 w-3/4 p-4"
+      onClick={() => handleClick(props)}
+    >
+      {buttonText(props)}
+    </button>
   );
 }
 

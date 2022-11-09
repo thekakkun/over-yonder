@@ -1,6 +1,21 @@
+import { Coordinates } from "../types/cartography";
 import { CurrentLocation } from "../types/game";
 import { getBearing } from "./cartography";
 import { getRandomInt } from "./math";
+
+export function getScore(location: Coordinates, target: CurrentLocation) {
+  if (location.heading === null) {
+    throw Error("Heading not available");
+  }
+
+  const bearing = getBearing(location, target.coordinates);
+  const degreeDelta = Math.min(
+    Math.abs(bearing - location.heading),
+    360 - Math.abs(bearing - location.heading)
+  );
+
+  return Math.round(200 * (1 - degreeDelta / 180));
+}
 
 export function getLocation(): CurrentLocation {
   const locations = [
@@ -87,23 +102,4 @@ export function getLocation(): CurrentLocation {
   ];
   const i = getRandomInt(0, locations.length);
   return locations[i];
-}
-
-export function getScore(
-  location: GeolocationCoordinates,
-  target: CurrentLocation
-) {
-  if (location.heading === null) {
-    throw Error("Heading not available");
-  }
-
-  const bearing = getBearing(location, target.coordinates);
-  const degreeDelta = Math.min(
-    Math.abs(bearing - location.heading),
-    360 - Math.abs(bearing - location.heading)
-  );
-
-  console.log(degreeDelta);
-
-  return Math.round(200 * (1 - degreeDelta / 180));
 }

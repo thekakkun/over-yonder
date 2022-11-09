@@ -1,4 +1,5 @@
 import { Dispatch } from "react";
+import { Coordinates } from "../types/cartography";
 import { Modes, StageList, ActionType, CompletedLocation } from "../types/game";
 import Compass from "./Compass";
 import Display from "./Display";
@@ -9,7 +10,7 @@ import Target from "./Target";
 
 interface GameProps {
   gameLength: number;
-  location: GeolocationCoordinates;
+  location: Coordinates;
   mode: Modes;
   stages: StageList;
   dispatch: Dispatch<ActionType>;
@@ -25,7 +26,7 @@ export default function Game({
   const guessDisplay = (
     <>
       <Target target={stages[stages.length - 1]} dispatch={dispatch}></Target>
-      <Compass heading={location.heading}></Compass>
+      <Compass location={location}></Compass>
     </>
   );
 

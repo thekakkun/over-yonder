@@ -1,22 +1,22 @@
 import { Degrees } from "../types/math";
 
 interface CompassProps {
-  heading: Degrees | null;
+  bearing: number;
 }
 
-export default function Compass({ heading }: CompassProps) {
+export default function Compass({ bearing }: CompassProps) {
   return (
     <>
-      {heading ? (
+      {bearing ? (
         <div className="self-end overflow-clip m-auto">
           <img
             className="rounded-full w-4/5 m-auto transition-transform"
             style={{
               transformStyle: "preserve-3d",
-              transform: `rotateX(45deg) rotate(-${heading}deg)`,
+              transform: `rotateX(45deg) rotate(-${bearing}deg)`,
             }}
             src="./compass.png"
-            alt={`compass heading: ${heading}`}
+            alt={`compass heading: ${bearing}`}
           />
         </div>
       ) : (
