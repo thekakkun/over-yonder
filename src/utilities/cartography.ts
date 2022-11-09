@@ -3,7 +3,7 @@ import { Degrees, Radians } from "../types/math";
 import { degToRad, radToDeg } from "./math";
 
 /** The earth's radius in kms */
-const R = 6371e3;
+const R = 6371;
 
 /**
  * Test whether geolocation services are available in the browser.
@@ -89,6 +89,39 @@ export function getBearing(loc1: Coordinates, loc2: Coordinates): Degrees {
 }
 
 /**
+ * Return a destination point, vigen starting location, starting bearing,
+ * and distance.
+ * @param loc Coordinates of starting location.
+ * @param bearing Bearing from start point.
+ * @param distance Distance to travel in km.
+ * @returns Destination point.
+ */
+export function getDestination(
+  loc: GeolocationCoordinates,
+  distance: number
+): Coordinates {
+  const lat = degToRad(loc.latitude);
+  const lon = degToRad(loc.longitude);
+  const theta = degToRad(loc.heading ?? 0);
+
+  const destLat = Math.asin(
+    Math.sin(lat) * Math.cos(distance / R) +
+      Math.cos(lat) * Math.sin(distance / R) * Math.cos(theta)
+  );
+  const destLon =
+    lon +
+    Math.atan2(
+      Math.sin(theta) * Math.sin(distance / R) * Math.cos(lat),
+      Math.cos(distance / R) - Math.sin(lat) * Math.sin(destLat)
+    );
+
+  return {
+    latitude: radToDeg(destLat),
+    longitude: normalizeLongitude(radToDeg(destLon)),
+  };
+}
+
+/**
  * Get the half-way point along a great circle path between the two points.
  * @param loc1 Coordinates of first location.
  * @param loc2 Coordinates of second location.
@@ -116,7 +149,7 @@ export function getMidpoint(loc1: Coordinates, loc2: Coordinates): Coordinates {
 }
 
 /**
- * Get the central angle btween the two points.
+ * Get the central angle between the two points.
  * @param loc1 Coordinates of first location.
  * @param loc2 Coordinates of second location.
  * @returns The central angle between the two coordinates

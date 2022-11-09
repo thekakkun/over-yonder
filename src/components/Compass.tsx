@@ -8,7 +8,7 @@ export default function Compass({ heading }: CompassProps) {
   return (
     <>
       {heading ? (
-        <div className="self-end overflow-clip">
+        <div className="self-end overflow-clip m-auto">
           <img
             className="rounded-full w-4/5 m-auto transition-transform"
             style={{

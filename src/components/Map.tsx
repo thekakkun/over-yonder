@@ -1,6 +1,7 @@
 import {
   ExtendedFeatureCollection,
   geoAzimuthalEquidistant,
+  GeoGeometryObjects,
   geoPath,
 } from "d3-geo";
 import { select } from "d3-selection";
@@ -8,7 +9,7 @@ import { useEffect, useRef, useState } from "react";
 import colors from "tailwindcss/colors";
 
 import { CompletedLocation } from "../types/game";
-import { getBearing } from "../utilities/cartography";
+import { getBearing, getDestination } from "../utilities/cartography";
 
 interface MapProps {
   target: CompletedLocation;
@@ -53,29 +54,60 @@ export default function Map({ target, location }: MapProps) {
   function drawMap() {
     if (geoJson) {
       const projection = geoAzimuthalEquidistant()
-        .fitSize([svgSize.width, svgSize.width], geoJson)
+        .fitSize([svgSize.width, svgSize.height], geoJson)
         .rotate([
           -location.longitude,
           -location.latitude,
           getBearing(location, target.coordinates),
         ]);
+
       const geoGenerator = geoPath(projection);
 
       const svg = select("#map");
       svg.selectAll("*").remove();
+
       const mapG = svg
         .append("g")
         .attr("fill", colors.slate[50])
         .attr("stroke", colors.slate[900]);
-
       mapG
         .selectAll("path")
         .data(geoJson.features)
         .enter()
         .append("path")
-        .attr("d", geoGenerator as any); // #TODO: Figure out correct typing for this.
+        .attr("d", (d) => geoGenerator(d));
+
+      const targetLine: GeoGeometryObjects = {
+        type: "LineString",
+        coordinates: [
+          [location.longitude, location.latitude],
+          [target.coordinates.longitude, target.coordinates.latitude],
+        ],
+      };
+      const targetPath = svg
+        .append("path")
+        .attr("fill-opacity", 0)
+        .attr("stroke", colors.red[500])
+        .attr("stroke-width", "3px");
+      targetPath.attr("d", geoGenerator(targetLine));
+
+      const guessDest = getDestination(location, 5000);
+      const guessLine: GeoGeometryObjects = {
+        type: "LineString",
+        coordinates: [
+          [location.longitude, location.latitude],
+          [guessDest.longitude, guessDest.latitude],
+        ],
+      };
+      const guessPath = svg
+        .append("path")
+        .attr("fill-opacity", 0)
+        .attr("stroke", colors.green[500])
+        .attr("stroke-width", "3px");
+      guessPath.attr("d", geoGenerator(guessLine));
     }
   }
+
   useEffect(() => {
     drawMap();
   }, [geoJson, svgSize]);
