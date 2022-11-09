@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/over-yonder/static/css/main.40c08c46.css",
+    "main.js": "/over-yonder/static/js/main.d6f0a8ac.js",
+    "static/js/787.a8dcb7b7.chunk.js": "/over-yonder/static/js/787.a8dcb7b7.chunk.js",
+    "index.html": "/over-yonder/index.html",
+    "main.40c08c46.css.map": "/over-yonder/static/css/main.40c08c46.css.map",
+    "main.d6f0a8ac.js.map": "/over-yonder/static/js/main.d6f0a8ac.js.map",
+    "787.a8dcb7b7.chunk.js.map": "/over-yonder/static/js/787.a8dcb7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40c08c46.css",
+    "static/js/main.d6f0a8ac.js"
+  ]
+}
