@@ -31,12 +31,18 @@ function App() {
     }
   }, []);
 
-  const [heading, setHeading] = useState<Degrees | null>(30);
+  const [heading, setHeading] = useState<Degrees | null>(null);
   useEffect(() => {
-    window.addEventListener("deviceorientation", (event) => {
-      alert("hi");
-      setHeading(getHeading(event));
-    });
+    if ("ondeviceorientationabsolute" in window) {
+      window.addEventListener("deviceorientationabsolute", (event) => {
+        setHeading(getHeading(event as DeviceOrientationEvent));
+      });
+      return;
+    } else if ("ondeviceorientation" in window) {
+      window.addEventListener("deviceorientation", (event) => {
+        setHeading(getHeading(event));
+      });
+    }
   }, []);
 
   function getContent() {

@@ -11,10 +11,10 @@ export default function Compass({ heading }: CompassProps) {
       {heading ? (
         <div className="self-end overflow-clip m-auto">
           <img
-            className="rounded-full w-4/5 m-auto transition-transform"
+            className="rounded-full w-4/5 m-auto"
             style={{
               transformStyle: "preserve-3d",
-              transform: `rotateX(45deg) rotate(-${heading}deg)`,
+              transform: `rotateX(45deg) rotate(${heading}deg)`,
             }}
             src={compass}
             alt={`compass heading: ${heading} degrees`}
