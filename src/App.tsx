@@ -83,7 +83,7 @@ function App() {
     <div className="h-screen flex flex-col items-center justify-between gap-1 pb-4">
       <Header></Header>
       <Content>{getContent()}</Content>
-      {location && heading && (
+      {location !== null && heading !== null && (
         <Button
           gameLength={gameLength}
           location={location}
