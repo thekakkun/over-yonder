@@ -44,7 +44,10 @@ function handleClick({
       setMode("answer");
       dispatch({
         type: "guess",
-        payload: getScore(location, heading, stages[stages.length - 1]),
+        payload: {
+          heading: heading,
+          score: getScore(location, heading, stages[stages.length - 1]),
+        },
       });
       break;
 

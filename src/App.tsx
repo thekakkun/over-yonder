@@ -113,14 +113,11 @@ function stagesReducer(state: typeof initialStages, action: ActionType) {
       }
 
       const currentStage = state[state.length - 1];
-      if ("score" in currentStage) {
-        throw Error("Current stage already has a score");
+      if ("heading" in currentStage || "score" in currentStage) {
+        throw Error("Current stage already has a guess");
       }
 
-      return [
-        ...state.slice(0, -1),
-        { ...currentStage, score: action.payload },
-      ];
+      return [...state.slice(0, -1), { ...currentStage, ...action.payload }];
 
     case "restart":
       return initialStages;

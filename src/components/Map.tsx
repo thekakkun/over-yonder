@@ -7,20 +7,18 @@ import {
 import { select } from "d3-selection";
 import { useEffect, useRef, useState } from "react";
 import colors from "tailwindcss/colors";
-import { Coordinates } from "../types/cartography";
 
+import { Coordinates } from "../types/cartography";
 import { CompletedLocation } from "../types/game";
-import { Degrees } from "../types/math";
 import { getBearing, getDestination } from "../utilities/cartography";
 import geoJson from "../assets/data/ne_50m_admin_0_countries.json";
 
 interface MapProps {
   target: CompletedLocation;
   location: Coordinates;
-  heading: Degrees;
 }
 
-export default function Map({ target, location, heading }: MapProps) {
+export default function Map({ target, location }: MapProps) {
   const [svgSize, setSvgSize] = useState<{ width: number; height: number }>({
     width: 0,
     height: 0,
@@ -81,7 +79,7 @@ export default function Map({ target, location, heading }: MapProps) {
           .attr("stroke-width", "3px");
         targetPath.attr("d", geoGenerator(targetLine));
 
-        const guessDest = getDestination(location, heading, 5000);
+        const guessDest = getDestination(location, target.heading, 5000);
         const guessLine: GeoGeometryObjects = {
           type: "LineString",
           coordinates: [
@@ -98,7 +96,7 @@ export default function Map({ target, location, heading }: MapProps) {
       }
     }
     drawMap();
-  }, [heading, location, target.coordinates, svgSize]);
+  }, [target.heading, location, target.coordinates, svgSize]);
 
   return <svg ref={svgRef} id="map" className="h-full"></svg>;
 }

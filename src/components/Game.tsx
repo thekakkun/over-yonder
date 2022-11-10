@@ -42,7 +42,6 @@ export default function Game({
       <Map
         target={stages[stages.length - 1] as CompletedLocation}
         location={location}
-        heading={heading}
       ></Map>
     </>
   );
