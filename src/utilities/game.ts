@@ -116,7 +116,7 @@ export function getHeading(event: DeviceOrientationEvent): Degrees | null {
   } else if (!event.absolute) {
     return null;
   } else if (event.alpha !== null) {
-    return -event.alpha;
+    return 359 - event.alpha;
   } else {
     return null;
   }
