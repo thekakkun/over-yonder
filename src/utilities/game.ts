@@ -110,12 +110,14 @@ export function getLocation(): CurrentLocation {
 }
 
 export function getHeading(event: DeviceOrientationEvent): Degrees | null {
-  console.log(event.type)
+  console.log(event.type);
   if ("webkitCompassHeading" in event) {
     return (event as any).webkitCompassHeading as Degrees;
   } else if (!event.absolute) {
     return null;
+  } else if (event.alpha !== null) {
+    return -event.alpha;
   } else {
-    return event.alpha;
+    return null;
   }
 }

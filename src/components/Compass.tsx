@@ -14,7 +14,7 @@ export default function Compass({ heading }: CompassProps) {
             className="rounded-full w-4/5 m-auto"
             style={{
               transformStyle: "preserve-3d",
-              transform: `rotateX(45deg) rotate(${heading}deg)`,
+              transform: `rotateX(45deg) rotate(-${heading}deg)`,
             }}
             src={compass}
             alt={`compass heading: ${heading} degrees`}
