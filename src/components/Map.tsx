@@ -5,7 +5,7 @@ import {
   geoPath,
 } from "d3-geo";
 import { select } from "d3-selection";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import colors from "tailwindcss/colors";
 import { Coordinates } from "../types/cartography";
 
@@ -111,7 +111,9 @@ export default function Map({ target, location, heading }: MapProps) {
     }
   }
 
-  useCallback(drawMap, [geoJson, svgSize]);
+  useEffect(() => {
+    drawMap();
+  }, [geoJson, svgSize, drawMap]);
 
   return <svg ref={svgRef} id="map" className="h-full"></svg>;
 }

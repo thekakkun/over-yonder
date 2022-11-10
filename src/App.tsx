@@ -18,19 +18,25 @@ function App() {
   const [stages, dispatch] = useReducer(stagesReducer, initialStages);
 
   const [location, setLocation] = useState<Coordinates | null>(null);
-  if (geolocationAvailable()) {
-    navigator.geolocation.watchPosition(({ coords: { latitude, longitude } }) =>
-      setLocation({
-        latitude: latitude,
-        longitude: longitude,
-      })
-    );
-  }
-  const [heading, setHeading] = useState<Degrees | null>(null);
   useEffect(() => {
-    window.addEventListener("deviceorientation", (event) =>
-      setHeading(getHeading(event))
-    );
+    if (geolocationAvailable()) {
+      navigator.geolocation.watchPosition(
+        ({ coords: { latitude, longitude } }) => {
+          setLocation({
+            latitude: latitude,
+            longitude: longitude,
+          });
+        }
+      );
+    }
+  }, []);
+
+  const [heading, setHeading] = useState<Degrees | null>(30);
+  useEffect(() => {
+    window.addEventListener("deviceorientation", (event) => {
+      alert("hi");
+      setHeading(getHeading(event));
+    });
   }, []);
 
   function getContent() {

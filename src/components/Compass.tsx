@@ -15,8 +15,8 @@ export default function Compass({ heading }: CompassProps) {
               transformStyle: "preserve-3d",
               transform: `rotateX(45deg) rotate(-${heading}deg)`,
             }}
-            src="./compass.png"
-            alt={`compass heading: ${heading}`}
+            src="/compass.png"
+            alt={`compass heading: ${heading} degrees`}
           />
         </div>
       ) : (
