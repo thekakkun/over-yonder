@@ -12,6 +12,7 @@ import { Coordinates } from "../types/cartography";
 import { CompletedLocation } from "../types/game";
 import { Degrees } from "../types/math";
 import { getBearing, getDestination } from "../utilities/cartography";
+import geoJson from "../assets/data/ne_50m_admin_0_countries.json";
 
 interface MapProps {
   target: CompletedLocation;
@@ -20,23 +21,9 @@ interface MapProps {
 }
 
 export default function Map({ target, location, heading }: MapProps) {
-  const [geoJson, setGeoJson] = useState<ExtendedFeatureCollection | null>(
-    null
-  );
-
-  useEffect(() => {
-    async function getData() {
-      let response = await fetch("/ne_50m_admin_0_countries.json");
-      if (response.ok) {
-        let json = await response.json();
-        setGeoJson(json);
-      } else {
-        throw new Error(`Error ${response.status}: GeoJSON file not found.`);
-      }
-    }
-
-    getData();
-  }, []);
+  // const [geoJson, setGeoJson] = useState<ExtendedFeatureCollection>(
+  //   mapData as ExtendedFeatureCollection
+  // );
 
   const [svgSize, setSvgSize] = useState<{ width: number; height: number }>({
     width: 0,
@@ -57,7 +44,10 @@ export default function Map({ target, location, heading }: MapProps) {
   function drawMap() {
     if (geoJson) {
       const projection = geoAzimuthalEquidistant()
-        .fitSize([svgSize.width, svgSize.height], geoJson)
+        .fitSize(
+          [svgSize.width, svgSize.height],
+          geoJson as ExtendedFeatureCollection
+        )
         .rotate([
           -location.longitude,
           -location.latitude,
@@ -75,7 +65,7 @@ export default function Map({ target, location, heading }: MapProps) {
         .attr("stroke", colors.slate[900]);
       mapG
         .selectAll("path")
-        .data(geoJson.features)
+        .data((geoJson as ExtendedFeatureCollection).features)
         .enter()
         .append("path")
         .attr("d", (d) => geoGenerator(d));
@@ -113,7 +103,7 @@ export default function Map({ target, location, heading }: MapProps) {
 
   useEffect(() => {
     drawMap();
-  }, [geoJson, svgSize, drawMap]);
+  }, [svgSize, drawMap]);
 
   return <svg ref={svgRef} id="map" className="h-full"></svg>;
 }

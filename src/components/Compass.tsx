@@ -1,4 +1,5 @@
 import { Degrees } from "../types/math";
+import compass from "../assets/images/compass.png";
 
 interface CompassProps {
   heading: Degrees;
@@ -15,7 +16,7 @@ export default function Compass({ heading }: CompassProps) {
               transformStyle: "preserve-3d",
               transform: `rotateX(45deg) rotate(-${heading}deg)`,
             }}
-            src="/compass.png"
+            src={compass}
             alt={`compass heading: ${heading} degrees`}
           />
         </div>
