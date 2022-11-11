@@ -23,9 +23,21 @@ export function getScore(
   return Math.round(200 * (1 - degreeDelta / 180));
 }
 
+/**
+ * Get a random location.
+ * @param currentStages The list of current stages
+ * @returns A random location, not in the current stage list.
+ */
 export function getLocation(currentStages: StageList = []): CurrentLocation {
   let candidate: CurrentLocation;
 
+  /**
+   * Create a function to compare the candidate with a stage.
+   * Function exists, since a anonymous function raises the
+   * 'no-loop-func' ESLint warning.
+   * @param candidate The candidate location
+   * @returns A function to compare the candidate location with a stage.
+   */
   function compareCandidate(candidate: CurrentLocation) {
     return function _candidateChecker({
       country,
@@ -49,8 +61,13 @@ export function getLocation(currentStages: StageList = []): CurrentLocation {
   }
 }
 
+/**
+ * Get a compass heading, if available, or null
+ * @param event The DeviceOrientationEvent from a "deviceorientation" or
+ * "deviceorientationabsolute" event listener.
+ * @returns Compass heading, if available, or null;
+ */
 export function getHeading(event: DeviceOrientationEvent): Degrees | null {
-  console.log(event.type);
   if ("webkitCompassHeading" in event) {
     return (event as any).webkitCompassHeading as Degrees;
   } else if (!event.absolute) {
