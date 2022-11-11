@@ -37,7 +37,7 @@ function handleClick({
   switch (mode) {
     case "intro":
       setMode("guess");
-      dispatch({ type: "next" });
+      dispatch({ type: "next", payload: stages });
       break;
 
     case "guess":
@@ -56,7 +56,7 @@ function handleClick({
         setMode("outro");
       } else {
         setMode("guess");
-        dispatch({ type: "next" });
+        dispatch({ type: "next", payload: stages });
       }
       break;
 

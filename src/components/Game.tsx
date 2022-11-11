@@ -28,7 +28,11 @@ export default function Game({
 }: GameProps) {
   const guessDisplay = (
     <>
-      <Target target={stages[stages.length - 1]} dispatch={dispatch}></Target>
+      <Target
+        target={stages[stages.length - 1]}
+        dispatch={dispatch}
+        stages={stages}
+      ></Target>
       <Compass heading={heading}></Compass>
     </>
   );

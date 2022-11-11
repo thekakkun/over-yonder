@@ -1,12 +1,13 @@
 import { Dispatch, useState } from "react";
-import { ActionType, CurrentLocation } from "../types/game";
+import { ActionType, CurrentLocation, StageList } from "../types/game";
 
 interface TargetProps {
   target: CurrentLocation;
   dispatch: Dispatch<ActionType>;
+  stages: StageList;
 }
 
-export default function Target({ target, dispatch }: TargetProps) {
+export default function Target({ target, dispatch, stages }: TargetProps) {
   const [rolls, setRolls] = useState<number>(3);
 
   return (
@@ -18,7 +19,7 @@ export default function Target({ target, dispatch }: TargetProps) {
         onClick={() => {
           if (0 < rolls) {
             setRolls(rolls - 1);
-            dispatch({ type: "reroll" });
+            dispatch({ type: "reroll", payload: stages });
           }
         }}
       >

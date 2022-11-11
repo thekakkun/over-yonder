@@ -18,7 +18,7 @@ export interface CompletedLocation extends CurrentLocation, Guess {}
 export type StageList = (CurrentLocation | CompletedLocation)[];
 
 export type ActionType =
-  | { type: "next" }
-  | { type: "reroll" }
+  | { type: "next"; payload: StageList }
+  | { type: "reroll"; payload: StageList }
   | { type: "guess"; payload: Guess }
   | { type: "restart" };

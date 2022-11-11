@@ -102,10 +102,10 @@ const initialStages: StageList = [];
 function stagesReducer(state: typeof initialStages, action: ActionType) {
   switch (action.type) {
     case "next":
-      return [...state, getLocation()];
+      return [...state, getLocation(action.payload)];
 
     case "reroll":
-      return [...state.slice(0, -1), getLocation()];
+      return [...state.slice(0, -1), getLocation(action.payload)];
 
     case "guess":
       if (state.length === 0) {
