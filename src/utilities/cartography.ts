@@ -92,7 +92,6 @@ export function getBearing(loc1: Coordinates, loc2: Coordinates): Degrees {
  * Return a destination point, vigen starting location, starting bearing,
  * and distance.
  * @param location Coordinates of starting location.
- * @param bearing Bearing from start point.
  * @param distance Distance to travel in km.
  * @returns Destination point.
  */
@@ -120,52 +119,4 @@ export function getDestination(
     latitude: radToDeg(destLat),
     longitude: normalizeLongitude(radToDeg(destLon)),
   };
-}
-
-/**
- * Get the half-way point along a great circle path between the two points.
- * @param loc1 Coordinates of first location.
- * @param loc2 Coordinates of second location.
- * @returns The latitude and longitude of the midpoint.
- */
-export function getMidpoint(loc1: Coordinates, loc2: Coordinates): Coordinates {
-  const lat1 = degToRad(loc1.latitude);
-  const lat2 = degToRad(loc2.latitude);
-  const lon1 = degToRad(loc1.longitude);
-  const lon2 = degToRad(loc2.longitude);
-
-  const Bx = Math.cos(lat2) * Math.cos(lon2 - lon1);
-  const By = Math.cos(lat2) * Math.sin(lon2 - lon1);
-
-  const latitudeRad = Math.atan2(
-    Math.sin(lat1) + Math.sin(lat2),
-    Math.sqrt(Math.cos(lat1) + Bx) * (Math.cos(lat1) + Bx) + By ** 2
-  );
-  const longitudeRad = lon1 + Math.atan2(By, Math.cos(lat1) + Bx);
-
-  return {
-    latitude: radToDeg(latitudeRad),
-    longitude: normalizeLongitude(radToDeg(longitudeRad)),
-  };
-}
-
-/**
- * Get the central angle between the two points.
- * @param loc1 Coordinates of first location.
- * @param loc2 Coordinates of second location.
- * @returns The central angle between the two coordinates
- */
-export function getCentralAngle(loc1: Coordinates, loc2: Coordinates): Degrees {
-  const lat1 = degToRad(loc1.latitude);
-  const lat2 = degToRad(loc2.latitude);
-  const latDelta = lat2 - lat1;
-  const lon1 = degToRad(loc1.longitude);
-  const lon2 = degToRad(loc2.longitude);
-  const lonDelta = lon2 - lon1;
-
-  return radToDeg(
-    archav(
-      hav(latDelta) + (1 - hav(latDelta) - hav(lat1 + lat2)) * hav(lonDelta)
-    )
-  );
 }
