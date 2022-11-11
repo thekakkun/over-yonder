@@ -46,7 +46,7 @@ export default function Map({ target, location }: MapProps) {
           .rotate([
             -location.longitude,
             -location.latitude,
-            getBearing(location, target.coordinates),
+            getBearing(location, target),
           ]);
 
         const geoGenerator = geoPath(projection);
@@ -69,7 +69,7 @@ export default function Map({ target, location }: MapProps) {
           type: "LineString",
           coordinates: [
             [location.longitude, location.latitude],
-            [target.coordinates.longitude, target.coordinates.latitude],
+            [target.longitude, target.latitude],
           ],
         };
         const targetPath = svg
@@ -96,7 +96,7 @@ export default function Map({ target, location }: MapProps) {
       }
     }
     drawMap();
-  }, [target.heading, location, target.coordinates, svgSize]);
+  }, [location, target, svgSize]);
 
   return <svg ref={svgRef} id="map" className="h-full"></svg>;
 }

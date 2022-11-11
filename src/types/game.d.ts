@@ -6,10 +6,7 @@ import { Degrees } from "./math";
 export type Modes = "intro" | "guess" | "answer" | "outro";
 
 // Stage stuff
-export interface CurrentLocation {
-  location: Location;
-  coordinates: Coordinates;
-}
+export interface CurrentLocation extends Location, Coordinates {}
 
 export interface Guess {
   heading: Degrees;

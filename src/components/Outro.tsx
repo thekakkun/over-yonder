@@ -19,8 +19,8 @@ export default function Outro({ stages }: OutroProps) {
           }
           return (
             <li
-              key={`${stage.location.city}_${stage.location.country}`}
-            >{`${stage.location}: ${stage.score}`}</li>
+              key={`${stage.city}_${stage.country}`}
+            >{`${stage.city}, ${stage.country}: ${stage.score}`}</li>
           );
         })}
       </ol>

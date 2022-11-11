@@ -14,7 +14,7 @@ export function getScore(
     throw Error("Heading not available");
   }
 
-  const bearing = getBearing(location, target.coordinates);
+  const bearing = getBearing(location, target);
   const degreeDelta = Math.min(
     Math.abs(bearing - heading),
     360 - Math.abs(bearing - heading)

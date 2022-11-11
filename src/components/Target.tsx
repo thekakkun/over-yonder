@@ -12,7 +12,7 @@ export default function Target({ target, dispatch }: TargetProps) {
   return (
     <div className="grid grid-rows-1 grid-cols-[1fr_max-content]">
       <p className="">Which way is:</p>
-      <p className="">{`${target.location.city}, ${target.location.country}`}</p>
+      <p className="">{`${target.city}, ${target.country}`}</p>
       <button
         className="bg-slate-400 row-start-1 col-start-2 row-span-2"
         onClick={() => {
