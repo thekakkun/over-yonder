@@ -23,18 +23,25 @@ export function getScore(
   return Math.round(200 * (1 - degreeDelta / 180));
 }
 
-export function getLocation(exclude: StageList = []): CurrentLocation {
+export function getLocation(currentStages: StageList = []): CurrentLocation {
   let candidate: CurrentLocation;
+
+  function compareCandidate(candidate: CurrentLocation) {
+    return function _candidateChecker({
+      country,
+      city,
+    }: {
+      country: string;
+      city: string;
+    }) {
+      return country === candidate.country && city === candidate.city;
+    };
+  }
 
   while (true) {
     candidate = cities[getRandomInt(0, cities.length)];
 
-    if (
-      exclude.filter(
-        ({ country, city }) =>
-          country === candidate.country && city === candidate.city
-      )
-    ) {
+    if (currentStages.filter(compareCandidate(candidate))) {
       continue;
     }
 
