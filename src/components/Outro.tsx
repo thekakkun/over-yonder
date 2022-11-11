@@ -18,7 +18,9 @@ export default function Outro({ stages }: OutroProps) {
             throw new Error("Stage not completed");
           }
           return (
-            <li key={stage.location}>{`${stage.location}: ${stage.score}`}</li>
+            <li
+              key={`${stage.location.city}_${stage.location.country}`}
+            >{`${stage.location}: ${stage.score}`}</li>
           );
         })}
       </ol>
