@@ -1,5 +1,5 @@
 import { Dispatch } from "react";
-import { Coordinates } from "./cartography";
+import { Coordinates, Location } from "./cartography";
 import { Degrees } from "./math";
 
 // Game mode
@@ -7,7 +7,7 @@ export type Modes = "intro" | "guess" | "answer" | "outro";
 
 // Stage stuff
 export interface CurrentLocation {
-  location: string;
+  location: Location;
   coordinates: Coordinates;
 }
 
