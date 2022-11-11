@@ -1,0 +1,11024 @@
+[
+  {
+    "city": "Kabul",
+    "lat": 34.5328,
+    "lng": 69.1658,
+    "country": "Afghanistan"
+  },
+  {
+    "city": "Kandahar",
+    "lat": 31.6078,
+    "lng": 65.7053,
+    "country": "Afghanistan"
+  },
+  {
+    "city": "Herat",
+    "lat": 34.3738,
+    "lng": 62.1792,
+    "country": "Afghanistan"
+  },
+  {
+    "city": "Mazar-e Sharif",
+    "lat": 36.7,
+    "lng": 67.1167,
+    "country": "Afghanistan"
+  },
+  {
+    "city": "Taluqan",
+    "lat": 36.7167,
+    "lng": 69.5167,
+    "country": "Afghanistan"
+  },
+  {
+    "city": "Jalalabad",
+    "lat": 34.4303,
+    "lng": 70.4528,
+    "country": "Afghanistan"
+  },
+  {
+    "city": "Kunduz",
+    "lat": 36.728,
+    "lng": 68.8725,
+    "country": "Afghanistan"
+  },
+  {
+    "city": "Lashkar Gah",
+    "lat": 31.5938,
+    "lng": 64.3716,
+    "country": "Afghanistan"
+  },
+  {
+    "city": "Maimanah",
+    "lat": 35.9302,
+    "lng": 64.7701,
+    "country": "Afghanistan"
+  },
+  {
+    "city": "Shibirghan",
+    "lat": 36.665,
+    "lng": 65.752,
+    "country": "Afghanistan"
+  },
+  {
+    "city": "Tirana",
+    "lat": 41.33,
+    "lng": 19.82,
+    "country": "Albania"
+  },
+  {
+    "city": "Vlore",
+    "lat": 40.45,
+    "lng": 19.4833,
+    "country": "Albania"
+  },
+  {
+    "city": "Kamez",
+    "lat": 41.3833,
+    "lng": 19.7667,
+    "country": "Albania"
+  },
+  {
+    "city": "Fier",
+    "lat": 40.7167,
+    "lng": 19.55,
+    "country": "Albania"
+  },
+  {
+    "city": "Durres",
+    "lat": 41.3242,
+    "lng": 19.4558,
+    "country": "Albania"
+  },
+  {
+    "city": "Shkoder",
+    "lat": 42.0667,
+    "lng": 19.5,
+    "country": "Albania"
+  },
+  {
+    "city": "Elbasan",
+    "lat": 41.1125,
+    "lng": 20.0822,
+    "country": "Albania"
+  },
+  {
+    "city": "Korce",
+    "lat": 40.6167,
+    "lng": 20.7667,
+    "country": "Albania"
+  },
+  {
+    "city": "Sarande",
+    "lat": 39.8833,
+    "lng": 20.0167,
+    "country": "Albania"
+  },
+  {
+    "city": "Berat",
+    "lat": 40.7049,
+    "lng": 19.9497,
+    "country": "Albania"
+  },
+  {
+    "city": "Algiers",
+    "lat": 36.7764,
+    "lng": 3.0586,
+    "country": "Algeria"
+  },
+  {
+    "city": "Oran",
+    "lat": 35.6969,
+    "lng": -0.6331,
+    "country": "Algeria"
+  },
+  {
+    "city": "Constantine",
+    "lat": 36.365,
+    "lng": 6.6147,
+    "country": "Algeria"
+  },
+  {
+    "city": "Blida",
+    "lat": 36.4722,
+    "lng": 2.8333,
+    "country": "Algeria"
+  },
+  {
+    "city": "Batna",
+    "lat": 35.55,
+    "lng": 6.1667,
+    "country": "Algeria"
+  },
+  {
+    "city": "Setif",
+    "lat": 36.19,
+    "lng": 5.41,
+    "country": "Algeria"
+  },
+  {
+    "city": "Djelfa",
+    "lat": 34.6667,
+    "lng": 3.25,
+    "country": "Algeria"
+  },
+  {
+    "city": "Annaba",
+    "lat": 36.9,
+    "lng": 7.7667,
+    "country": "Algeria"
+  },
+  {
+    "city": "Sidi Bel Abbes",
+    "lat": 35.2,
+    "lng": -0.6333,
+    "country": "Algeria"
+  },
+  {
+    "city": "Biskra",
+    "lat": 34.85,
+    "lng": 5.7333,
+    "country": "Algeria"
+  },
+  {
+    "city": "Pago Pago",
+    "lat": -14.274,
+    "lng": -170.7046,
+    "country": "American Samoa"
+  },
+  {
+    "city": "Andorra la Vella",
+    "lat": 42.5,
+    "lng": 1.5,
+    "country": "Andorra"
+  },
+  {
+    "city": "Escaldes-Engordany",
+    "lat": 42.5089,
+    "lng": 1.5408,
+    "country": "Andorra"
+  },
+  {
+    "city": "Encamp",
+    "lat": 42.5361,
+    "lng": 1.5828,
+    "country": "Andorra"
+  },
+  {
+    "city": "La Massana",
+    "lat": 42.5442,
+    "lng": 1.5164,
+    "country": "Andorra"
+  },
+  {
+    "city": "Sant Julia de Loria",
+    "lat": 42.47,
+    "lng": 1.49,
+    "country": "Andorra"
+  },
+  {
+    "city": "Ordino",
+    "lat": 42.555,
+    "lng": 1.5331,
+    "country": "Andorra"
+  },
+  {
+    "city": "Canillo",
+    "lat": 42.5664,
+    "lng": 1.6009,
+    "country": "Andorra"
+  },
+  {
+    "city": "Luanda",
+    "lat": -8.8383,
+    "lng": 13.2344,
+    "country": "Angola"
+  },
+  {
+    "city": "Cacuaco",
+    "lat": -8.7833,
+    "lng": 13.3667,
+    "country": "Angola"
+  },
+  {
+    "city": "Lubango",
+    "lat": -14.9167,
+    "lng": 13.5,
+    "country": "Angola"
+  },
+  {
+    "city": "Huambo",
+    "lat": -12.7667,
+    "lng": 15.7333,
+    "country": "Angola"
+  },
+  {
+    "city": "Benguela",
+    "lat": -12.55,
+    "lng": 13.4167,
+    "country": "Angola"
+  },
+  {
+    "city": "Cabinda",
+    "lat": -5.5667,
+    "lng": 12.2,
+    "country": "Angola"
+  },
+  {
+    "city": "Belas",
+    "lat": -9.0689,
+    "lng": 13.1608,
+    "country": "Angola"
+  },
+  {
+    "city": "Talatona",
+    "lat": -8.9167,
+    "lng": 13.1833,
+    "country": "Angola"
+  },
+  {
+    "city": "Lobito",
+    "lat": -12.3597,
+    "lng": 13.5308,
+    "country": "Angola"
+  },
+  {
+    "city": "Saurimo",
+    "lat": -9.6589,
+    "lng": 20.3934,
+    "country": "Angola"
+  },
+  {
+    "city": "The Valley",
+    "lat": 18.2167,
+    "lng": -63.05,
+    "country": "Anguilla"
+  },
+  {
+    "city": "Saint John's",
+    "lat": 17.1211,
+    "lng": -61.8447,
+    "country": "Antigua And Barbuda"
+  },
+  {
+    "city": "Buenos Aires",
+    "lat": -34.5997,
+    "lng": -58.3819,
+    "country": "Argentina"
+  },
+  {
+    "city": "Cordoba",
+    "lat": -31.4167,
+    "lng": -64.1833,
+    "country": "Argentina"
+  },
+  {
+    "city": "Rosario",
+    "lat": -32.9575,
+    "lng": -60.6394,
+    "country": "Argentina"
+  },
+  {
+    "city": "Comodoro Rivadavia",
+    "lat": -45.8667,
+    "lng": -67.5,
+    "country": "Argentina"
+  },
+  {
+    "city": "San Miguel de Tucuman",
+    "lat": -26.8167,
+    "lng": -65.2167,
+    "country": "Argentina"
+  },
+  {
+    "city": "Mar del Plata",
+    "lat": -38.0,
+    "lng": -57.55,
+    "country": "Argentina"
+  },
+  {
+    "city": "Salta",
+    "lat": -24.7883,
+    "lng": -65.4106,
+    "country": "Argentina"
+  },
+  {
+    "city": "San Juan",
+    "lat": -31.5375,
+    "lng": -68.5364,
+    "country": "Argentina"
+  },
+  {
+    "city": "Lanus",
+    "lat": -34.7,
+    "lng": -58.4,
+    "country": "Argentina"
+  },
+  {
+    "city": "Florencio Varela",
+    "lat": -34.8167,
+    "lng": -58.2833,
+    "country": "Argentina"
+  },
+  {
+    "city": "Yerevan",
+    "lat": 40.1814,
+    "lng": 44.5144,
+    "country": "Armenia"
+  },
+  {
+    "city": "Gyumri",
+    "lat": 40.7894,
+    "lng": 43.8475,
+    "country": "Armenia"
+  },
+  {
+    "city": "Vanadzor",
+    "lat": 40.8128,
+    "lng": 44.4883,
+    "country": "Armenia"
+  },
+  {
+    "city": "Ejmiatsin",
+    "lat": 40.1728,
+    "lng": 44.2925,
+    "country": "Armenia"
+  },
+  {
+    "city": "Hrazdan",
+    "lat": 40.5,
+    "lng": 44.7667,
+    "country": "Armenia"
+  },
+  {
+    "city": "Abovyan",
+    "lat": 40.2739,
+    "lng": 44.6256,
+    "country": "Armenia"
+  },
+  {
+    "city": "Kapan",
+    "lat": 39.2011,
+    "lng": 46.415,
+    "country": "Armenia"
+  },
+  {
+    "city": "Armavir",
+    "lat": 40.15,
+    "lng": 44.04,
+    "country": "Armenia"
+  },
+  {
+    "city": "Charentsavan",
+    "lat": 40.4097,
+    "lng": 44.6431,
+    "country": "Armenia"
+  },
+  {
+    "city": "Stepanavan",
+    "lat": 41.0096,
+    "lng": 44.3841,
+    "country": "Armenia"
+  },
+  {
+    "city": "Oranjestad",
+    "lat": 12.5186,
+    "lng": -70.0358,
+    "country": "Aruba"
+  },
+  {
+    "city": "Tanki Leendert",
+    "lat": 12.5418,
+    "lng": -70.022,
+    "country": "Aruba"
+  },
+  {
+    "city": "Sydney",
+    "lat": -33.865,
+    "lng": 151.2094,
+    "country": "Australia"
+  },
+  {
+    "city": "Melbourne",
+    "lat": -37.8136,
+    "lng": 144.9631,
+    "country": "Australia"
+  },
+  {
+    "city": "Brisbane",
+    "lat": -27.4678,
+    "lng": 153.0281,
+    "country": "Australia"
+  },
+  {
+    "city": "Perth",
+    "lat": -31.9522,
+    "lng": 115.8589,
+    "country": "Australia"
+  },
+  {
+    "city": "Adelaide",
+    "lat": -34.9275,
+    "lng": 138.6,
+    "country": "Australia"
+  },
+  {
+    "city": "Gold Coast",
+    "lat": -28.0167,
+    "lng": 153.4,
+    "country": "Australia"
+  },
+  {
+    "city": "Cranbourne",
+    "lat": -38.0996,
+    "lng": 145.2834,
+    "country": "Australia"
+  },
+  {
+    "city": "Canberra",
+    "lat": -35.2931,
+    "lng": 149.1269,
+    "country": "Australia"
+  },
+  {
+    "city": "Central Coast",
+    "lat": -33.3,
+    "lng": 151.2,
+    "country": "Australia"
+  },
+  {
+    "city": "Wollongong",
+    "lat": -34.4331,
+    "lng": 150.8831,
+    "country": "Australia"
+  },
+  {
+    "city": "Vienna",
+    "lat": 48.2083,
+    "lng": 16.3725,
+    "country": "Austria"
+  },
+  {
+    "city": "Graz",
+    "lat": 47.0708,
+    "lng": 15.4386,
+    "country": "Austria"
+  },
+  {
+    "city": "Linz",
+    "lat": 48.3,
+    "lng": 14.2833,
+    "country": "Austria"
+  },
+  {
+    "city": "Salzburg",
+    "lat": 47.7972,
+    "lng": 13.0477,
+    "country": "Austria"
+  },
+  {
+    "city": "Innsbruck",
+    "lat": 47.2683,
+    "lng": 11.3933,
+    "country": "Austria"
+  },
+  {
+    "city": "Klagenfurt",
+    "lat": 46.6167,
+    "lng": 14.3,
+    "country": "Austria"
+  },
+  {
+    "city": "Villach",
+    "lat": 46.6167,
+    "lng": 13.8333,
+    "country": "Austria"
+  },
+  {
+    "city": "Wels",
+    "lat": 48.15,
+    "lng": 14.0167,
+    "country": "Austria"
+  },
+  {
+    "city": "Sankt Polten",
+    "lat": 48.2,
+    "lng": 15.6167,
+    "country": "Austria"
+  },
+  {
+    "city": "Dornbirn",
+    "lat": 47.4167,
+    "lng": 9.75,
+    "country": "Austria"
+  },
+  {
+    "city": "Baku",
+    "lat": 40.3667,
+    "lng": 49.8352,
+    "country": "Azerbaijan"
+  },
+  {
+    "city": "Sumqayit",
+    "lat": 40.5917,
+    "lng": 49.6397,
+    "country": "Azerbaijan"
+  },
+  {
+    "city": "Ganca",
+    "lat": 40.6828,
+    "lng": 46.3606,
+    "country": "Azerbaijan"
+  },
+  {
+    "city": "Mingacevir",
+    "lat": 40.77,
+    "lng": 47.0489,
+    "country": "Azerbaijan"
+  },
+  {
+    "city": "Xirdalan",
+    "lat": 40.4486,
+    "lng": 49.7564,
+    "country": "Azerbaijan"
+  },
+  {
+    "city": "Qaracuxur",
+    "lat": 40.3969,
+    "lng": 49.9733,
+    "country": "Azerbaijan"
+  },
+  {
+    "city": "Naxcivan",
+    "lat": 39.2089,
+    "lng": 45.4122,
+    "country": "Azerbaijan"
+  },
+  {
+    "city": "Bakixanov",
+    "lat": 40.4217,
+    "lng": 49.9644,
+    "country": "Azerbaijan"
+  },
+  {
+    "city": "Sirvan",
+    "lat": 39.9323,
+    "lng": 48.9203,
+    "country": "Azerbaijan"
+  },
+  {
+    "city": "Saki",
+    "lat": 41.1919,
+    "lng": 47.1706,
+    "country": "Azerbaijan"
+  },
+  {
+    "city": "Manama",
+    "lat": 26.225,
+    "lng": 50.5775,
+    "country": "Bahrain"
+  },
+  {
+    "city": "Al Muharraq",
+    "lat": 26.25,
+    "lng": 50.6167,
+    "country": "Bahrain"
+  },
+  {
+    "city": "Madinat Hamad",
+    "lat": 26.1128,
+    "lng": 50.5139,
+    "country": "Bahrain"
+  },
+  {
+    "city": "Madinat `Isa",
+    "lat": 26.1736,
+    "lng": 50.5478,
+    "country": "Bahrain"
+  },
+  {
+    "city": "Dhaka",
+    "lat": 23.7289,
+    "lng": 90.3944,
+    "country": "Bangladesh"
+  },
+  {
+    "city": "Chattogram",
+    "lat": 22.335,
+    "lng": 91.8325,
+    "country": "Bangladesh"
+  },
+  {
+    "city": "Khulna",
+    "lat": 22.8167,
+    "lng": 89.55,
+    "country": "Bangladesh"
+  },
+  {
+    "city": "Sylhet",
+    "lat": 24.9,
+    "lng": 91.8667,
+    "country": "Bangladesh"
+  },
+  {
+    "city": "Rajshahi",
+    "lat": 24.3667,
+    "lng": 88.6,
+    "country": "Bangladesh"
+  },
+  {
+    "city": "Mymensingh",
+    "lat": 24.7504,
+    "lng": 90.38,
+    "country": "Bangladesh"
+  },
+  {
+    "city": "Comilla",
+    "lat": 23.45,
+    "lng": 91.2,
+    "country": "Bangladesh"
+  },
+  {
+    "city": "Rangpur",
+    "lat": 25.75,
+    "lng": 89.2444,
+    "country": "Bangladesh"
+  },
+  {
+    "city": "Brahmanbaria",
+    "lat": 23.9667,
+    "lng": 91.1,
+    "country": "Bangladesh"
+  },
+  {
+    "city": "Jessore",
+    "lat": 23.1704,
+    "lng": 89.2,
+    "country": "Bangladesh"
+  },
+  {
+    "city": "Bridgetown",
+    "lat": 13.0975,
+    "lng": -59.6167,
+    "country": "Barbados"
+  },
+  {
+    "city": "Minsk",
+    "lat": 53.9022,
+    "lng": 27.5618,
+    "country": "Belarus"
+  },
+  {
+    "city": "Homyel'",
+    "lat": 52.4417,
+    "lng": 30.9833,
+    "country": "Belarus"
+  },
+  {
+    "city": "Vitsyebsk",
+    "lat": 55.1833,
+    "lng": 30.1667,
+    "country": "Belarus"
+  },
+  {
+    "city": "Mahilyow",
+    "lat": 53.9089,
+    "lng": 30.343,
+    "country": "Belarus"
+  },
+  {
+    "city": "Hrodna",
+    "lat": 53.6667,
+    "lng": 23.8167,
+    "country": "Belarus"
+  },
+  {
+    "city": "Brest",
+    "lat": 52.0847,
+    "lng": 23.6569,
+    "country": "Belarus"
+  },
+  {
+    "city": "Babruysk",
+    "lat": 53.15,
+    "lng": 29.2333,
+    "country": "Belarus"
+  },
+  {
+    "city": "Baranavichy",
+    "lat": 53.1167,
+    "lng": 25.9833,
+    "country": "Belarus"
+  },
+  {
+    "city": "Horad Barysaw",
+    "lat": 54.226,
+    "lng": 28.4922,
+    "country": "Belarus"
+  },
+  {
+    "city": "Pinsk",
+    "lat": 52.1153,
+    "lng": 26.1031,
+    "country": "Belarus"
+  },
+  {
+    "city": "Brussels",
+    "lat": 50.8353,
+    "lng": 4.3314,
+    "country": "Belgium"
+  },
+  {
+    "city": "Antwerp",
+    "lat": 51.2211,
+    "lng": 4.3997,
+    "country": "Belgium"
+  },
+  {
+    "city": "Gent",
+    "lat": 51.0536,
+    "lng": 3.7253,
+    "country": "Belgium"
+  },
+  {
+    "city": "Charleroi",
+    "lat": 50.4167,
+    "lng": 4.4442,
+    "country": "Belgium"
+  },
+  {
+    "city": "Liege",
+    "lat": 50.6397,
+    "lng": 5.5706,
+    "country": "Belgium"
+  },
+  {
+    "city": "Bruges",
+    "lat": 51.2089,
+    "lng": 3.2242,
+    "country": "Belgium"
+  },
+  {
+    "city": "Anderlecht",
+    "lat": 50.8392,
+    "lng": 4.3297,
+    "country": "Belgium"
+  },
+  {
+    "city": "Namur",
+    "lat": 50.4667,
+    "lng": 4.8667,
+    "country": "Belgium"
+  },
+  {
+    "city": "Leuven",
+    "lat": 50.8775,
+    "lng": 4.7044,
+    "country": "Belgium"
+  },
+  {
+    "city": "Moortebeek",
+    "lat": 50.8547,
+    "lng": 4.3386,
+    "country": "Belgium"
+  },
+  {
+    "city": "Belize City",
+    "lat": 17.4986,
+    "lng": -88.1886,
+    "country": "Belize"
+  },
+  {
+    "city": "Orange Walk",
+    "lat": 18.075,
+    "lng": -88.5583,
+    "country": "Belize"
+  },
+  {
+    "city": "Belmopan",
+    "lat": 17.25,
+    "lng": -88.7675,
+    "country": "Belize"
+  },
+  {
+    "city": "San Ignacio",
+    "lat": 17.1588,
+    "lng": -89.0696,
+    "country": "Belize"
+  },
+  {
+    "city": "San Pedro",
+    "lat": 17.9214,
+    "lng": -87.9611,
+    "country": "Belize"
+  },
+  {
+    "city": "Dangriga",
+    "lat": 16.9667,
+    "lng": -88.2167,
+    "country": "Belize"
+  },
+  {
+    "city": "Corozal",
+    "lat": 18.4,
+    "lng": -88.4,
+    "country": "Belize"
+  },
+  {
+    "city": "Ladyville",
+    "lat": 17.5567,
+    "lng": -88.2889,
+    "country": "Belize"
+  },
+  {
+    "city": "Punta Gorda",
+    "lat": 16.1,
+    "lng": -88.8,
+    "country": "Belize"
+  },
+  {
+    "city": "Cotonou",
+    "lat": 6.402,
+    "lng": 2.518,
+    "country": "Benin"
+  },
+  {
+    "city": "Porto-Novo",
+    "lat": 6.4833,
+    "lng": 2.6167,
+    "country": "Benin"
+  },
+  {
+    "city": "Djougou",
+    "lat": 9.7004,
+    "lng": 1.68,
+    "country": "Benin"
+  },
+  {
+    "city": "Parakou",
+    "lat": 9.34,
+    "lng": 2.62,
+    "country": "Benin"
+  },
+  {
+    "city": "Kandi",
+    "lat": 11.1304,
+    "lng": 2.94,
+    "country": "Benin"
+  },
+  {
+    "city": "Lokossa",
+    "lat": 6.615,
+    "lng": 1.715,
+    "country": "Benin"
+  },
+  {
+    "city": "Ouidah",
+    "lat": 6.3604,
+    "lng": 2.09,
+    "country": "Benin"
+  },
+  {
+    "city": "Abomey",
+    "lat": 7.1853,
+    "lng": 1.9914,
+    "country": "Benin"
+  },
+  {
+    "city": "Natitingou",
+    "lat": 10.3204,
+    "lng": 1.39,
+    "country": "Benin"
+  },
+  {
+    "city": "Save",
+    "lat": 8.0342,
+    "lng": 2.4866,
+    "country": "Benin"
+  },
+  {
+    "city": "Hamilton",
+    "lat": 32.2942,
+    "lng": -64.7839,
+    "country": "Bermuda"
+  },
+  {
+    "city": "Thimphu",
+    "lat": 27.4833,
+    "lng": 89.6333,
+    "country": "Bhutan"
+  },
+  {
+    "city": "Paro",
+    "lat": 27.4333,
+    "lng": 89.4167,
+    "country": "Bhutan"
+  },
+  {
+    "city": "Wangdue Phodrang",
+    "lat": 27.4333,
+    "lng": 89.9167,
+    "country": "Bhutan"
+  },
+  {
+    "city": "Punakha",
+    "lat": 27.6167,
+    "lng": 89.8667,
+    "country": "Bhutan"
+  },
+  {
+    "city": "Samtse",
+    "lat": 26.8667,
+    "lng": 89.1,
+    "country": "Bhutan"
+  },
+  {
+    "city": "Tsirang",
+    "lat": 27.0219,
+    "lng": 90.1229,
+    "country": "Bhutan"
+  },
+  {
+    "city": "Mongar",
+    "lat": 27.275,
+    "lng": 91.24,
+    "country": "Bhutan"
+  },
+  {
+    "city": "Haa",
+    "lat": 27.3685,
+    "lng": 89.2918,
+    "country": "Bhutan"
+  },
+  {
+    "city": "Samdrup Jongkhar",
+    "lat": 26.8007,
+    "lng": 91.5052,
+    "country": "Bhutan"
+  },
+  {
+    "city": "Sarpang",
+    "lat": 26.8639,
+    "lng": 90.2674,
+    "country": "Bhutan"
+  },
+  {
+    "city": "Santa Cruz",
+    "lat": -17.7892,
+    "lng": -63.1975,
+    "country": "Bolivia"
+  },
+  {
+    "city": "La Paz",
+    "lat": -16.4942,
+    "lng": -68.1475,
+    "country": "Bolivia"
+  },
+  {
+    "city": "Cochabamba",
+    "lat": -17.3935,
+    "lng": -66.157,
+    "country": "Bolivia"
+  },
+  {
+    "city": "Sucre",
+    "lat": -19.0431,
+    "lng": -65.2592,
+    "country": "Bolivia"
+  },
+  {
+    "city": "Oruro",
+    "lat": -17.9667,
+    "lng": -67.1167,
+    "country": "Bolivia"
+  },
+  {
+    "city": "Oruro",
+    "lat": -17.9799,
+    "lng": -67.13,
+    "country": "Bolivia"
+  },
+  {
+    "city": "Warnes",
+    "lat": -17.5103,
+    "lng": -63.1647,
+    "country": "Bolivia"
+  },
+  {
+    "city": "Potosi",
+    "lat": -19.5833,
+    "lng": -65.75,
+    "country": "Bolivia"
+  },
+  {
+    "city": "Tarija",
+    "lat": -21.5317,
+    "lng": -64.7311,
+    "country": "Bolivia"
+  },
+  {
+    "city": "Sacaba",
+    "lat": -17.4042,
+    "lng": -66.0408,
+    "country": "Bolivia"
+  },
+  {
+    "city": "Sarajevo",
+    "lat": 43.8563,
+    "lng": 18.4132,
+    "country": "Bosnia And Herzegovina"
+  },
+  {
+    "city": "Banja Luka",
+    "lat": 44.7667,
+    "lng": 17.1833,
+    "country": "Bosnia And Herzegovina"
+  },
+  {
+    "city": "Mostar",
+    "lat": 43.3494,
+    "lng": 17.8125,
+    "country": "Bosnia And Herzegovina"
+  },
+  {
+    "city": "Bijeljina",
+    "lat": 44.75,
+    "lng": 19.2167,
+    "country": "Bosnia And Herzegovina"
+  },
+  {
+    "city": "Tuzla",
+    "lat": 44.5381,
+    "lng": 18.6761,
+    "country": "Bosnia And Herzegovina"
+  },
+  {
+    "city": "Prijedor",
+    "lat": 44.9667,
+    "lng": 16.7,
+    "country": "Bosnia And Herzegovina"
+  },
+  {
+    "city": "Zenica",
+    "lat": 44.2017,
+    "lng": 17.9039,
+    "country": "Bosnia And Herzegovina"
+  },
+  {
+    "city": "Doboj",
+    "lat": 44.7333,
+    "lng": 18.1333,
+    "country": "Bosnia And Herzegovina"
+  },
+  {
+    "city": "Zvornik",
+    "lat": 44.3833,
+    "lng": 19.1,
+    "country": "Bosnia And Herzegovina"
+  },
+  {
+    "city": "Sanski Most",
+    "lat": 44.7667,
+    "lng": 16.6667,
+    "country": "Bosnia And Herzegovina"
+  },
+  {
+    "city": "Gaborone",
+    "lat": -24.6569,
+    "lng": 25.9086,
+    "country": "Botswana"
+  },
+  {
+    "city": "Francistown",
+    "lat": -21.1736,
+    "lng": 27.5125,
+    "country": "Botswana"
+  },
+  {
+    "city": "Molepolole",
+    "lat": -24.4066,
+    "lng": 25.4951,
+    "country": "Botswana"
+  },
+  {
+    "city": "Maun",
+    "lat": -19.9833,
+    "lng": 23.4167,
+    "country": "Botswana"
+  },
+  {
+    "city": "Mahalapye",
+    "lat": -23.1041,
+    "lng": 26.8142,
+    "country": "Botswana"
+  },
+  {
+    "city": "Selibe Phikwe",
+    "lat": -21.9667,
+    "lng": 27.9167,
+    "country": "Botswana"
+  },
+  {
+    "city": "Serowe",
+    "lat": -22.3833,
+    "lng": 26.7167,
+    "country": "Botswana"
+  },
+  {
+    "city": "Kanye",
+    "lat": -24.9833,
+    "lng": 25.35,
+    "country": "Botswana"
+  },
+  {
+    "city": "Mochudi",
+    "lat": -24.4167,
+    "lng": 26.15,
+    "country": "Botswana"
+  },
+  {
+    "city": "Palapye",
+    "lat": -22.55,
+    "lng": 27.1333,
+    "country": "Botswana"
+  },
+  {
+    "city": "Sao Paulo",
+    "lat": -23.5504,
+    "lng": -46.6339,
+    "country": "Brazil"
+  },
+  {
+    "city": "Rio de Janeiro",
+    "lat": -22.9083,
+    "lng": -43.1964,
+    "country": "Brazil"
+  },
+  {
+    "city": "Belo Horizonte",
+    "lat": -19.9281,
+    "lng": -43.9419,
+    "country": "Brazil"
+  },
+  {
+    "city": "Brasilia",
+    "lat": -15.7939,
+    "lng": -47.8828,
+    "country": "Brazil"
+  },
+  {
+    "city": "Salvador",
+    "lat": -12.9708,
+    "lng": -38.5108,
+    "country": "Brazil"
+  },
+  {
+    "city": "Fortaleza",
+    "lat": -3.7275,
+    "lng": -38.5275,
+    "country": "Brazil"
+  },
+  {
+    "city": "Curitiba",
+    "lat": -25.4297,
+    "lng": -49.2719,
+    "country": "Brazil"
+  },
+  {
+    "city": "Manaus",
+    "lat": -3.1,
+    "lng": -60.0167,
+    "country": "Brazil"
+  },
+  {
+    "city": "Recife",
+    "lat": -8.0539,
+    "lng": -34.8808,
+    "country": "Brazil"
+  },
+  {
+    "city": "Belem",
+    "lat": -1.4558,
+    "lng": -48.5039,
+    "country": "Brazil"
+  },
+  {
+    "city": "Road Town",
+    "lat": 18.4167,
+    "lng": -64.6167,
+    "country": "British Virgin Islands"
+  },
+  {
+    "city": "Bandar Seri Begawan",
+    "lat": 4.9167,
+    "lng": 114.9167,
+    "country": "Brunei"
+  },
+  {
+    "city": "Seria",
+    "lat": 4.6142,
+    "lng": 114.3303,
+    "country": "Brunei"
+  },
+  {
+    "city": "Kampong Tunah Jambu",
+    "lat": 4.9957,
+    "lng": 115.0019,
+    "country": "Brunei"
+  },
+  {
+    "city": "Kampong Lambak",
+    "lat": 4.9687,
+    "lng": 114.9458,
+    "country": "Brunei"
+  },
+  {
+    "city": "Kampong Mata Mata",
+    "lat": 4.9017,
+    "lng": 114.8958,
+    "country": "Brunei"
+  },
+  {
+    "city": "Kampong Mulaut",
+    "lat": 4.8693,
+    "lng": 114.8466,
+    "country": "Brunei"
+  },
+  {
+    "city": "Kampong Beribi",
+    "lat": 4.8841,
+    "lng": 114.896,
+    "country": "Brunei"
+  },
+  {
+    "city": "Kampong Rimba",
+    "lat": 4.9271,
+    "lng": 114.9059,
+    "country": "Brunei"
+  },
+  {
+    "city": "Kuala Belait",
+    "lat": 4.5828,
+    "lng": 114.1918,
+    "country": "Brunei"
+  },
+  {
+    "city": "Bangar",
+    "lat": 4.7086,
+    "lng": 115.0739,
+    "country": "Brunei"
+  },
+  {
+    "city": "Sofia",
+    "lat": 42.6979,
+    "lng": 23.3217,
+    "country": "Bulgaria"
+  },
+  {
+    "city": "Plovdiv",
+    "lat": 42.1421,
+    "lng": 24.7415,
+    "country": "Bulgaria"
+  },
+  {
+    "city": "Varna",
+    "lat": 43.2114,
+    "lng": 27.9111,
+    "country": "Bulgaria"
+  },
+  {
+    "city": "Burgas",
+    "lat": 42.503,
+    "lng": 27.4702,
+    "country": "Bulgaria"
+  },
+  {
+    "city": "Ruse",
+    "lat": 43.8445,
+    "lng": 25.9539,
+    "country": "Bulgaria"
+  },
+  {
+    "city": "Stara Zagora",
+    "lat": 42.4257,
+    "lng": 25.6346,
+    "country": "Bulgaria"
+  },
+  {
+    "city": "Pleven",
+    "lat": 43.4132,
+    "lng": 24.6169,
+    "country": "Bulgaria"
+  },
+  {
+    "city": "Dobrich",
+    "lat": 43.5667,
+    "lng": 27.8333,
+    "country": "Bulgaria"
+  },
+  {
+    "city": "Sliven",
+    "lat": 42.6781,
+    "lng": 26.326,
+    "country": "Bulgaria"
+  },
+  {
+    "city": "Shumen",
+    "lat": 43.2746,
+    "lng": 26.9349,
+    "country": "Bulgaria"
+  },
+  {
+    "city": "Ouagadougou",
+    "lat": 12.3686,
+    "lng": -1.5275,
+    "country": "Burkina Faso"
+  },
+  {
+    "city": "Bobo-Dioulasso",
+    "lat": 11.1833,
+    "lng": -4.2833,
+    "country": "Burkina Faso"
+  },
+  {
+    "city": "Koudougou",
+    "lat": 12.25,
+    "lng": -2.3667,
+    "country": "Burkina Faso"
+  },
+  {
+    "city": "Ouahigouya",
+    "lat": 13.5833,
+    "lng": -2.4167,
+    "country": "Burkina Faso"
+  },
+  {
+    "city": "Kaya",
+    "lat": 13.0833,
+    "lng": -1.0833,
+    "country": "Burkina Faso"
+  },
+  {
+    "city": "Banfora",
+    "lat": 10.6308,
+    "lng": -4.7589,
+    "country": "Burkina Faso"
+  },
+  {
+    "city": "Pouytenga",
+    "lat": 12.25,
+    "lng": -0.4333,
+    "country": "Burkina Faso"
+  },
+  {
+    "city": "Hounde",
+    "lat": 11.5,
+    "lng": -3.5167,
+    "country": "Burkina Faso"
+  },
+  {
+    "city": "Fada Ngourma",
+    "lat": 12.05,
+    "lng": 0.3667,
+    "country": "Burkina Faso"
+  },
+  {
+    "city": "Dedougou",
+    "lat": 12.4667,
+    "lng": -3.4667,
+    "country": "Burkina Faso"
+  },
+  {
+    "city": "Bujumbura",
+    "lat": -3.3825,
+    "lng": 29.3611,
+    "country": "Burundi"
+  },
+  {
+    "city": "Gitega",
+    "lat": -3.4283,
+    "lng": 29.925,
+    "country": "Burundi"
+  },
+  {
+    "city": "Ngozi",
+    "lat": -2.9,
+    "lng": 29.8167,
+    "country": "Burundi"
+  },
+  {
+    "city": "Gitega",
+    "lat": -3.426,
+    "lng": 29.8436,
+    "country": "Burundi"
+  },
+  {
+    "city": "Kayanza",
+    "lat": -2.9167,
+    "lng": 29.6167,
+    "country": "Burundi"
+  },
+  {
+    "city": "Bubanza",
+    "lat": -3.0833,
+    "lng": 29.4,
+    "country": "Burundi"
+  },
+  {
+    "city": "Gatumba",
+    "lat": -3.3333,
+    "lng": 29.25,
+    "country": "Burundi"
+  },
+  {
+    "city": "Karuzi",
+    "lat": -3.1,
+    "lng": 30.163,
+    "country": "Burundi"
+  },
+  {
+    "city": "Kirundo",
+    "lat": -2.5833,
+    "lng": 30.1,
+    "country": "Burundi"
+  },
+  {
+    "city": "Muyinga",
+    "lat": -2.85,
+    "lng": 30.3333,
+    "country": "Burundi"
+  },
+  {
+    "city": "Praia",
+    "lat": 14.9177,
+    "lng": -23.5092,
+    "country": "Cabo Verde"
+  },
+  {
+    "city": "Mindelo",
+    "lat": 16.8914,
+    "lng": -24.988,
+    "country": "Cabo Verde"
+  },
+  {
+    "city": "Sao Filipe",
+    "lat": 14.8951,
+    "lng": -24.5004,
+    "country": "Cabo Verde"
+  },
+  {
+    "city": "Ribeira Grande",
+    "lat": 17.1833,
+    "lng": -25.0667,
+    "country": "Cabo Verde"
+  },
+  {
+    "city": "Tarrafal",
+    "lat": 15.2787,
+    "lng": -23.7516,
+    "country": "Cabo Verde"
+  },
+  {
+    "city": "Porto Novo",
+    "lat": 17.0195,
+    "lng": -25.0646,
+    "country": "Cabo Verde"
+  },
+  {
+    "city": "Assomada",
+    "lat": 15.0949,
+    "lng": -23.6654,
+    "country": "Cabo Verde"
+  },
+  {
+    "city": "Pedra Badejo",
+    "lat": 15.1375,
+    "lng": -23.5333,
+    "country": "Cabo Verde"
+  },
+  {
+    "city": "Sal Rei",
+    "lat": 16.176,
+    "lng": -22.9171,
+    "country": "Cabo Verde"
+  },
+  {
+    "city": "Espargos",
+    "lat": 16.7546,
+    "lng": -22.9453,
+    "country": "Cabo Verde"
+  },
+  {
+    "city": "Phnom Penh",
+    "lat": 11.5696,
+    "lng": 104.921,
+    "country": "Cambodia"
+  },
+  {
+    "city": "Siem Reap",
+    "lat": 13.3622,
+    "lng": 103.8597,
+    "country": "Cambodia"
+  },
+  {
+    "city": "Battambang",
+    "lat": 13.1028,
+    "lng": 103.1983,
+    "country": "Cambodia"
+  },
+  {
+    "city": "Kampong Cham",
+    "lat": 12.0,
+    "lng": 105.45,
+    "country": "Cambodia"
+  },
+  {
+    "city": "Prey Veng",
+    "lat": 11.484,
+    "lng": 105.324,
+    "country": "Cambodia"
+  },
+  {
+    "city": "Kratie",
+    "lat": 12.4881,
+    "lng": 106.0188,
+    "country": "Cambodia"
+  },
+  {
+    "city": "Pursat",
+    "lat": 12.5337,
+    "lng": 103.9167,
+    "country": "Cambodia"
+  },
+  {
+    "city": "Takeo",
+    "lat": 10.9833,
+    "lng": 104.7833,
+    "country": "Cambodia"
+  },
+  {
+    "city": "Sisophon",
+    "lat": 13.5859,
+    "lng": 102.9737,
+    "country": "Cambodia"
+  },
+  {
+    "city": "Kampong Chhnang",
+    "lat": 12.25,
+    "lng": 104.6667,
+    "country": "Cambodia"
+  },
+  {
+    "city": "Douala",
+    "lat": 4.05,
+    "lng": 9.7,
+    "country": "Cameroon"
+  },
+  {
+    "city": "Yaounde",
+    "lat": 3.8578,
+    "lng": 11.5181,
+    "country": "Cameroon"
+  },
+  {
+    "city": "Maroua",
+    "lat": 10.5823,
+    "lng": 14.3275,
+    "country": "Cameroon"
+  },
+  {
+    "city": "Bafoussam",
+    "lat": 5.4667,
+    "lng": 10.4167,
+    "country": "Cameroon"
+  },
+  {
+    "city": "Bamenda",
+    "lat": 5.9333,
+    "lng": 10.1667,
+    "country": "Cameroon"
+  },
+  {
+    "city": "Garoua",
+    "lat": 9.3,
+    "lng": 13.4,
+    "country": "Cameroon"
+  },
+  {
+    "city": "Limbe",
+    "lat": 4.0167,
+    "lng": 9.2167,
+    "country": "Cameroon"
+  },
+  {
+    "city": "Ngaoundere",
+    "lat": 7.3214,
+    "lng": 13.5839,
+    "country": "Cameroon"
+  },
+  {
+    "city": "Kumba",
+    "lat": 4.6333,
+    "lng": 9.45,
+    "country": "Cameroon"
+  },
+  {
+    "city": "Buea",
+    "lat": 4.1667,
+    "lng": 9.2333,
+    "country": "Cameroon"
+  },
+  {
+    "city": "Toronto",
+    "lat": 43.7417,
+    "lng": -79.3733,
+    "country": "Canada"
+  },
+  {
+    "city": "Montreal",
+    "lat": 45.5089,
+    "lng": -73.5617,
+    "country": "Canada"
+  },
+  {
+    "city": "Vancouver",
+    "lat": 49.25,
+    "lng": -123.1,
+    "country": "Canada"
+  },
+  {
+    "city": "Calgary",
+    "lat": 51.05,
+    "lng": -114.0667,
+    "country": "Canada"
+  },
+  {
+    "city": "Edmonton",
+    "lat": 53.5344,
+    "lng": -113.4903,
+    "country": "Canada"
+  },
+  {
+    "city": "Ottawa",
+    "lat": 45.4247,
+    "lng": -75.695,
+    "country": "Canada"
+  },
+  {
+    "city": "Mississauga",
+    "lat": 43.6,
+    "lng": -79.65,
+    "country": "Canada"
+  },
+  {
+    "city": "Winnipeg",
+    "lat": 49.8844,
+    "lng": -97.1464,
+    "country": "Canada"
+  },
+  {
+    "city": "Quebec City",
+    "lat": 46.8139,
+    "lng": -71.2081,
+    "country": "Canada"
+  },
+  {
+    "city": "Hamilton",
+    "lat": 43.2567,
+    "lng": -79.8692,
+    "country": "Canada"
+  },
+  {
+    "city": "George Town",
+    "lat": 19.2866,
+    "lng": -81.3744,
+    "country": "Cayman Islands"
+  },
+  {
+    "city": "Bangui",
+    "lat": 4.3732,
+    "lng": 18.5628,
+    "country": "Central African Republic"
+  },
+  {
+    "city": "Bimbo",
+    "lat": 4.3313,
+    "lng": 18.5163,
+    "country": "Central African Republic"
+  },
+  {
+    "city": "Berberati",
+    "lat": 4.2667,
+    "lng": 15.7833,
+    "country": "Central African Republic"
+  },
+  {
+    "city": "Carnot",
+    "lat": 4.9333,
+    "lng": 15.8667,
+    "country": "Central African Republic"
+  },
+  {
+    "city": "Bambari",
+    "lat": 5.7667,
+    "lng": 20.6833,
+    "country": "Central African Republic"
+  },
+  {
+    "city": "Bouar",
+    "lat": 5.95,
+    "lng": 15.6,
+    "country": "Central African Republic"
+  },
+  {
+    "city": "Bossangoa",
+    "lat": 6.4833,
+    "lng": 17.45,
+    "country": "Central African Republic"
+  },
+  {
+    "city": "Bria",
+    "lat": 6.5369,
+    "lng": 21.9919,
+    "country": "Central African Republic"
+  },
+  {
+    "city": "Bangassou",
+    "lat": 4.737,
+    "lng": 22.819,
+    "country": "Central African Republic"
+  },
+  {
+    "city": "Nola",
+    "lat": 3.5337,
+    "lng": 16.0666,
+    "country": "Central African Republic"
+  },
+  {
+    "city": "N'Djamena",
+    "lat": 12.11,
+    "lng": 15.05,
+    "country": "Chad"
+  },
+  {
+    "city": "Moundou",
+    "lat": 8.5667,
+    "lng": 16.0833,
+    "country": "Chad"
+  },
+  {
+    "city": "Sarh",
+    "lat": 9.15,
+    "lng": 18.3833,
+    "country": "Chad"
+  },
+  {
+    "city": "Kelo",
+    "lat": 9.3171,
+    "lng": 15.8,
+    "country": "Chad"
+  },
+  {
+    "city": "Yao",
+    "lat": 12.8508,
+    "lng": 17.5608,
+    "country": "Chad"
+  },
+  {
+    "city": "Lere",
+    "lat": 9.6556,
+    "lng": 14.225,
+    "country": "Chad"
+  },
+  {
+    "city": "Abeche",
+    "lat": 13.8331,
+    "lng": 20.8347,
+    "country": "Chad"
+  },
+  {
+    "city": "Goz-Beida",
+    "lat": 12.2236,
+    "lng": 21.4144,
+    "country": "Chad"
+  },
+  {
+    "city": "Fianga",
+    "lat": 9.9153,
+    "lng": 15.1375,
+    "country": "Chad"
+  },
+  {
+    "city": "Koumra",
+    "lat": 8.9,
+    "lng": 17.55,
+    "country": "Chad"
+  },
+  {
+    "city": "Santiago",
+    "lat": -33.45,
+    "lng": -70.6667,
+    "country": "Chile"
+  },
+  {
+    "city": "Puente Alto",
+    "lat": -33.6167,
+    "lng": -70.5833,
+    "country": "Chile"
+  },
+  {
+    "city": "Maipu",
+    "lat": -33.5167,
+    "lng": -70.7667,
+    "country": "Chile"
+  },
+  {
+    "city": "La Florida",
+    "lat": -33.55,
+    "lng": -70.5667,
+    "country": "Chile"
+  },
+  {
+    "city": "Antofagasta",
+    "lat": -23.6464,
+    "lng": -70.398,
+    "country": "Chile"
+  },
+  {
+    "city": "Vina del Mar",
+    "lat": -33.0245,
+    "lng": -71.5518,
+    "country": "Chile"
+  },
+  {
+    "city": "San Bernardo",
+    "lat": -33.6,
+    "lng": -70.7167,
+    "country": "Chile"
+  },
+  {
+    "city": "Valparaiso",
+    "lat": -33.0458,
+    "lng": -71.6197,
+    "country": "Chile"
+  },
+  {
+    "city": "Temuco",
+    "lat": -38.7399,
+    "lng": -72.5901,
+    "country": "Chile"
+  },
+  {
+    "city": "Las Condes",
+    "lat": -33.4167,
+    "lng": -70.5833,
+    "country": "Chile"
+  },
+  {
+    "city": "Shanghai",
+    "lat": 31.1667,
+    "lng": 121.4667,
+    "country": "China"
+  },
+  {
+    "city": "Guangzhou",
+    "lat": 23.1288,
+    "lng": 113.259,
+    "country": "China"
+  },
+  {
+    "city": "Beijing",
+    "lat": 39.904,
+    "lng": 116.4075,
+    "country": "China"
+  },
+  {
+    "city": "Shenzhen",
+    "lat": 22.535,
+    "lng": 114.054,
+    "country": "China"
+  },
+  {
+    "city": "Chengdu",
+    "lat": 30.66,
+    "lng": 104.0633,
+    "country": "China"
+  },
+  {
+    "city": "Baoding",
+    "lat": 38.8671,
+    "lng": 115.4845,
+    "country": "China"
+  },
+  {
+    "city": "Tianjin",
+    "lat": 39.1467,
+    "lng": 117.2056,
+    "country": "China"
+  },
+  {
+    "city": "Linyi",
+    "lat": 35.0606,
+    "lng": 118.3425,
+    "country": "China"
+  },
+  {
+    "city": "Shijiazhuang",
+    "lat": 38.0422,
+    "lng": 114.5086,
+    "country": "China"
+  },
+  {
+    "city": "Zhengzhou",
+    "lat": 34.7492,
+    "lng": 113.6605,
+    "country": "China"
+  },
+  {
+    "city": "Flying Fish Cove",
+    "lat": -10.4167,
+    "lng": 105.7167,
+    "country": "Christmas Island"
+  },
+  {
+    "city": "Bogota",
+    "lat": 4.6126,
+    "lng": -74.0705,
+    "country": "Colombia"
+  },
+  {
+    "city": "Timbio",
+    "lat": 2.3528,
+    "lng": -76.6819,
+    "country": "Colombia"
+  },
+  {
+    "city": "Medellin",
+    "lat": 6.2447,
+    "lng": -75.5748,
+    "country": "Colombia"
+  },
+  {
+    "city": "Cali",
+    "lat": 3.44,
+    "lng": -76.5197,
+    "country": "Colombia"
+  },
+  {
+    "city": "Barranquilla",
+    "lat": 10.9639,
+    "lng": -74.7964,
+    "country": "Colombia"
+  },
+  {
+    "city": "Cartagena",
+    "lat": 10.4236,
+    "lng": -75.5253,
+    "country": "Colombia"
+  },
+  {
+    "city": "Palermo",
+    "lat": 2.8883,
+    "lng": -75.4339,
+    "country": "Colombia"
+  },
+  {
+    "city": "Cucuta",
+    "lat": 7.9075,
+    "lng": -72.5047,
+    "country": "Colombia"
+  },
+  {
+    "city": "Soledad",
+    "lat": 10.92,
+    "lng": -74.77,
+    "country": "Colombia"
+  },
+  {
+    "city": "Pereira",
+    "lat": 4.8143,
+    "lng": -75.6946,
+    "country": "Colombia"
+  },
+  {
+    "city": "Moroni",
+    "lat": -11.7036,
+    "lng": 43.2536,
+    "country": "Comoros"
+  },
+  {
+    "city": "Mutsamudu",
+    "lat": -12.1675,
+    "lng": 44.3939,
+    "country": "Comoros"
+  },
+  {
+    "city": "Mkazi",
+    "lat": -11.7323,
+    "lng": 43.2671,
+    "country": "Comoros"
+  },
+  {
+    "city": "Mitsamiouli",
+    "lat": -11.3819,
+    "lng": 43.3,
+    "country": "Comoros"
+  },
+  {
+    "city": "Fomboni",
+    "lat": -12.2822,
+    "lng": 43.7419,
+    "country": "Comoros"
+  },
+  {
+    "city": "Brazzaville",
+    "lat": -4.2667,
+    "lng": 15.2833,
+    "country": "Congo (Brazzaville)"
+  },
+  {
+    "city": "Pointe-Noire",
+    "lat": -4.7889,
+    "lng": 11.8653,
+    "country": "Congo (Brazzaville)"
+  },
+  {
+    "city": "Dolisie",
+    "lat": -4.1961,
+    "lng": 12.6731,
+    "country": "Congo (Brazzaville)"
+  },
+  {
+    "city": "Kayes",
+    "lat": -4.1806,
+    "lng": 13.2889,
+    "country": "Congo (Brazzaville)"
+  },
+  {
+    "city": "Mossendjo",
+    "lat": -2.9458,
+    "lng": 12.7147,
+    "country": "Congo (Brazzaville)"
+  },
+  {
+    "city": "Ouesso",
+    "lat": 1.6167,
+    "lng": 16.05,
+    "country": "Congo (Brazzaville)"
+  },
+  {
+    "city": "Owando",
+    "lat": -0.4833,
+    "lng": 15.9,
+    "country": "Congo (Brazzaville)"
+  },
+  {
+    "city": "Sibiti",
+    "lat": -3.6819,
+    "lng": 13.3498,
+    "country": "Congo (Brazzaville)"
+  },
+  {
+    "city": "Madingou",
+    "lat": -4.1536,
+    "lng": 13.55,
+    "country": "Congo (Brazzaville)"
+  },
+  {
+    "city": "Gamboma",
+    "lat": -1.8764,
+    "lng": 15.8644,
+    "country": "Congo (Brazzaville)"
+  },
+  {
+    "city": "Kinshasa",
+    "lat": -4.3317,
+    "lng": 15.3139,
+    "country": "Congo (Kinshasa)"
+  },
+  {
+    "city": "Kananga",
+    "lat": -5.8961,
+    "lng": 22.4167,
+    "country": "Congo (Kinshasa)"
+  },
+  {
+    "city": "Lubumbashi",
+    "lat": -11.6697,
+    "lng": 27.4581,
+    "country": "Congo (Kinshasa)"
+  },
+  {
+    "city": "Mbuji-Mayi",
+    "lat": -6.1209,
+    "lng": 23.5967,
+    "country": "Congo (Kinshasa)"
+  },
+  {
+    "city": "Kisangani",
+    "lat": 0.5153,
+    "lng": 25.1911,
+    "country": "Congo (Kinshasa)"
+  },
+  {
+    "city": "Kikwit",
+    "lat": -5.0333,
+    "lng": 18.8167,
+    "country": "Congo (Kinshasa)"
+  },
+  {
+    "city": "Bukavu",
+    "lat": -2.4908,
+    "lng": 28.8428,
+    "country": "Congo (Kinshasa)"
+  },
+  {
+    "city": "Likasi",
+    "lat": -10.9833,
+    "lng": 26.7333,
+    "country": "Congo (Kinshasa)"
+  },
+  {
+    "city": "Kolwezi",
+    "lat": -10.7167,
+    "lng": 25.4667,
+    "country": "Congo (Kinshasa)"
+  },
+  {
+    "city": "Beni",
+    "lat": 0.4911,
+    "lng": 29.4731,
+    "country": "Congo (Kinshasa)"
+  },
+  {
+    "city": "Avarua",
+    "lat": -21.207,
+    "lng": -159.771,
+    "country": "Cook Islands"
+  },
+  {
+    "city": "San Jose",
+    "lat": 9.9333,
+    "lng": -84.0833,
+    "country": "Costa Rica"
+  },
+  {
+    "city": "Puerto Limon",
+    "lat": 10.0022,
+    "lng": -83.084,
+    "country": "Costa Rica"
+  },
+  {
+    "city": "Alajuela",
+    "lat": 10.0311,
+    "lng": -84.2041,
+    "country": "Costa Rica"
+  },
+  {
+    "city": "Liberia",
+    "lat": 10.6338,
+    "lng": -85.4333,
+    "country": "Costa Rica"
+  },
+  {
+    "city": "Puntarenas",
+    "lat": 9.9764,
+    "lng": -84.8339,
+    "country": "Costa Rica"
+  },
+  {
+    "city": "Quesada",
+    "lat": 10.3305,
+    "lng": -84.44,
+    "country": "Costa Rica"
+  },
+  {
+    "city": "Buenos Aires",
+    "lat": 9.1985,
+    "lng": -83.2816,
+    "country": "Costa Rica"
+  },
+  {
+    "city": "San Juan",
+    "lat": 9.9609,
+    "lng": -84.0731,
+    "country": "Costa Rica"
+  },
+  {
+    "city": "Cartago",
+    "lat": 9.8667,
+    "lng": -83.9167,
+    "country": "Costa Rica"
+  },
+  {
+    "city": "Canas",
+    "lat": 10.43,
+    "lng": -85.1,
+    "country": "Costa Rica"
+  },
+  {
+    "city": "Zagreb",
+    "lat": 45.8131,
+    "lng": 15.9772,
+    "country": "Croatia"
+  },
+  {
+    "city": "Split",
+    "lat": 43.51,
+    "lng": 16.45,
+    "country": "Croatia"
+  },
+  {
+    "city": "Rijeka",
+    "lat": 45.3272,
+    "lng": 14.4411,
+    "country": "Croatia"
+  },
+  {
+    "city": "Osijek",
+    "lat": 45.5603,
+    "lng": 18.6703,
+    "country": "Croatia"
+  },
+  {
+    "city": "Zadar",
+    "lat": 44.1167,
+    "lng": 15.2167,
+    "country": "Croatia"
+  },
+  {
+    "city": "Velika Gorica",
+    "lat": 45.7,
+    "lng": 16.0667,
+    "country": "Croatia"
+  },
+  {
+    "city": "Pula",
+    "lat": 44.8667,
+    "lng": 13.8333,
+    "country": "Croatia"
+  },
+  {
+    "city": "Slavonski Brod",
+    "lat": 45.1553,
+    "lng": 18.0144,
+    "country": "Croatia"
+  },
+  {
+    "city": "Karlovac",
+    "lat": 45.4931,
+    "lng": 15.5558,
+    "country": "Croatia"
+  },
+  {
+    "city": "Sibenik",
+    "lat": 43.7339,
+    "lng": 15.8956,
+    "country": "Croatia"
+  },
+  {
+    "city": "Havana",
+    "lat": 23.1367,
+    "lng": -82.3589,
+    "country": "Cuba"
+  },
+  {
+    "city": "Santiago de Cuba",
+    "lat": 20.0217,
+    "lng": -75.8294,
+    "country": "Cuba"
+  },
+  {
+    "city": "Holguin",
+    "lat": 20.8872,
+    "lng": -76.2631,
+    "country": "Cuba"
+  },
+  {
+    "city": "Camaguey",
+    "lat": 21.3786,
+    "lng": -77.9186,
+    "country": "Cuba"
+  },
+  {
+    "city": "Santa Clara",
+    "lat": 22.4067,
+    "lng": -79.9531,
+    "country": "Cuba"
+  },
+  {
+    "city": "Bayamo",
+    "lat": 20.3817,
+    "lng": -76.6428,
+    "country": "Cuba"
+  },
+  {
+    "city": "Guantanamo",
+    "lat": 20.1383,
+    "lng": -75.2061,
+    "country": "Cuba"
+  },
+  {
+    "city": "Carlos Manuel de Cespedes",
+    "lat": 21.5767,
+    "lng": -78.2775,
+    "country": "Cuba"
+  },
+  {
+    "city": "Arroyo Naranjo",
+    "lat": 23.0436,
+    "lng": -82.3328,
+    "country": "Cuba"
+  },
+  {
+    "city": "Las Tunas",
+    "lat": 20.9667,
+    "lng": -76.95,
+    "country": "Cuba"
+  },
+  {
+    "city": "Willemstad",
+    "lat": 12.108,
+    "lng": -68.935,
+    "country": "Cura\u00e7ao"
+  },
+  {
+    "city": "Nicosia",
+    "lat": 35.1725,
+    "lng": 33.365,
+    "country": "Cyprus"
+  },
+  {
+    "city": "Limassol",
+    "lat": 34.675,
+    "lng": 33.0443,
+    "country": "Cyprus"
+  },
+  {
+    "city": "Larnaca",
+    "lat": 34.9167,
+    "lng": 33.6333,
+    "country": "Cyprus"
+  },
+  {
+    "city": "Famagusta",
+    "lat": 35.1167,
+    "lng": 33.95,
+    "country": "Cyprus"
+  },
+  {
+    "city": "Paphos",
+    "lat": 34.7761,
+    "lng": 32.4265,
+    "country": "Cyprus"
+  },
+  {
+    "city": "Kyrenia",
+    "lat": 35.3403,
+    "lng": 33.3192,
+    "country": "Cyprus"
+  },
+  {
+    "city": "Kato Polemidia",
+    "lat": 34.6931,
+    "lng": 32.9992,
+    "country": "Cyprus"
+  },
+  {
+    "city": "Aradippou",
+    "lat": 34.9478,
+    "lng": 33.5881,
+    "country": "Cyprus"
+  },
+  {
+    "city": "Latsia",
+    "lat": 35.0968,
+    "lng": 33.3773,
+    "country": "Cyprus"
+  },
+  {
+    "city": "Paralimni",
+    "lat": 35.0387,
+    "lng": 33.9862,
+    "country": "Cyprus"
+  },
+  {
+    "city": "Prague",
+    "lat": 50.0833,
+    "lng": 14.4167,
+    "country": "Czechia"
+  },
+  {
+    "city": "Brno",
+    "lat": 49.1953,
+    "lng": 16.6083,
+    "country": "Czechia"
+  },
+  {
+    "city": "Ostrava",
+    "lat": 49.8356,
+    "lng": 18.2925,
+    "country": "Czechia"
+  },
+  {
+    "city": "Plzen",
+    "lat": 49.7414,
+    "lng": 13.3825,
+    "country": "Czechia"
+  },
+  {
+    "city": "Liberec",
+    "lat": 50.77,
+    "lng": 15.0584,
+    "country": "Czechia"
+  },
+  {
+    "city": "Olomouc",
+    "lat": 49.5939,
+    "lng": 17.2508,
+    "country": "Czechia"
+  },
+  {
+    "city": "Ceske Budejovice",
+    "lat": 48.9747,
+    "lng": 14.4747,
+    "country": "Czechia"
+  },
+  {
+    "city": "Hradec Kralove",
+    "lat": 50.2092,
+    "lng": 15.8319,
+    "country": "Czechia"
+  },
+  {
+    "city": "Usti nad Labem",
+    "lat": 50.6592,
+    "lng": 14.0417,
+    "country": "Czechia"
+  },
+  {
+    "city": "Pardubice",
+    "lat": 50.0386,
+    "lng": 15.7792,
+    "country": "Czechia"
+  },
+  {
+    "city": "Abidjan",
+    "lat": 5.3364,
+    "lng": -4.0267,
+    "country": "C\u00f4te d'Ivoire"
+  },
+  {
+    "city": "Bouake",
+    "lat": 7.6833,
+    "lng": -5.0331,
+    "country": "C\u00f4te d'Ivoire"
+  },
+  {
+    "city": "Yamoussoukro",
+    "lat": 6.8161,
+    "lng": -5.2742,
+    "country": "C\u00f4te d'Ivoire"
+  },
+  {
+    "city": "Korhogo",
+    "lat": 9.4578,
+    "lng": -5.6294,
+    "country": "C\u00f4te d'Ivoire"
+  },
+  {
+    "city": "Daloa",
+    "lat": 6.89,
+    "lng": -6.45,
+    "country": "C\u00f4te d'Ivoire"
+  },
+  {
+    "city": "San-Pedro",
+    "lat": 4.7704,
+    "lng": -6.64,
+    "country": "C\u00f4te d'Ivoire"
+  },
+  {
+    "city": "Divo",
+    "lat": 5.8372,
+    "lng": -5.3572,
+    "country": "C\u00f4te d'Ivoire"
+  },
+  {
+    "city": "Man",
+    "lat": 7.4004,
+    "lng": -7.55,
+    "country": "C\u00f4te d'Ivoire"
+  },
+  {
+    "city": "Gagnoa",
+    "lat": 6.1333,
+    "lng": -5.9333,
+    "country": "C\u00f4te d'Ivoire"
+  },
+  {
+    "city": "Soubre",
+    "lat": 5.7836,
+    "lng": -6.5939,
+    "country": "C\u00f4te d'Ivoire"
+  },
+  {
+    "city": "Copenhagen",
+    "lat": 55.6805,
+    "lng": 12.5615,
+    "country": "Denmark"
+  },
+  {
+    "city": "Aarhus",
+    "lat": 56.1572,
+    "lng": 10.2107,
+    "country": "Denmark"
+  },
+  {
+    "city": "Odense",
+    "lat": 55.4004,
+    "lng": 10.3833,
+    "country": "Denmark"
+  },
+  {
+    "city": "Aalborg",
+    "lat": 57.0337,
+    "lng": 9.9166,
+    "country": "Denmark"
+  },
+  {
+    "city": "Esbjerg",
+    "lat": 55.467,
+    "lng": 8.45,
+    "country": "Denmark"
+  },
+  {
+    "city": "Vejle",
+    "lat": 55.709,
+    "lng": 9.535,
+    "country": "Denmark"
+  },
+  {
+    "city": "Roskilde",
+    "lat": 55.65,
+    "lng": 12.0833,
+    "country": "Denmark"
+  },
+  {
+    "city": "Viborg",
+    "lat": 56.4333,
+    "lng": 9.4,
+    "country": "Denmark"
+  },
+  {
+    "city": "Svendborg",
+    "lat": 55.0704,
+    "lng": 10.6167,
+    "country": "Denmark"
+  },
+  {
+    "city": "Hillerod",
+    "lat": 55.9333,
+    "lng": 12.3167,
+    "country": "Denmark"
+  },
+  {
+    "city": "Djibouti",
+    "lat": 11.595,
+    "lng": 43.1481,
+    "country": "Djibouti"
+  },
+  {
+    "city": "Ali Sabieh",
+    "lat": 11.1558,
+    "lng": 42.7125,
+    "country": "Djibouti"
+  },
+  {
+    "city": "Dikhil",
+    "lat": 11.1086,
+    "lng": 42.3667,
+    "country": "Djibouti"
+  },
+  {
+    "city": "Obock",
+    "lat": 11.9667,
+    "lng": 43.2833,
+    "country": "Djibouti"
+  },
+  {
+    "city": "Tadjourah",
+    "lat": 11.7833,
+    "lng": 42.8833,
+    "country": "Djibouti"
+  },
+  {
+    "city": "Arta",
+    "lat": 11.5264,
+    "lng": 42.8519,
+    "country": "Djibouti"
+  },
+  {
+    "city": "Roseau",
+    "lat": 15.3,
+    "lng": -61.3833,
+    "country": "Dominica"
+  },
+  {
+    "city": "Santo Domingo",
+    "lat": 18.4764,
+    "lng": -69.8933,
+    "country": "Dominican Republic"
+  },
+  {
+    "city": "Santiago",
+    "lat": 19.45,
+    "lng": -70.7,
+    "country": "Dominican Republic"
+  },
+  {
+    "city": "Santo Domingo Este",
+    "lat": 18.4855,
+    "lng": -69.8734,
+    "country": "Dominican Republic"
+  },
+  {
+    "city": "Los Alcarrizos",
+    "lat": 18.5167,
+    "lng": -70.0167,
+    "country": "Dominican Republic"
+  },
+  {
+    "city": "Higuey",
+    "lat": 18.6181,
+    "lng": -68.7111,
+    "country": "Dominican Republic"
+  },
+  {
+    "city": "San Cristobal",
+    "lat": 18.4167,
+    "lng": -70.1333,
+    "country": "Dominican Republic"
+  },
+  {
+    "city": "La Vega",
+    "lat": 19.2242,
+    "lng": -70.5283,
+    "country": "Dominican Republic"
+  },
+  {
+    "city": "San Pedro de Macoris",
+    "lat": 18.4572,
+    "lng": -69.3061,
+    "country": "Dominican Republic"
+  },
+  {
+    "city": "San Francisco de Macoris",
+    "lat": 19.3,
+    "lng": -70.25,
+    "country": "Dominican Republic"
+  },
+  {
+    "city": "Moca",
+    "lat": 19.3833,
+    "lng": -70.5167,
+    "country": "Dominican Republic"
+  },
+  {
+    "city": "Guayaquil",
+    "lat": -2.19,
+    "lng": -79.8875,
+    "country": "Ecuador"
+  },
+  {
+    "city": "Quito",
+    "lat": -0.22,
+    "lng": -78.5125,
+    "country": "Ecuador"
+  },
+  {
+    "city": "Cuenca",
+    "lat": -2.8974,
+    "lng": -79.0045,
+    "country": "Ecuador"
+  },
+  {
+    "city": "Santo Domingo de los Colorados",
+    "lat": -0.2542,
+    "lng": -79.1719,
+    "country": "Ecuador"
+  },
+  {
+    "city": "Machala",
+    "lat": -3.2667,
+    "lng": -79.9667,
+    "country": "Ecuador"
+  },
+  {
+    "city": "Eloy Alfaro",
+    "lat": -2.1733,
+    "lng": -79.8311,
+    "country": "Ecuador"
+  },
+  {
+    "city": "Manta",
+    "lat": -0.95,
+    "lng": -80.7162,
+    "country": "Ecuador"
+  },
+  {
+    "city": "Portoviejo",
+    "lat": -1.0544,
+    "lng": -80.4544,
+    "country": "Ecuador"
+  },
+  {
+    "city": "Loja",
+    "lat": -3.9906,
+    "lng": -79.205,
+    "country": "Ecuador"
+  },
+  {
+    "city": "Ambato",
+    "lat": -1.2417,
+    "lng": -78.6197,
+    "country": "Ecuador"
+  },
+  {
+    "city": "Cairo",
+    "lat": 30.0444,
+    "lng": 31.2358,
+    "country": "Egypt"
+  },
+  {
+    "city": "Giza",
+    "lat": 29.987,
+    "lng": 31.2118,
+    "country": "Egypt"
+  },
+  {
+    "city": "Alexandria",
+    "lat": 31.2,
+    "lng": 29.9167,
+    "country": "Egypt"
+  },
+  {
+    "city": "Shubra al Khaymah",
+    "lat": 30.1286,
+    "lng": 31.2422,
+    "country": "Egypt"
+  },
+  {
+    "city": "Al Mansurah",
+    "lat": 31.05,
+    "lng": 31.3833,
+    "country": "Egypt"
+  },
+  {
+    "city": "Halwan",
+    "lat": 29.8419,
+    "lng": 31.3342,
+    "country": "Egypt"
+  },
+  {
+    "city": "Port Said",
+    "lat": 31.25,
+    "lng": 32.2833,
+    "country": "Egypt"
+  },
+  {
+    "city": "Suez",
+    "lat": 29.9667,
+    "lng": 32.5333,
+    "country": "Egypt"
+  },
+  {
+    "city": "Tanta",
+    "lat": 30.7833,
+    "lng": 31.0,
+    "country": "Egypt"
+  },
+  {
+    "city": "Asyut",
+    "lat": 27.1869,
+    "lng": 31.1714,
+    "country": "Egypt"
+  },
+  {
+    "city": "San Salvador",
+    "lat": 13.6989,
+    "lng": -89.1914,
+    "country": "El Salvador"
+  },
+  {
+    "city": "Usulutan",
+    "lat": 13.35,
+    "lng": -88.45,
+    "country": "El Salvador"
+  },
+  {
+    "city": "Santa Ana",
+    "lat": 13.9833,
+    "lng": -89.5333,
+    "country": "El Salvador"
+  },
+  {
+    "city": "San Miguel",
+    "lat": 13.4833,
+    "lng": -88.1833,
+    "country": "El Salvador"
+  },
+  {
+    "city": "Mejicanos",
+    "lat": 13.7403,
+    "lng": -89.2131,
+    "country": "El Salvador"
+  },
+  {
+    "city": "Santa Tecla",
+    "lat": 13.6742,
+    "lng": -89.2899,
+    "country": "El Salvador"
+  },
+  {
+    "city": "Apopa",
+    "lat": 13.8,
+    "lng": -89.1833,
+    "country": "El Salvador"
+  },
+  {
+    "city": "Delgado",
+    "lat": 13.7167,
+    "lng": -89.1667,
+    "country": "El Salvador"
+  },
+  {
+    "city": "Ahuachapan",
+    "lat": 13.9214,
+    "lng": -89.845,
+    "country": "El Salvador"
+  },
+  {
+    "city": "Sonsonate",
+    "lat": 13.7167,
+    "lng": -89.7167,
+    "country": "El Salvador"
+  },
+  {
+    "city": "Bata",
+    "lat": 1.865,
+    "lng": 9.77,
+    "country": "Equatorial Guinea"
+  },
+  {
+    "city": "Malabo",
+    "lat": 3.7521,
+    "lng": 8.7737,
+    "country": "Equatorial Guinea"
+  },
+  {
+    "city": "Ebebiyin",
+    "lat": 2.15,
+    "lng": 11.3167,
+    "country": "Equatorial Guinea"
+  },
+  {
+    "city": "Anisoc",
+    "lat": 1.8656,
+    "lng": 10.7689,
+    "country": "Equatorial Guinea"
+  },
+  {
+    "city": "Bengonbeyene",
+    "lat": 1.6931,
+    "lng": 11.0342,
+    "country": "Equatorial Guinea"
+  },
+  {
+    "city": "Aconibe",
+    "lat": 1.3,
+    "lng": 10.9333,
+    "country": "Equatorial Guinea"
+  },
+  {
+    "city": "Rebola",
+    "lat": 3.7192,
+    "lng": 8.8531,
+    "country": "Equatorial Guinea"
+  },
+  {
+    "city": "Evinayong",
+    "lat": 1.45,
+    "lng": 10.5667,
+    "country": "Equatorial Guinea"
+  },
+  {
+    "city": "Luba",
+    "lat": 3.45,
+    "lng": 8.55,
+    "country": "Equatorial Guinea"
+  },
+  {
+    "city": "Mongomo",
+    "lat": 1.6287,
+    "lng": 11.3168,
+    "country": "Equatorial Guinea"
+  },
+  {
+    "city": "Asmara",
+    "lat": 15.3333,
+    "lng": 38.9167,
+    "country": "Eritrea"
+  },
+  {
+    "city": "Keren",
+    "lat": 15.7833,
+    "lng": 38.45,
+    "country": "Eritrea"
+  },
+  {
+    "city": "Assab",
+    "lat": 13.0078,
+    "lng": 42.7411,
+    "country": "Eritrea"
+  },
+  {
+    "city": "Massawa",
+    "lat": 15.6,
+    "lng": 39.4333,
+    "country": "Eritrea"
+  },
+  {
+    "city": "Mendefera",
+    "lat": 14.8833,
+    "lng": 38.8167,
+    "country": "Eritrea"
+  },
+  {
+    "city": "Beylul",
+    "lat": 13.2639,
+    "lng": 42.3347,
+    "country": "Eritrea"
+  },
+  {
+    "city": "Adi Keyh",
+    "lat": 14.8333,
+    "lng": 39.3667,
+    "country": "Eritrea"
+  },
+  {
+    "city": "Ghinda'e",
+    "lat": 15.45,
+    "lng": 39.0833,
+    "country": "Eritrea"
+  },
+  {
+    "city": "Edd",
+    "lat": 13.9333,
+    "lng": 41.7,
+    "country": "Eritrea"
+  },
+  {
+    "city": "Dek'emhare",
+    "lat": 15.07,
+    "lng": 39.0475,
+    "country": "Eritrea"
+  },
+  {
+    "city": "Tallinn",
+    "lat": 59.4372,
+    "lng": 24.745,
+    "country": "Estonia"
+  },
+  {
+    "city": "Tartu",
+    "lat": 58.38,
+    "lng": 26.7225,
+    "country": "Estonia"
+  },
+  {
+    "city": "Narva",
+    "lat": 59.3792,
+    "lng": 28.2006,
+    "country": "Estonia"
+  },
+  {
+    "city": "Parnu",
+    "lat": 58.3844,
+    "lng": 24.4989,
+    "country": "Estonia"
+  },
+  {
+    "city": "Kohtla-Jarve",
+    "lat": 59.4,
+    "lng": 27.2833,
+    "country": "Estonia"
+  },
+  {
+    "city": "Viljandi",
+    "lat": 58.3633,
+    "lng": 25.5956,
+    "country": "Estonia"
+  },
+  {
+    "city": "Maardu",
+    "lat": 59.4781,
+    "lng": 25.0161,
+    "country": "Estonia"
+  },
+  {
+    "city": "Rakvere",
+    "lat": 59.3506,
+    "lng": 26.3611,
+    "country": "Estonia"
+  },
+  {
+    "city": "Kuressaare",
+    "lat": 58.2533,
+    "lng": 22.4861,
+    "country": "Estonia"
+  },
+  {
+    "city": "Sillamae",
+    "lat": 59.3931,
+    "lng": 27.7742,
+    "country": "Estonia"
+  },
+  {
+    "city": "Addis Ababa",
+    "lat": 9.0272,
+    "lng": 38.7369,
+    "country": "Ethiopia"
+  },
+  {
+    "city": "Nazret",
+    "lat": 8.55,
+    "lng": 39.2667,
+    "country": "Ethiopia"
+  },
+  {
+    "city": "Gonder",
+    "lat": 12.6,
+    "lng": 37.4667,
+    "country": "Ethiopia"
+  },
+  {
+    "city": "Mekele",
+    "lat": 13.4969,
+    "lng": 39.4769,
+    "country": "Ethiopia"
+  },
+  {
+    "city": "Awasa",
+    "lat": 7.05,
+    "lng": 38.4667,
+    "country": "Ethiopia"
+  },
+  {
+    "city": "Dire Dawa",
+    "lat": 9.5833,
+    "lng": 41.8667,
+    "country": "Ethiopia"
+  },
+  {
+    "city": "Bahir Dar",
+    "lat": 11.585,
+    "lng": 37.39,
+    "country": "Ethiopia"
+  },
+  {
+    "city": "Dese",
+    "lat": 11.1333,
+    "lng": 39.6333,
+    "country": "Ethiopia"
+  },
+  {
+    "city": "Jima",
+    "lat": 7.6667,
+    "lng": 36.8333,
+    "country": "Ethiopia"
+  },
+  {
+    "city": "Harar",
+    "lat": 9.32,
+    "lng": 42.15,
+    "country": "Ethiopia"
+  },
+  {
+    "city": "Stanley",
+    "lat": -51.7,
+    "lng": -57.85,
+    "country": "Falkland Islands (Islas Malvinas)"
+  },
+  {
+    "city": "Torshavn",
+    "lat": 62.0,
+    "lng": -6.7833,
+    "country": "Faroe Islands"
+  },
+  {
+    "city": "Klaksvik",
+    "lat": 62.2375,
+    "lng": -6.539,
+    "country": "Faroe Islands"
+  },
+  {
+    "city": "Hvalba",
+    "lat": 61.6,
+    "lng": -6.9556,
+    "country": "Faroe Islands"
+  },
+  {
+    "city": "Skopun",
+    "lat": 61.9125,
+    "lng": -6.8719,
+    "country": "Faroe Islands"
+  },
+  {
+    "city": "Hvannasund",
+    "lat": 62.2833,
+    "lng": -6.5167,
+    "country": "Faroe Islands"
+  },
+  {
+    "city": "Porkeri",
+    "lat": 61.4814,
+    "lng": -6.7458,
+    "country": "Faroe Islands"
+  },
+  {
+    "city": "Famjin",
+    "lat": 61.5264,
+    "lng": -6.8769,
+    "country": "Faroe Islands"
+  },
+  {
+    "city": "Toftir",
+    "lat": 62.0978,
+    "lng": -6.7369,
+    "country": "Faroe Islands"
+  },
+  {
+    "city": "Saltangara",
+    "lat": 62.1156,
+    "lng": -6.7206,
+    "country": "Faroe Islands"
+  },
+  {
+    "city": "Strendur",
+    "lat": 62.1096,
+    "lng": -6.7617,
+    "country": "Faroe Islands"
+  },
+  {
+    "city": "Palikir",
+    "lat": 6.9178,
+    "lng": 158.185,
+    "country": "Federated States of Micronesia"
+  },
+  {
+    "city": "Kolonia",
+    "lat": 6.9639,
+    "lng": 158.2081,
+    "country": "Federated States of Micronesia"
+  },
+  {
+    "city": "Tofol",
+    "lat": 5.3258,
+    "lng": 163.0086,
+    "country": "Federated States of Micronesia"
+  },
+  {
+    "city": "Weno",
+    "lat": 7.45,
+    "lng": 151.85,
+    "country": "Federated States of Micronesia"
+  },
+  {
+    "city": "Colonia",
+    "lat": 9.5144,
+    "lng": 138.1292,
+    "country": "Federated States of Micronesia"
+  },
+  {
+    "city": "Suva",
+    "lat": -18.1333,
+    "lng": 178.4333,
+    "country": "Fiji"
+  },
+  {
+    "city": "Lautoka",
+    "lat": -17.6242,
+    "lng": 177.4528,
+    "country": "Fiji"
+  },
+  {
+    "city": "Nausori",
+    "lat": -18.0244,
+    "lng": 178.5454,
+    "country": "Fiji"
+  },
+  {
+    "city": "Nadi",
+    "lat": -17.8,
+    "lng": 177.4167,
+    "country": "Fiji"
+  },
+  {
+    "city": "Labasa",
+    "lat": -16.4333,
+    "lng": 179.3667,
+    "country": "Fiji"
+  },
+  {
+    "city": "Ba",
+    "lat": -17.5333,
+    "lng": 177.6833,
+    "country": "Fiji"
+  },
+  {
+    "city": "Sigatoka",
+    "lat": -18.15,
+    "lng": 177.5,
+    "country": "Fiji"
+  },
+  {
+    "city": "Vaileka",
+    "lat": -17.3667,
+    "lng": 178.15,
+    "country": "Fiji"
+  },
+  {
+    "city": "Helsinki",
+    "lat": 60.1756,
+    "lng": 24.9342,
+    "country": "Finland"
+  },
+  {
+    "city": "Espoo",
+    "lat": 60.21,
+    "lng": 24.66,
+    "country": "Finland"
+  },
+  {
+    "city": "Tampere",
+    "lat": 61.4981,
+    "lng": 23.76,
+    "country": "Finland"
+  },
+  {
+    "city": "Vantaa",
+    "lat": 60.3,
+    "lng": 25.0333,
+    "country": "Finland"
+  },
+  {
+    "city": "Oulu",
+    "lat": 65.0142,
+    "lng": 25.4719,
+    "country": "Finland"
+  },
+  {
+    "city": "Turku",
+    "lat": 60.4517,
+    "lng": 22.27,
+    "country": "Finland"
+  },
+  {
+    "city": "Jyvaskyla",
+    "lat": 62.2333,
+    "lng": 25.7333,
+    "country": "Finland"
+  },
+  {
+    "city": "Kuopio",
+    "lat": 62.8925,
+    "lng": 27.6783,
+    "country": "Finland"
+  },
+  {
+    "city": "Lahti",
+    "lat": 60.9804,
+    "lng": 25.655,
+    "country": "Finland"
+  },
+  {
+    "city": "Kouvola",
+    "lat": 60.8681,
+    "lng": 26.7042,
+    "country": "Finland"
+  },
+  {
+    "city": "Paris",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "country": "France"
+  },
+  {
+    "city": "Marseille",
+    "lat": 43.2964,
+    "lng": 5.37,
+    "country": "France"
+  },
+  {
+    "city": "Lyon",
+    "lat": 45.76,
+    "lng": 4.84,
+    "country": "France"
+  },
+  {
+    "city": "Toulouse",
+    "lat": 43.6045,
+    "lng": 1.444,
+    "country": "France"
+  },
+  {
+    "city": "Nice",
+    "lat": 43.7034,
+    "lng": 7.2663,
+    "country": "France"
+  },
+  {
+    "city": "Nantes",
+    "lat": 47.2181,
+    "lng": -1.5528,
+    "country": "France"
+  },
+  {
+    "city": "Montpellier",
+    "lat": 43.6119,
+    "lng": 3.8772,
+    "country": "France"
+  },
+  {
+    "city": "Strasbourg",
+    "lat": 48.5833,
+    "lng": 7.7458,
+    "country": "France"
+  },
+  {
+    "city": "Bordeaux",
+    "lat": 44.84,
+    "lng": -0.58,
+    "country": "France"
+  },
+  {
+    "city": "Lille",
+    "lat": 50.6278,
+    "lng": 3.0583,
+    "country": "France"
+  },
+  {
+    "city": "Cayenne",
+    "lat": 4.933,
+    "lng": -52.33,
+    "country": "French Guiana"
+  },
+  {
+    "city": "Saint-Laurent-du-Maroni",
+    "lat": 5.4976,
+    "lng": -54.0325,
+    "country": "French Guiana"
+  },
+  {
+    "city": "Kourou",
+    "lat": 5.16,
+    "lng": -52.6499,
+    "country": "French Guiana"
+  },
+  {
+    "city": "Sinnamary",
+    "lat": 5.38,
+    "lng": -52.96,
+    "country": "French Guiana"
+  },
+  {
+    "city": "Saint-Georges",
+    "lat": 3.9105,
+    "lng": -51.81,
+    "country": "French Guiana"
+  },
+  {
+    "city": "Roura",
+    "lat": 4.73,
+    "lng": -52.33,
+    "country": "French Guiana"
+  },
+  {
+    "city": "Iracoubo",
+    "lat": 5.4804,
+    "lng": -53.22,
+    "country": "French Guiana"
+  },
+  {
+    "city": "Papeete",
+    "lat": -17.5334,
+    "lng": -149.5667,
+    "country": "French Polynesia"
+  },
+  {
+    "city": "Libreville",
+    "lat": 0.3901,
+    "lng": 9.4544,
+    "country": "Gabon"
+  },
+  {
+    "city": "Port-Gentil",
+    "lat": -0.7167,
+    "lng": 8.7833,
+    "country": "Gabon"
+  },
+  {
+    "city": "Oyem",
+    "lat": 1.6,
+    "lng": 11.5667,
+    "country": "Gabon"
+  },
+  {
+    "city": "Franceville",
+    "lat": -1.6333,
+    "lng": 13.5833,
+    "country": "Gabon"
+  },
+  {
+    "city": "Moanda",
+    "lat": -1.5655,
+    "lng": 13.2,
+    "country": "Gabon"
+  },
+  {
+    "city": "Lambarene",
+    "lat": -0.6883,
+    "lng": 10.2319,
+    "country": "Gabon"
+  },
+  {
+    "city": "Mouila",
+    "lat": -1.8667,
+    "lng": 11.055,
+    "country": "Gabon"
+  },
+  {
+    "city": "Tchibanga",
+    "lat": -2.9331,
+    "lng": 10.9831,
+    "country": "Gabon"
+  },
+  {
+    "city": "Bitam",
+    "lat": 2.0833,
+    "lng": 11.4833,
+    "country": "Gabon"
+  },
+  {
+    "city": "Makokou",
+    "lat": 0.5667,
+    "lng": 12.8667,
+    "country": "Gabon"
+  },
+  {
+    "city": "Gaza",
+    "lat": 31.5069,
+    "lng": 34.456,
+    "country": "Gaza Strip"
+  },
+  {
+    "city": "Tbilisi",
+    "lat": 41.7225,
+    "lng": 44.7925,
+    "country": "Georgia"
+  },
+  {
+    "city": "Batumi",
+    "lat": 41.6458,
+    "lng": 41.6417,
+    "country": "Georgia"
+  },
+  {
+    "city": "Kutaisi",
+    "lat": 42.25,
+    "lng": 42.7,
+    "country": "Georgia"
+  },
+  {
+    "city": "Rustavi",
+    "lat": 41.5333,
+    "lng": 45.0,
+    "country": "Georgia"
+  },
+  {
+    "city": "Sokhumi",
+    "lat": 43.0033,
+    "lng": 41.0153,
+    "country": "Georgia"
+  },
+  {
+    "city": "Gori",
+    "lat": 41.9817,
+    "lng": 44.1124,
+    "country": "Georgia"
+  },
+  {
+    "city": "Zugdidi",
+    "lat": 42.5083,
+    "lng": 41.8667,
+    "country": "Georgia"
+  },
+  {
+    "city": "Poti",
+    "lat": 42.15,
+    "lng": 41.6667,
+    "country": "Georgia"
+  },
+  {
+    "city": "Tskhinvali",
+    "lat": 42.2257,
+    "lng": 43.9701,
+    "country": "Georgia"
+  },
+  {
+    "city": "Khashuri",
+    "lat": 41.9975,
+    "lng": 43.5986,
+    "country": "Georgia"
+  },
+  {
+    "city": "Berlin",
+    "lat": 52.5167,
+    "lng": 13.3833,
+    "country": "Germany"
+  },
+  {
+    "city": "Hamburg",
+    "lat": 53.55,
+    "lng": 10.0,
+    "country": "Germany"
+  },
+  {
+    "city": "Munich",
+    "lat": 48.1375,
+    "lng": 11.575,
+    "country": "Germany"
+  },
+  {
+    "city": "Cologne",
+    "lat": 50.9422,
+    "lng": 6.9578,
+    "country": "Germany"
+  },
+  {
+    "city": "Frankfurt",
+    "lat": 50.1136,
+    "lng": 8.6797,
+    "country": "Germany"
+  },
+  {
+    "city": "Dusseldorf",
+    "lat": 51.2311,
+    "lng": 6.7724,
+    "country": "Germany"
+  },
+  {
+    "city": "Stuttgart",
+    "lat": 48.7761,
+    "lng": 9.1775,
+    "country": "Germany"
+  },
+  {
+    "city": "Leipzig",
+    "lat": 51.3333,
+    "lng": 12.3833,
+    "country": "Germany"
+  },
+  {
+    "city": "Dortmund",
+    "lat": 51.5139,
+    "lng": 7.4653,
+    "country": "Germany"
+  },
+  {
+    "city": "Essen",
+    "lat": 51.4508,
+    "lng": 7.0131,
+    "country": "Germany"
+  },
+  {
+    "city": "Accra",
+    "lat": 5.6037,
+    "lng": -0.187,
+    "country": "Ghana"
+  },
+  {
+    "city": "Kumasi",
+    "lat": 6.6833,
+    "lng": -1.6167,
+    "country": "Ghana"
+  },
+  {
+    "city": "Tamale",
+    "lat": 9.4075,
+    "lng": -0.8533,
+    "country": "Ghana"
+  },
+  {
+    "city": "Sekondi",
+    "lat": 4.9433,
+    "lng": -1.704,
+    "country": "Ghana"
+  },
+  {
+    "city": "Obuase",
+    "lat": 6.2,
+    "lng": -1.6833,
+    "country": "Ghana"
+  },
+  {
+    "city": "Tema",
+    "lat": 5.6667,
+    "lng": -0.0167,
+    "country": "Ghana"
+  },
+  {
+    "city": "Cape Coast",
+    "lat": 5.1,
+    "lng": -1.25,
+    "country": "Ghana"
+  },
+  {
+    "city": "Koforidua",
+    "lat": 6.1,
+    "lng": -0.2667,
+    "country": "Ghana"
+  },
+  {
+    "city": "Ho",
+    "lat": 6.6114,
+    "lng": 0.4703,
+    "country": "Ghana"
+  },
+  {
+    "city": "Wa",
+    "lat": 10.0667,
+    "lng": -2.5,
+    "country": "Ghana"
+  },
+  {
+    "city": "Gibraltar",
+    "lat": 36.1324,
+    "lng": -5.3781,
+    "country": "Gibraltar"
+  },
+  {
+    "city": "Athens",
+    "lat": 37.9842,
+    "lng": 23.7281,
+    "country": "Greece"
+  },
+  {
+    "city": "Thessaloniki",
+    "lat": 40.6403,
+    "lng": 22.9356,
+    "country": "Greece"
+  },
+  {
+    "city": "Patra",
+    "lat": 38.25,
+    "lng": 21.7333,
+    "country": "Greece"
+  },
+  {
+    "city": "Piraeus",
+    "lat": 37.943,
+    "lng": 23.6469,
+    "country": "Greece"
+  },
+  {
+    "city": "Larisa",
+    "lat": 39.6385,
+    "lng": 22.4131,
+    "country": "Greece"
+  },
+  {
+    "city": "Irakleio",
+    "lat": 35.3403,
+    "lng": 25.1344,
+    "country": "Greece"
+  },
+  {
+    "city": "Peristeri",
+    "lat": 38.0167,
+    "lng": 23.6833,
+    "country": "Greece"
+  },
+  {
+    "city": "Kallithea",
+    "lat": 37.95,
+    "lng": 23.7,
+    "country": "Greece"
+  },
+  {
+    "city": "Nikaia",
+    "lat": 37.9667,
+    "lng": 23.6333,
+    "country": "Greece"
+  },
+  {
+    "city": "Glyfada",
+    "lat": 37.88,
+    "lng": 23.7533,
+    "country": "Greece"
+  },
+  {
+    "city": "Nuuk",
+    "lat": 64.175,
+    "lng": -51.7333,
+    "country": "Greenland"
+  },
+  {
+    "city": "Sisimiut",
+    "lat": 66.9389,
+    "lng": -53.6722,
+    "country": "Greenland"
+  },
+  {
+    "city": "Ilulissat",
+    "lat": 69.2167,
+    "lng": -51.1,
+    "country": "Greenland"
+  },
+  {
+    "city": "Qaqortoq",
+    "lat": 60.7167,
+    "lng": -46.0333,
+    "country": "Greenland"
+  },
+  {
+    "city": "Aasiaat",
+    "lat": 68.7097,
+    "lng": -52.8694,
+    "country": "Greenland"
+  },
+  {
+    "city": "Tasiilaq",
+    "lat": 65.615,
+    "lng": -37.641,
+    "country": "Greenland"
+  },
+  {
+    "city": "Paamiut",
+    "lat": 61.9956,
+    "lng": -49.6636,
+    "country": "Greenland"
+  },
+  {
+    "city": "Uummannaq",
+    "lat": 70.6747,
+    "lng": -52.1264,
+    "country": "Greenland"
+  },
+  {
+    "city": "Upernavik",
+    "lat": 72.7839,
+    "lng": -56.1506,
+    "country": "Greenland"
+  },
+  {
+    "city": "Qasigiannguit",
+    "lat": 68.8201,
+    "lng": -51.1932,
+    "country": "Greenland"
+  },
+  {
+    "city": "Saint George's",
+    "lat": 12.0444,
+    "lng": -61.7417,
+    "country": "Grenada"
+  },
+  {
+    "city": "Pointe-a-Pitre",
+    "lat": 16.2415,
+    "lng": -61.533,
+    "country": "Guadeloupe"
+  },
+  {
+    "city": "Basse-Terre",
+    "lat": 16.0104,
+    "lng": -61.7055,
+    "country": "Guadeloupe"
+  },
+  {
+    "city": "Maina",
+    "lat": 13.4692,
+    "lng": 144.7332,
+    "country": "Guam"
+  },
+  {
+    "city": "Hagta",
+    "lat": 13.4745,
+    "lng": 144.7504,
+    "country": "Guam"
+  },
+  {
+    "city": "Guatemala City",
+    "lat": 14.6099,
+    "lng": -90.5252,
+    "country": "Guatemala"
+  },
+  {
+    "city": "Villa Nueva",
+    "lat": 14.5314,
+    "lng": -90.5964,
+    "country": "Guatemala"
+  },
+  {
+    "city": "Coatepeque",
+    "lat": 14.7,
+    "lng": -91.8667,
+    "country": "Guatemala"
+  },
+  {
+    "city": "San Pedro Carcha",
+    "lat": 15.4768,
+    "lng": -90.312,
+    "country": "Guatemala"
+  },
+  {
+    "city": "Coban",
+    "lat": 15.4833,
+    "lng": -90.3667,
+    "country": "Guatemala"
+  },
+  {
+    "city": "Quetzaltenango",
+    "lat": 14.8333,
+    "lng": -91.5167,
+    "country": "Guatemala"
+  },
+  {
+    "city": "San Juan Sacatepequez",
+    "lat": 14.7189,
+    "lng": -90.6442,
+    "country": "Guatemala"
+  },
+  {
+    "city": "Jutiapa",
+    "lat": 14.2917,
+    "lng": -89.8958,
+    "country": "Guatemala"
+  },
+  {
+    "city": "Flores",
+    "lat": 16.9333,
+    "lng": -89.8833,
+    "country": "Guatemala"
+  },
+  {
+    "city": "Momostenango",
+    "lat": 15.0444,
+    "lng": -91.4083,
+    "country": "Guatemala"
+  },
+  {
+    "city": "Conakry",
+    "lat": 9.538,
+    "lng": -13.6773,
+    "country": "Guinea"
+  },
+  {
+    "city": "Gueckedou",
+    "lat": 8.5667,
+    "lng": -10.1333,
+    "country": "Guinea"
+  },
+  {
+    "city": "Siguiri",
+    "lat": 11.4189,
+    "lng": -9.1644,
+    "country": "Guinea"
+  },
+  {
+    "city": "N'Zerekore",
+    "lat": 7.76,
+    "lng": -8.83,
+    "country": "Guinea"
+  },
+  {
+    "city": "Kindia",
+    "lat": 10.06,
+    "lng": -12.87,
+    "country": "Guinea"
+  },
+  {
+    "city": "Boke",
+    "lat": 10.94,
+    "lng": -14.3,
+    "country": "Guinea"
+  },
+  {
+    "city": "Kankan",
+    "lat": 10.39,
+    "lng": -9.31,
+    "country": "Guinea"
+  },
+  {
+    "city": "Labe",
+    "lat": 11.3167,
+    "lng": -12.2833,
+    "country": "Guinea"
+  },
+  {
+    "city": "Mamou",
+    "lat": 10.3833,
+    "lng": -12.0833,
+    "country": "Guinea"
+  },
+  {
+    "city": "Kamsar",
+    "lat": 10.65,
+    "lng": -14.6167,
+    "country": "Guinea"
+  },
+  {
+    "city": "Bissau",
+    "lat": 11.8592,
+    "lng": -15.5956,
+    "country": "Guinea-Bissau"
+  },
+  {
+    "city": "Farim",
+    "lat": 12.4833,
+    "lng": -15.2167,
+    "country": "Guinea-Bissau"
+  },
+  {
+    "city": "Quinhamel",
+    "lat": 11.8869,
+    "lng": -15.8556,
+    "country": "Guinea-Bissau"
+  },
+  {
+    "city": "Catio",
+    "lat": 11.2833,
+    "lng": -15.25,
+    "country": "Guinea-Bissau"
+  },
+  {
+    "city": "Bafata",
+    "lat": 12.1719,
+    "lng": -14.6575,
+    "country": "Guinea-Bissau"
+  },
+  {
+    "city": "Gabu",
+    "lat": 12.2833,
+    "lng": -14.2167,
+    "country": "Guinea-Bissau"
+  },
+  {
+    "city": "Mansoa",
+    "lat": 12.0667,
+    "lng": -15.3167,
+    "country": "Guinea-Bissau"
+  },
+  {
+    "city": "Cacheu",
+    "lat": 12.278,
+    "lng": -16.165,
+    "country": "Guinea-Bissau"
+  },
+  {
+    "city": "Bolama",
+    "lat": 11.5776,
+    "lng": -15.4742,
+    "country": "Guinea-Bissau"
+  },
+  {
+    "city": "Fulacunda",
+    "lat": 11.773,
+    "lng": -15.195,
+    "country": "Guinea-Bissau"
+  },
+  {
+    "city": "Georgetown",
+    "lat": 6.7833,
+    "lng": -58.1667,
+    "country": "Guyana"
+  },
+  {
+    "city": "New Amsterdam",
+    "lat": 6.25,
+    "lng": -57.5167,
+    "country": "Guyana"
+  },
+  {
+    "city": "Linden",
+    "lat": 6.0,
+    "lng": -58.3,
+    "country": "Guyana"
+  },
+  {
+    "city": "Anna Regina",
+    "lat": 7.25,
+    "lng": -58.5167,
+    "country": "Guyana"
+  },
+  {
+    "city": "Princetown",
+    "lat": 5.9,
+    "lng": -57.17,
+    "country": "Guyana"
+  },
+  {
+    "city": "Bartica",
+    "lat": 6.4,
+    "lng": -58.6167,
+    "country": "Guyana"
+  },
+  {
+    "city": "Lethem",
+    "lat": 3.3833,
+    "lng": -59.8,
+    "country": "Guyana"
+  },
+  {
+    "city": "Mabaruma",
+    "lat": 8.2,
+    "lng": -59.7833,
+    "country": "Guyana"
+  },
+  {
+    "city": "Ituni",
+    "lat": 5.5333,
+    "lng": -58.25,
+    "country": "Guyana"
+  },
+  {
+    "city": "Vreed-en-Hoop",
+    "lat": 6.8,
+    "lng": -58.1833,
+    "country": "Guyana"
+  },
+  {
+    "city": "Port-au-Prince",
+    "lat": 18.5425,
+    "lng": -72.3386,
+    "country": "Haiti"
+  },
+  {
+    "city": "Carrefour",
+    "lat": 18.5333,
+    "lng": -72.4,
+    "country": "Haiti"
+  },
+  {
+    "city": "Petion-Ville",
+    "lat": 18.5098,
+    "lng": -72.2856,
+    "country": "Haiti"
+  },
+  {
+    "city": "Gonaives",
+    "lat": 19.4456,
+    "lng": -72.6883,
+    "country": "Haiti"
+  },
+  {
+    "city": "Delmas",
+    "lat": 18.55,
+    "lng": -72.3,
+    "country": "Haiti"
+  },
+  {
+    "city": "Cap-Haitien",
+    "lat": 19.75,
+    "lng": -72.2,
+    "country": "Haiti"
+  },
+  {
+    "city": "Les Cayes",
+    "lat": 18.2,
+    "lng": -73.75,
+    "country": "Haiti"
+  },
+  {
+    "city": "Saint-Marc",
+    "lat": 19.1167,
+    "lng": -72.7,
+    "country": "Haiti"
+  },
+  {
+    "city": "Port-de-Paix",
+    "lat": 19.95,
+    "lng": -72.8333,
+    "country": "Haiti"
+  },
+  {
+    "city": "Belladere",
+    "lat": 18.85,
+    "lng": -71.7833,
+    "country": "Haiti"
+  },
+  {
+    "city": "Comayaguela",
+    "lat": 14.0833,
+    "lng": -87.2167,
+    "country": "Honduras"
+  },
+  {
+    "city": "Tegucigalpa",
+    "lat": 14.0942,
+    "lng": -87.2067,
+    "country": "Honduras"
+  },
+  {
+    "city": "San Pedro Sula",
+    "lat": 15.5,
+    "lng": -88.0333,
+    "country": "Honduras"
+  },
+  {
+    "city": "Choloma",
+    "lat": 15.6333,
+    "lng": -88.0,
+    "country": "Honduras"
+  },
+  {
+    "city": "Puerto Cortes",
+    "lat": 15.8833,
+    "lng": -87.95,
+    "country": "Honduras"
+  },
+  {
+    "city": "La Ceiba",
+    "lat": 15.78,
+    "lng": -86.7878,
+    "country": "Honduras"
+  },
+  {
+    "city": "Villanueva",
+    "lat": 15.3167,
+    "lng": -88.0167,
+    "country": "Honduras"
+  },
+  {
+    "city": "Comayagua",
+    "lat": 14.46,
+    "lng": -87.65,
+    "country": "Honduras"
+  },
+  {
+    "city": "El Progreso",
+    "lat": 15.4,
+    "lng": -87.8,
+    "country": "Honduras"
+  },
+  {
+    "city": "Ciudad Choluteca",
+    "lat": 13.3167,
+    "lng": -87.2167,
+    "country": "Honduras"
+  },
+  {
+    "city": "Hong Kong",
+    "lat": 22.3069,
+    "lng": 114.1831,
+    "country": "Hong Kong"
+  },
+  {
+    "city": "Budapest",
+    "lat": 47.4983,
+    "lng": 19.0408,
+    "country": "Hungary"
+  },
+  {
+    "city": "Debrecen",
+    "lat": 47.53,
+    "lng": 21.6392,
+    "country": "Hungary"
+  },
+  {
+    "city": "Szeged",
+    "lat": 46.25,
+    "lng": 20.1667,
+    "country": "Hungary"
+  },
+  {
+    "city": "Miskolc",
+    "lat": 48.1,
+    "lng": 20.7833,
+    "country": "Hungary"
+  },
+  {
+    "city": "Pecs",
+    "lat": 46.0708,
+    "lng": 18.2331,
+    "country": "Hungary"
+  },
+  {
+    "city": "Gyor",
+    "lat": 47.6842,
+    "lng": 17.6344,
+    "country": "Hungary"
+  },
+  {
+    "city": "Nyiregyhaza",
+    "lat": 47.95,
+    "lng": 21.7167,
+    "country": "Hungary"
+  },
+  {
+    "city": "Kecskemet",
+    "lat": 46.9074,
+    "lng": 19.6917,
+    "country": "Hungary"
+  },
+  {
+    "city": "Szekesfehervar",
+    "lat": 47.2,
+    "lng": 18.4167,
+    "country": "Hungary"
+  },
+  {
+    "city": "Szombathely",
+    "lat": 47.2333,
+    "lng": 16.6333,
+    "country": "Hungary"
+  },
+  {
+    "city": "Reykjavik",
+    "lat": 64.1475,
+    "lng": -21.935,
+    "country": "Iceland"
+  },
+  {
+    "city": "Kopavogur",
+    "lat": 64.1119,
+    "lng": -21.9,
+    "country": "Iceland"
+  },
+  {
+    "city": "Hafnarfjordhur",
+    "lat": 64.0667,
+    "lng": -21.95,
+    "country": "Iceland"
+  },
+  {
+    "city": "Akureyri",
+    "lat": 65.6833,
+    "lng": -18.1,
+    "country": "Iceland"
+  },
+  {
+    "city": "Keflavik",
+    "lat": 64.0,
+    "lng": -22.5819,
+    "country": "Iceland"
+  },
+  {
+    "city": "Gardhabaer",
+    "lat": 64.0833,
+    "lng": -22.0,
+    "country": "Iceland"
+  },
+  {
+    "city": "Akranes",
+    "lat": 64.3167,
+    "lng": -22.1,
+    "country": "Iceland"
+  },
+  {
+    "city": "Selfoss",
+    "lat": 63.9322,
+    "lng": -21.0002,
+    "country": "Iceland"
+  },
+  {
+    "city": "Saudharkrokur",
+    "lat": 65.7464,
+    "lng": -19.639,
+    "country": "Iceland"
+  },
+  {
+    "city": "Isafjordhur",
+    "lat": 66.0738,
+    "lng": -23.1417,
+    "country": "Iceland"
+  },
+  {
+    "city": "Delhi",
+    "lat": 28.6667,
+    "lng": 77.2167,
+    "country": "India"
+  },
+  {
+    "city": "Mumbai",
+    "lat": 19.0758,
+    "lng": 72.8775,
+    "country": "India"
+  },
+  {
+    "city": "Kolkata",
+    "lat": 22.5727,
+    "lng": 88.3639,
+    "country": "India"
+  },
+  {
+    "city": "Bangalore",
+    "lat": 12.9791,
+    "lng": 77.5913,
+    "country": "India"
+  },
+  {
+    "city": "Chennai",
+    "lat": 13.0825,
+    "lng": 80.275,
+    "country": "India"
+  },
+  {
+    "city": "Hyderabad",
+    "lat": 17.3617,
+    "lng": 78.4747,
+    "country": "India"
+  },
+  {
+    "city": "Pune",
+    "lat": 18.5196,
+    "lng": 73.8553,
+    "country": "India"
+  },
+  {
+    "city": "Ahmedabad",
+    "lat": 23.03,
+    "lng": 72.58,
+    "country": "India"
+  },
+  {
+    "city": "Allahabad",
+    "lat": 25.45,
+    "lng": 81.85,
+    "country": "India"
+  },
+  {
+    "city": "Surat",
+    "lat": 21.17,
+    "lng": 72.83,
+    "country": "India"
+  },
+  {
+    "city": "Jakarta",
+    "lat": -6.2146,
+    "lng": 106.8451,
+    "country": "Indonesia"
+  },
+  {
+    "city": "Surabaya",
+    "lat": -7.2458,
+    "lng": 112.7378,
+    "country": "Indonesia"
+  },
+  {
+    "city": "Bandung",
+    "lat": -6.95,
+    "lng": 107.5667,
+    "country": "Indonesia"
+  },
+  {
+    "city": "Bekasi",
+    "lat": -6.2333,
+    "lng": 107.0,
+    "country": "Indonesia"
+  },
+  {
+    "city": "Depok",
+    "lat": -6.394,
+    "lng": 106.8225,
+    "country": "Indonesia"
+  },
+  {
+    "city": "Tangerang",
+    "lat": -6.1783,
+    "lng": 106.6319,
+    "country": "Indonesia"
+  },
+  {
+    "city": "Medan",
+    "lat": 3.6667,
+    "lng": 98.6667,
+    "country": "Indonesia"
+  },
+  {
+    "city": "Semarang",
+    "lat": -6.9667,
+    "lng": 110.4167,
+    "country": "Indonesia"
+  },
+  {
+    "city": "Palembang",
+    "lat": -2.9833,
+    "lng": 104.7644,
+    "country": "Indonesia"
+  },
+  {
+    "city": "Makassar",
+    "lat": -5.1331,
+    "lng": 119.4136,
+    "country": "Indonesia"
+  },
+  {
+    "city": "Tehran",
+    "lat": 35.7,
+    "lng": 51.4167,
+    "country": "Iran"
+  },
+  {
+    "city": "Mashhad",
+    "lat": 36.3069,
+    "lng": 59.6042,
+    "country": "Iran"
+  },
+  {
+    "city": "Esfahan",
+    "lat": 32.6447,
+    "lng": 51.6675,
+    "country": "Iran"
+  },
+  {
+    "city": "Karaj",
+    "lat": 35.8327,
+    "lng": 50.9915,
+    "country": "Iran"
+  },
+  {
+    "city": "Shiraz",
+    "lat": 29.61,
+    "lng": 52.5425,
+    "country": "Iran"
+  },
+  {
+    "city": "Tabriz",
+    "lat": 38.0833,
+    "lng": 46.2833,
+    "country": "Iran"
+  },
+  {
+    "city": "Qom",
+    "lat": 34.64,
+    "lng": 50.8764,
+    "country": "Iran"
+  },
+  {
+    "city": "Ahvaz",
+    "lat": 31.3203,
+    "lng": 48.6692,
+    "country": "Iran"
+  },
+  {
+    "city": "Kermanshah",
+    "lat": 34.3167,
+    "lng": 47.0686,
+    "country": "Iran"
+  },
+  {
+    "city": "Orumiyeh",
+    "lat": 37.5486,
+    "lng": 45.0675,
+    "country": "Iran"
+  },
+  {
+    "city": "Baghdad",
+    "lat": 33.35,
+    "lng": 44.4167,
+    "country": "Iraq"
+  },
+  {
+    "city": "Mosul",
+    "lat": 36.3667,
+    "lng": 43.1167,
+    "country": "Iraq"
+  },
+  {
+    "city": "Al Basrah",
+    "lat": 30.515,
+    "lng": 47.81,
+    "country": "Iraq"
+  },
+  {
+    "city": "Kirkuk",
+    "lat": 35.4667,
+    "lng": 44.4,
+    "country": "Iraq"
+  },
+  {
+    "city": "Ar Ramadi",
+    "lat": 33.4258,
+    "lng": 43.2992,
+    "country": "Iraq"
+  },
+  {
+    "city": "Erbil",
+    "lat": 36.1911,
+    "lng": 44.0094,
+    "country": "Iraq"
+  },
+  {
+    "city": "An Najaf",
+    "lat": 32.029,
+    "lng": 44.3396,
+    "country": "Iraq"
+  },
+  {
+    "city": "Karbala'",
+    "lat": 32.6167,
+    "lng": 44.0333,
+    "country": "Iraq"
+  },
+  {
+    "city": "As Sulaymaniyah",
+    "lat": 35.55,
+    "lng": 45.4333,
+    "country": "Iraq"
+  },
+  {
+    "city": "An Nasiriyah",
+    "lat": 31.0439,
+    "lng": 46.2575,
+    "country": "Iraq"
+  },
+  {
+    "city": "Dublin",
+    "lat": 53.3497,
+    "lng": -6.2603,
+    "country": "Ireland"
+  },
+  {
+    "city": "Cork",
+    "lat": 51.9,
+    "lng": -8.4731,
+    "country": "Ireland"
+  },
+  {
+    "city": "Galway",
+    "lat": 53.2729,
+    "lng": -9.0418,
+    "country": "Ireland"
+  },
+  {
+    "city": "Limerick",
+    "lat": 52.6653,
+    "lng": -8.6238,
+    "country": "Ireland"
+  },
+  {
+    "city": "Waterford",
+    "lat": 52.2583,
+    "lng": -7.119,
+    "country": "Ireland"
+  },
+  {
+    "city": "Drogheda",
+    "lat": 53.7139,
+    "lng": -6.3503,
+    "country": "Ireland"
+  },
+  {
+    "city": "Dun Dealgan",
+    "lat": 54.009,
+    "lng": -6.4049,
+    "country": "Ireland"
+  },
+  {
+    "city": "Swords",
+    "lat": 53.4597,
+    "lng": -6.2181,
+    "country": "Ireland"
+  },
+  {
+    "city": "Blackrock",
+    "lat": 53.3015,
+    "lng": -6.1778,
+    "country": "Ireland"
+  },
+  {
+    "city": "Tralee",
+    "lat": 52.2675,
+    "lng": -9.6962,
+    "country": "Ireland"
+  },
+  {
+    "city": "Douglas",
+    "lat": 54.15,
+    "lng": -4.4819,
+    "country": "Isle Of Man"
+  },
+  {
+    "city": "Ramsey",
+    "lat": 54.3211,
+    "lng": -4.3844,
+    "country": "Isle Of Man"
+  },
+  {
+    "city": "Jerusalem",
+    "lat": 31.7833,
+    "lng": 35.2167,
+    "country": "Israel"
+  },
+  {
+    "city": "Tel Aviv-Yafo",
+    "lat": 32.08,
+    "lng": 34.78,
+    "country": "Israel"
+  },
+  {
+    "city": "Haifa",
+    "lat": 32.8,
+    "lng": 34.9833,
+    "country": "Israel"
+  },
+  {
+    "city": "Rishon LeZiyyon",
+    "lat": 31.9711,
+    "lng": 34.7894,
+    "country": "Israel"
+  },
+  {
+    "city": "Petah Tiqwa",
+    "lat": 32.0833,
+    "lng": 34.8833,
+    "country": "Israel"
+  },
+  {
+    "city": "Ashdod",
+    "lat": 31.7978,
+    "lng": 34.6503,
+    "country": "Israel"
+  },
+  {
+    "city": "Netanya",
+    "lat": 32.3328,
+    "lng": 34.86,
+    "country": "Israel"
+  },
+  {
+    "city": "Beersheba",
+    "lat": 31.2589,
+    "lng": 34.7978,
+    "country": "Israel"
+  },
+  {
+    "city": "Bene Beraq",
+    "lat": 32.0807,
+    "lng": 34.8338,
+    "country": "Israel"
+  },
+  {
+    "city": "Holon",
+    "lat": 32.0167,
+    "lng": 34.7667,
+    "country": "Israel"
+  },
+  {
+    "city": "Rome",
+    "lat": 41.8931,
+    "lng": 12.4828,
+    "country": "Italy"
+  },
+  {
+    "city": "Milan",
+    "lat": 45.4669,
+    "lng": 9.19,
+    "country": "Italy"
+  },
+  {
+    "city": "Naples",
+    "lat": 40.8333,
+    "lng": 14.25,
+    "country": "Italy"
+  },
+  {
+    "city": "Turin",
+    "lat": 45.0667,
+    "lng": 7.7,
+    "country": "Italy"
+  },
+  {
+    "city": "Palermo",
+    "lat": 38.1111,
+    "lng": 13.3517,
+    "country": "Italy"
+  },
+  {
+    "city": "Genoa",
+    "lat": 44.4072,
+    "lng": 8.934,
+    "country": "Italy"
+  },
+  {
+    "city": "Bologna",
+    "lat": 44.4939,
+    "lng": 11.3428,
+    "country": "Italy"
+  },
+  {
+    "city": "Florence",
+    "lat": 43.7714,
+    "lng": 11.2542,
+    "country": "Italy"
+  },
+  {
+    "city": "Bari",
+    "lat": 41.1253,
+    "lng": 16.8667,
+    "country": "Italy"
+  },
+  {
+    "city": "Catania",
+    "lat": 37.5027,
+    "lng": 15.0873,
+    "country": "Italy"
+  },
+  {
+    "city": "Kingston",
+    "lat": 17.9714,
+    "lng": -76.7931,
+    "country": "Jamaica"
+  },
+  {
+    "city": "Portmore",
+    "lat": 17.9667,
+    "lng": -76.8667,
+    "country": "Jamaica"
+  },
+  {
+    "city": "May Pen",
+    "lat": 17.95,
+    "lng": -77.25,
+    "country": "Jamaica"
+  },
+  {
+    "city": "Spanish Town",
+    "lat": 17.9961,
+    "lng": -76.9547,
+    "country": "Jamaica"
+  },
+  {
+    "city": "Montego Bay",
+    "lat": 18.4667,
+    "lng": -77.9167,
+    "country": "Jamaica"
+  },
+  {
+    "city": "Half Way Tree",
+    "lat": 18.0106,
+    "lng": -76.7975,
+    "country": "Jamaica"
+  },
+  {
+    "city": "Mandeville",
+    "lat": 18.0333,
+    "lng": -77.5,
+    "country": "Jamaica"
+  },
+  {
+    "city": "Old Harbour",
+    "lat": 17.9333,
+    "lng": -77.1167,
+    "country": "Jamaica"
+  },
+  {
+    "city": "Linstead",
+    "lat": 18.1368,
+    "lng": -77.0317,
+    "country": "Jamaica"
+  },
+  {
+    "city": "Savanna-la-Mar",
+    "lat": 18.2167,
+    "lng": -78.1333,
+    "country": "Jamaica"
+  },
+  {
+    "city": "Tokyo",
+    "lat": 35.6839,
+    "lng": 139.7744,
+    "country": "Japan"
+  },
+  {
+    "city": "Osaka",
+    "lat": 34.752,
+    "lng": 135.4582,
+    "country": "Japan"
+  },
+  {
+    "city": "Nagoya",
+    "lat": 35.1167,
+    "lng": 136.9333,
+    "country": "Japan"
+  },
+  {
+    "city": "Yokohama",
+    "lat": 35.4333,
+    "lng": 139.6333,
+    "country": "Japan"
+  },
+  {
+    "city": "Fukuoka",
+    "lat": 33.6,
+    "lng": 130.4167,
+    "country": "Japan"
+  },
+  {
+    "city": "Sapporo",
+    "lat": 43.0621,
+    "lng": 141.3544,
+    "country": "Japan"
+  },
+  {
+    "city": "Kawasaki",
+    "lat": 35.5167,
+    "lng": 139.7,
+    "country": "Japan"
+  },
+  {
+    "city": "Kobe",
+    "lat": 34.6913,
+    "lng": 135.183,
+    "country": "Japan"
+  },
+  {
+    "city": "Kyoto",
+    "lat": 35.0117,
+    "lng": 135.7683,
+    "country": "Japan"
+  },
+  {
+    "city": "Saitama",
+    "lat": 35.8617,
+    "lng": 139.6453,
+    "country": "Japan"
+  },
+  {
+    "city": "Saint Helier",
+    "lat": 49.1858,
+    "lng": -2.11,
+    "country": "Jersey"
+  },
+  {
+    "city": "Amman",
+    "lat": 31.95,
+    "lng": 35.9333,
+    "country": "Jordan"
+  },
+  {
+    "city": "Irbid",
+    "lat": 32.5556,
+    "lng": 35.85,
+    "country": "Jordan"
+  },
+  {
+    "city": "Az Zarqa'",
+    "lat": 32.0833,
+    "lng": 36.1,
+    "country": "Jordan"
+  },
+  {
+    "city": "Ar Ramtha",
+    "lat": 32.5592,
+    "lng": 36.0069,
+    "country": "Jordan"
+  },
+  {
+    "city": "`Ajlun",
+    "lat": 32.3325,
+    "lng": 35.7517,
+    "country": "Jordan"
+  },
+  {
+    "city": "Al `Aqabah",
+    "lat": 29.5167,
+    "lng": 35.0,
+    "country": "Jordan"
+  },
+  {
+    "city": "As Salt",
+    "lat": 32.0392,
+    "lng": 35.7272,
+    "country": "Jordan"
+  },
+  {
+    "city": "Al Mafraq",
+    "lat": 32.2833,
+    "lng": 36.2333,
+    "country": "Jordan"
+  },
+  {
+    "city": "Jarash",
+    "lat": 32.2723,
+    "lng": 35.8914,
+    "country": "Jordan"
+  },
+  {
+    "city": "Ma`an",
+    "lat": 30.192,
+    "lng": 35.736,
+    "country": "Jordan"
+  },
+  {
+    "city": "Almaty",
+    "lat": 43.25,
+    "lng": 76.9,
+    "country": "Kazakhstan"
+  },
+  {
+    "city": "Nur-Sultan",
+    "lat": 51.1333,
+    "lng": 71.4333,
+    "country": "Kazakhstan"
+  },
+  {
+    "city": "Shymkent",
+    "lat": 42.3,
+    "lng": 69.6,
+    "country": "Kazakhstan"
+  },
+  {
+    "city": "Qaraghandy",
+    "lat": 49.8,
+    "lng": 73.1167,
+    "country": "Kazakhstan"
+  },
+  {
+    "city": "Aqtobe",
+    "lat": 50.2836,
+    "lng": 57.2297,
+    "country": "Kazakhstan"
+  },
+  {
+    "city": "Taraz",
+    "lat": 42.8833,
+    "lng": 71.3667,
+    "country": "Kazakhstan"
+  },
+  {
+    "city": "Pavlodar",
+    "lat": 52.3156,
+    "lng": 76.9564,
+    "country": "Kazakhstan"
+  },
+  {
+    "city": "Semey",
+    "lat": 50.4111,
+    "lng": 80.2275,
+    "country": "Kazakhstan"
+  },
+  {
+    "city": "Oskemen",
+    "lat": 49.99,
+    "lng": 82.6149,
+    "country": "Kazakhstan"
+  },
+  {
+    "city": "Atyrau",
+    "lat": 47.1167,
+    "lng": 51.8833,
+    "country": "Kazakhstan"
+  },
+  {
+    "city": "Nairobi",
+    "lat": -1.2864,
+    "lng": 36.8172,
+    "country": "Kenya"
+  },
+  {
+    "city": "Meru",
+    "lat": 0.05,
+    "lng": 37.65,
+    "country": "Kenya"
+  },
+  {
+    "city": "Mombasa",
+    "lat": -4.05,
+    "lng": 39.6667,
+    "country": "Kenya"
+  },
+  {
+    "city": "Kisumu",
+    "lat": -0.1,
+    "lng": 34.75,
+    "country": "Kenya"
+  },
+  {
+    "city": "Nakuru",
+    "lat": -0.2833,
+    "lng": 36.0667,
+    "country": "Kenya"
+  },
+  {
+    "city": "Eldoret",
+    "lat": 0.5167,
+    "lng": 35.2833,
+    "country": "Kenya"
+  },
+  {
+    "city": "Machakos",
+    "lat": -1.5167,
+    "lng": 37.2667,
+    "country": "Kenya"
+  },
+  {
+    "city": "Mumias",
+    "lat": 0.3333,
+    "lng": 34.4833,
+    "country": "Kenya"
+  },
+  {
+    "city": "Thika",
+    "lat": -1.0396,
+    "lng": 37.09,
+    "country": "Kenya"
+  },
+  {
+    "city": "Nyeri",
+    "lat": -0.4167,
+    "lng": 36.95,
+    "country": "Kenya"
+  },
+  {
+    "city": "Tarawa",
+    "lat": 1.3382,
+    "lng": 173.0176,
+    "country": "Kiribati"
+  },
+  {
+    "city": "Teaoraereke",
+    "lat": 1.3331,
+    "lng": 173.0116,
+    "country": "Kiribati"
+  },
+  {
+    "city": "Malisheve",
+    "lat": 42.4828,
+    "lng": 20.7458,
+    "country": "Kosovo"
+  },
+  {
+    "city": "Kline",
+    "lat": 42.6167,
+    "lng": 20.5667,
+    "country": "Kosovo"
+  },
+  {
+    "city": "Kamenice",
+    "lat": 42.5839,
+    "lng": 21.575,
+    "country": "Kosovo"
+  },
+  {
+    "city": "Fushe Kosove",
+    "lat": 42.63,
+    "lng": 21.12,
+    "country": "Kosovo"
+  },
+  {
+    "city": "Shtime",
+    "lat": 42.4333,
+    "lng": 21.0333,
+    "country": "Kosovo"
+  },
+  {
+    "city": "Matican",
+    "lat": 42.6449,
+    "lng": 21.1918,
+    "country": "Kosovo"
+  },
+  {
+    "city": "Pozharan",
+    "lat": 42.3648,
+    "lng": 21.3372,
+    "country": "Kosovo"
+  },
+  {
+    "city": "Hani i Elezit",
+    "lat": 42.1475,
+    "lng": 21.2992,
+    "country": "Kosovo"
+  },
+  {
+    "city": "Dushanove",
+    "lat": 42.2347,
+    "lng": 20.7091,
+    "country": "Kosovo"
+  },
+  {
+    "city": "Donje Zabare",
+    "lat": 42.8714,
+    "lng": 20.8411,
+    "country": "Kosovo"
+  },
+  {
+    "city": "Kuwait City",
+    "lat": 29.375,
+    "lng": 47.98,
+    "country": "Kuwait"
+  },
+  {
+    "city": "Al Jahra'",
+    "lat": 29.3375,
+    "lng": 47.6581,
+    "country": "Kuwait"
+  },
+  {
+    "city": "Abu Hulayfah",
+    "lat": 29.3333,
+    "lng": 48.0,
+    "country": "Kuwait"
+  },
+  {
+    "city": "Al Ahmadi",
+    "lat": 29.0769,
+    "lng": 48.0838,
+    "country": "Kuwait"
+  },
+  {
+    "city": "Bishkek",
+    "lat": 42.8667,
+    "lng": 74.5667,
+    "country": "Kyrgyzstan"
+  },
+  {
+    "city": "Osh",
+    "lat": 40.5333,
+    "lng": 72.7833,
+    "country": "Kyrgyzstan"
+  },
+  {
+    "city": "Jalal-Abad",
+    "lat": 40.9375,
+    "lng": 72.9861,
+    "country": "Kyrgyzstan"
+  },
+  {
+    "city": "Kara-Balta",
+    "lat": 42.8306,
+    "lng": 73.8857,
+    "country": "Kyrgyzstan"
+  },
+  {
+    "city": "Karakol",
+    "lat": 42.5,
+    "lng": 78.3833,
+    "country": "Kyrgyzstan"
+  },
+  {
+    "city": "Tokmok",
+    "lat": 42.839,
+    "lng": 75.291,
+    "country": "Kyrgyzstan"
+  },
+  {
+    "city": "Ozgon",
+    "lat": 40.7667,
+    "lng": 73.3,
+    "country": "Kyrgyzstan"
+  },
+  {
+    "city": "Balykchy",
+    "lat": 42.4603,
+    "lng": 76.1872,
+    "country": "Kyrgyzstan"
+  },
+  {
+    "city": "Talas",
+    "lat": 42.5184,
+    "lng": 72.2429,
+    "country": "Kyrgyzstan"
+  },
+  {
+    "city": "Naryn",
+    "lat": 41.4333,
+    "lng": 76.0,
+    "country": "Kyrgyzstan"
+  },
+  {
+    "city": "Vientiane",
+    "lat": 17.9667,
+    "lng": 102.6,
+    "country": "Laos"
+  },
+  {
+    "city": "Savannakhet",
+    "lat": 16.55,
+    "lng": 104.75,
+    "country": "Laos"
+  },
+  {
+    "city": "Pakxe",
+    "lat": 15.1167,
+    "lng": 105.7833,
+    "country": "Laos"
+  },
+  {
+    "city": "Thakhek",
+    "lat": 17.4,
+    "lng": 104.8,
+    "country": "Laos"
+  },
+  {
+    "city": "Louangphabang",
+    "lat": 19.8931,
+    "lng": 102.1381,
+    "country": "Laos"
+  },
+  {
+    "city": "Xam Nua",
+    "lat": 20.4133,
+    "lng": 104.048,
+    "country": "Laos"
+  },
+  {
+    "city": "Phonsavan",
+    "lat": 19.45,
+    "lng": 103.2,
+    "country": "Laos"
+  },
+  {
+    "city": "Attapu",
+    "lat": 14.8,
+    "lng": 106.8333,
+    "country": "Laos"
+  },
+  {
+    "city": "Ban Houayxay",
+    "lat": 20.2833,
+    "lng": 100.4167,
+    "country": "Laos"
+  },
+  {
+    "city": "Xaignabouli",
+    "lat": 19.2575,
+    "lng": 101.7103,
+    "country": "Laos"
+  },
+  {
+    "city": "Riga",
+    "lat": 56.9475,
+    "lng": 24.1069,
+    "country": "Latvia"
+  },
+  {
+    "city": "Daugavpils",
+    "lat": 55.8714,
+    "lng": 26.5161,
+    "country": "Latvia"
+  },
+  {
+    "city": "Liepaja",
+    "lat": 56.5083,
+    "lng": 21.0111,
+    "country": "Latvia"
+  },
+  {
+    "city": "Jelgava",
+    "lat": 56.6522,
+    "lng": 23.7244,
+    "country": "Latvia"
+  },
+  {
+    "city": "Jurmala",
+    "lat": 56.9722,
+    "lng": 23.7969,
+    "country": "Latvia"
+  },
+  {
+    "city": "Ventspils",
+    "lat": 57.3897,
+    "lng": 21.5644,
+    "country": "Latvia"
+  },
+  {
+    "city": "Rezekne",
+    "lat": 56.5067,
+    "lng": 27.3308,
+    "country": "Latvia"
+  },
+  {
+    "city": "Ogre",
+    "lat": 56.8169,
+    "lng": 24.6047,
+    "country": "Latvia"
+  },
+  {
+    "city": "Valmiera",
+    "lat": 57.5381,
+    "lng": 25.4231,
+    "country": "Latvia"
+  },
+  {
+    "city": "Jekabpils",
+    "lat": 56.4975,
+    "lng": 25.8664,
+    "country": "Latvia"
+  },
+  {
+    "city": "Tripoli",
+    "lat": 34.4333,
+    "lng": 35.8333,
+    "country": "Lebanon"
+  },
+  {
+    "city": "Beirut",
+    "lat": 33.8869,
+    "lng": 35.5131,
+    "country": "Lebanon"
+  },
+  {
+    "city": "Sidon",
+    "lat": 33.5606,
+    "lng": 35.3758,
+    "country": "Lebanon"
+  },
+  {
+    "city": "Tyre",
+    "lat": 33.2667,
+    "lng": 35.2,
+    "country": "Lebanon"
+  },
+  {
+    "city": "Jounie",
+    "lat": 33.9697,
+    "lng": 35.6156,
+    "country": "Lebanon"
+  },
+  {
+    "city": "Zahle",
+    "lat": 33.8439,
+    "lng": 35.9072,
+    "country": "Lebanon"
+  },
+  {
+    "city": "Nabatiye",
+    "lat": 33.3833,
+    "lng": 35.45,
+    "country": "Lebanon"
+  },
+  {
+    "city": "Baalbek",
+    "lat": 34.0061,
+    "lng": 36.2086,
+    "country": "Lebanon"
+  },
+  {
+    "city": "El Qaa",
+    "lat": 34.3436,
+    "lng": 36.4756,
+    "country": "Lebanon"
+  },
+  {
+    "city": "Amioun",
+    "lat": 34.2994,
+    "lng": 35.8097,
+    "country": "Lebanon"
+  },
+  {
+    "city": "Maseru",
+    "lat": -29.31,
+    "lng": 27.48,
+    "country": "Lesotho"
+  },
+  {
+    "city": "Teyateyaneng",
+    "lat": -29.15,
+    "lng": 27.7333,
+    "country": "Lesotho"
+  },
+  {
+    "city": "Mafeteng",
+    "lat": -29.8167,
+    "lng": 27.25,
+    "country": "Lesotho"
+  },
+  {
+    "city": "Leribe",
+    "lat": -28.8734,
+    "lng": 28.0416,
+    "country": "Lesotho"
+  },
+  {
+    "city": "Maputsoe",
+    "lat": -28.8833,
+    "lng": 27.9,
+    "country": "Lesotho"
+  },
+  {
+    "city": "Mohale's Hoek",
+    "lat": -30.159,
+    "lng": 27.48,
+    "country": "Lesotho"
+  },
+  {
+    "city": "Quthing",
+    "lat": -30.4001,
+    "lng": 27.7002,
+    "country": "Lesotho"
+  },
+  {
+    "city": "Butha-Buthe",
+    "lat": -28.7833,
+    "lng": 28.2333,
+    "country": "Lesotho"
+  },
+  {
+    "city": "Mokhotlong",
+    "lat": -29.2885,
+    "lng": 29.0656,
+    "country": "Lesotho"
+  },
+  {
+    "city": "Thaba-Tseka",
+    "lat": -29.522,
+    "lng": 28.6084,
+    "country": "Lesotho"
+  },
+  {
+    "city": "Monrovia",
+    "lat": 6.3106,
+    "lng": -10.8047,
+    "country": "Liberia"
+  },
+  {
+    "city": "Upper Buchanan",
+    "lat": 5.9161,
+    "lng": -10.0525,
+    "country": "Liberia"
+  },
+  {
+    "city": "Gbarnga",
+    "lat": 7.0104,
+    "lng": -9.49,
+    "country": "Liberia"
+  },
+  {
+    "city": "Kakata",
+    "lat": 6.53,
+    "lng": -10.3517,
+    "country": "Liberia"
+  },
+  {
+    "city": "Harper",
+    "lat": 4.3754,
+    "lng": -7.717,
+    "country": "Liberia"
+  },
+  {
+    "city": "Voinjama",
+    "lat": 8.4167,
+    "lng": -9.75,
+    "country": "Liberia"
+  },
+  {
+    "city": "Zwedru",
+    "lat": 6.0704,
+    "lng": -8.13,
+    "country": "Liberia"
+  },
+  {
+    "city": "Robertsport",
+    "lat": 6.7533,
+    "lng": -11.3686,
+    "country": "Liberia"
+  },
+  {
+    "city": "Sanniquellie",
+    "lat": 7.371,
+    "lng": -8.685,
+    "country": "Liberia"
+  },
+  {
+    "city": "Greenville",
+    "lat": 5.0111,
+    "lng": -9.0388,
+    "country": "Liberia"
+  },
+  {
+    "city": "Tripoli",
+    "lat": 32.8752,
+    "lng": 13.1875,
+    "country": "Libya"
+  },
+  {
+    "city": "Benghazi",
+    "lat": 32.1167,
+    "lng": 20.0667,
+    "country": "Libya"
+  },
+  {
+    "city": "Misratah",
+    "lat": 32.3778,
+    "lng": 15.0901,
+    "country": "Libya"
+  },
+  {
+    "city": "Al Bayda'",
+    "lat": 32.7628,
+    "lng": 21.755,
+    "country": "Libya"
+  },
+  {
+    "city": "Al Khums",
+    "lat": 32.6604,
+    "lng": 14.26,
+    "country": "Libya"
+  },
+  {
+    "city": "Az Zawiyah",
+    "lat": 32.7604,
+    "lng": 12.72,
+    "country": "Libya"
+  },
+  {
+    "city": "Gharyan",
+    "lat": 32.1669,
+    "lng": 13.0167,
+    "country": "Libya"
+  },
+  {
+    "city": "Al Marj",
+    "lat": 32.5005,
+    "lng": 20.83,
+    "country": "Libya"
+  },
+  {
+    "city": "Ajdabiya",
+    "lat": 30.77,
+    "lng": 20.22,
+    "country": "Libya"
+  },
+  {
+    "city": "Tobruk",
+    "lat": 32.0833,
+    "lng": 23.95,
+    "country": "Libya"
+  },
+  {
+    "city": "Schaan",
+    "lat": 47.1667,
+    "lng": 9.5167,
+    "country": "Liechtenstein"
+  },
+  {
+    "city": "Vaduz",
+    "lat": 47.1397,
+    "lng": 9.5219,
+    "country": "Liechtenstein"
+  },
+  {
+    "city": "Triesen",
+    "lat": 47.1,
+    "lng": 9.5167,
+    "country": "Liechtenstein"
+  },
+  {
+    "city": "Balzers",
+    "lat": 47.0667,
+    "lng": 9.5,
+    "country": "Liechtenstein"
+  },
+  {
+    "city": "Eschen",
+    "lat": 47.2,
+    "lng": 9.5167,
+    "country": "Liechtenstein"
+  },
+  {
+    "city": "Mauren",
+    "lat": 47.2197,
+    "lng": 9.5428,
+    "country": "Liechtenstein"
+  },
+  {
+    "city": "Triesenberg",
+    "lat": 47.1167,
+    "lng": 9.5333,
+    "country": "Liechtenstein"
+  },
+  {
+    "city": "Ruggell",
+    "lat": 47.245,
+    "lng": 9.5332,
+    "country": "Liechtenstein"
+  },
+  {
+    "city": "Gamprin",
+    "lat": 47.2199,
+    "lng": 9.5099,
+    "country": "Liechtenstein"
+  },
+  {
+    "city": "Schellenberg",
+    "lat": 47.2283,
+    "lng": 9.5395,
+    "country": "Liechtenstein"
+  },
+  {
+    "city": "Vilnius",
+    "lat": 54.6833,
+    "lng": 25.2833,
+    "country": "Lithuania"
+  },
+  {
+    "city": "Kaunas",
+    "lat": 54.9,
+    "lng": 23.9333,
+    "country": "Lithuania"
+  },
+  {
+    "city": "Klaipeda",
+    "lat": 55.7075,
+    "lng": 21.1428,
+    "country": "Lithuania"
+  },
+  {
+    "city": "Siauliai",
+    "lat": 55.9281,
+    "lng": 23.3167,
+    "country": "Lithuania"
+  },
+  {
+    "city": "Panevezys",
+    "lat": 55.725,
+    "lng": 24.3639,
+    "country": "Lithuania"
+  },
+  {
+    "city": "Alytus",
+    "lat": 54.4014,
+    "lng": 24.0492,
+    "country": "Lithuania"
+  },
+  {
+    "city": "Marijampole",
+    "lat": 54.5567,
+    "lng": 23.3544,
+    "country": "Lithuania"
+  },
+  {
+    "city": "Mazeikiai",
+    "lat": 56.3111,
+    "lng": 22.3361,
+    "country": "Lithuania"
+  },
+  {
+    "city": "Utena",
+    "lat": 55.5,
+    "lng": 25.6028,
+    "country": "Lithuania"
+  },
+  {
+    "city": "Jonava",
+    "lat": 55.0722,
+    "lng": 24.2806,
+    "country": "Lithuania"
+  },
+  {
+    "city": "Luxembourg",
+    "lat": 49.6106,
+    "lng": 6.1328,
+    "country": "Luxembourg"
+  },
+  {
+    "city": "Esch-sur-Alzette",
+    "lat": 49.4969,
+    "lng": 5.9806,
+    "country": "Luxembourg"
+  },
+  {
+    "city": "Dudelange",
+    "lat": 49.4806,
+    "lng": 6.0875,
+    "country": "Luxembourg"
+  },
+  {
+    "city": "Differdange",
+    "lat": 49.5242,
+    "lng": 5.8914,
+    "country": "Luxembourg"
+  },
+  {
+    "city": "Belvaux",
+    "lat": 49.5167,
+    "lng": 5.9333,
+    "country": "Luxembourg"
+  },
+  {
+    "city": "Rodange",
+    "lat": 49.5467,
+    "lng": 5.8397,
+    "country": "Luxembourg"
+  },
+  {
+    "city": "Niedercorn",
+    "lat": 49.5333,
+    "lng": 5.9,
+    "country": "Luxembourg"
+  },
+  {
+    "city": "Diekirch",
+    "lat": 49.8678,
+    "lng": 6.1558,
+    "country": "Luxembourg"
+  },
+  {
+    "city": "Soleuvre",
+    "lat": 49.5333,
+    "lng": 5.9333,
+    "country": "Luxembourg"
+  },
+  {
+    "city": "Bascharage",
+    "lat": 49.5667,
+    "lng": 5.9167,
+    "country": "Luxembourg"
+  },
+  {
+    "city": "Macau",
+    "lat": 22.203,
+    "lng": 113.545,
+    "country": "Macau"
+  },
+  {
+    "city": "Skopje",
+    "lat": 41.9833,
+    "lng": 21.4333,
+    "country": "Macedonia"
+  },
+  {
+    "city": "Tetovo",
+    "lat": 42.0103,
+    "lng": 20.9714,
+    "country": "Macedonia"
+  },
+  {
+    "city": "Bitola",
+    "lat": 41.0319,
+    "lng": 21.3347,
+    "country": "Macedonia"
+  },
+  {
+    "city": "Kumanovo",
+    "lat": 42.1322,
+    "lng": 21.7144,
+    "country": "Macedonia"
+  },
+  {
+    "city": "Prilep",
+    "lat": 41.3464,
+    "lng": 21.5542,
+    "country": "Macedonia"
+  },
+  {
+    "city": "Ohrid",
+    "lat": 41.1169,
+    "lng": 20.8019,
+    "country": "Macedonia"
+  },
+  {
+    "city": "Veles",
+    "lat": 41.7153,
+    "lng": 21.7753,
+    "country": "Macedonia"
+  },
+  {
+    "city": "Stip",
+    "lat": 41.7358,
+    "lng": 22.1914,
+    "country": "Macedonia"
+  },
+  {
+    "city": "Gostivar",
+    "lat": 41.8,
+    "lng": 20.9167,
+    "country": "Macedonia"
+  },
+  {
+    "city": "Kocani",
+    "lat": 41.9167,
+    "lng": 22.4125,
+    "country": "Macedonia"
+  },
+  {
+    "city": "Antananarivo",
+    "lat": -18.9386,
+    "lng": 47.5214,
+    "country": "Madagascar"
+  },
+  {
+    "city": "Antsirabe",
+    "lat": -19.8667,
+    "lng": 47.0333,
+    "country": "Madagascar"
+  },
+  {
+    "city": "Toamasina",
+    "lat": -18.1492,
+    "lng": 49.4023,
+    "country": "Madagascar"
+  },
+  {
+    "city": "Fianarantsoa",
+    "lat": -21.4333,
+    "lng": 47.0833,
+    "country": "Madagascar"
+  },
+  {
+    "city": "Mahajanga",
+    "lat": -15.67,
+    "lng": 46.345,
+    "country": "Madagascar"
+  },
+  {
+    "city": "Toliara",
+    "lat": -23.35,
+    "lng": 43.6667,
+    "country": "Madagascar"
+  },
+  {
+    "city": "Antsiranana",
+    "lat": -12.2765,
+    "lng": 49.3115,
+    "country": "Madagascar"
+  },
+  {
+    "city": "Tolanaro",
+    "lat": -25.0325,
+    "lng": 46.9833,
+    "country": "Madagascar"
+  },
+  {
+    "city": "Antalaha",
+    "lat": -14.8833,
+    "lng": 50.2833,
+    "country": "Madagascar"
+  },
+  {
+    "city": "Sambava",
+    "lat": -14.2662,
+    "lng": 50.1666,
+    "country": "Madagascar"
+  },
+  {
+    "city": "Blantyre",
+    "lat": -15.7861,
+    "lng": 35.0058,
+    "country": "Malawi"
+  },
+  {
+    "city": "Lilongwe",
+    "lat": -13.9833,
+    "lng": 33.7833,
+    "country": "Malawi"
+  },
+  {
+    "city": "Mzuzu",
+    "lat": -11.45,
+    "lng": 34.0333,
+    "country": "Malawi"
+  },
+  {
+    "city": "Zomba",
+    "lat": -15.3833,
+    "lng": 35.3333,
+    "country": "Malawi"
+  },
+  {
+    "city": "Salima",
+    "lat": -13.7829,
+    "lng": 34.4333,
+    "country": "Malawi"
+  },
+  {
+    "city": "Nkhotakota",
+    "lat": -12.9163,
+    "lng": 34.3,
+    "country": "Malawi"
+  },
+  {
+    "city": "Mangochi",
+    "lat": -14.4722,
+    "lng": 35.2639,
+    "country": "Malawi"
+  },
+  {
+    "city": "Karonga",
+    "lat": -9.9329,
+    "lng": 33.9333,
+    "country": "Malawi"
+  },
+  {
+    "city": "Chiromo",
+    "lat": -16.55,
+    "lng": 35.1332,
+    "country": "Malawi"
+  },
+  {
+    "city": "Nkhata Bay",
+    "lat": -11.6333,
+    "lng": 34.3,
+    "country": "Malawi"
+  },
+  {
+    "city": "Kuala Lumpur",
+    "lat": 3.1478,
+    "lng": 101.6953,
+    "country": "Malaysia"
+  },
+  {
+    "city": "Klang",
+    "lat": 3.0333,
+    "lng": 101.45,
+    "country": "Malaysia"
+  },
+  {
+    "city": "Ipoh",
+    "lat": 4.6,
+    "lng": 101.07,
+    "country": "Malaysia"
+  },
+  {
+    "city": "Butterworth",
+    "lat": 5.3992,
+    "lng": 100.3639,
+    "country": "Malaysia"
+  },
+  {
+    "city": "George Town",
+    "lat": 5.4145,
+    "lng": 100.3292,
+    "country": "Malaysia"
+  },
+  {
+    "city": "Petaling Jaya",
+    "lat": 3.1073,
+    "lng": 101.6067,
+    "country": "Malaysia"
+  },
+  {
+    "city": "Kuantan",
+    "lat": 3.8167,
+    "lng": 103.3333,
+    "country": "Malaysia"
+  },
+  {
+    "city": "Shah Alam",
+    "lat": 3.0833,
+    "lng": 101.5333,
+    "country": "Malaysia"
+  },
+  {
+    "city": "Johor Bahru",
+    "lat": 1.4556,
+    "lng": 103.7611,
+    "country": "Malaysia"
+  },
+  {
+    "city": "Kota Bharu",
+    "lat": 6.1333,
+    "lng": 102.25,
+    "country": "Malaysia"
+  },
+  {
+    "city": "Male",
+    "lat": 4.175,
+    "lng": 73.5083,
+    "country": "Maldives"
+  },
+  {
+    "city": "Un'goofaaru",
+    "lat": 5.6681,
+    "lng": 73.0302,
+    "country": "Maldives"
+  },
+  {
+    "city": "Naifaru",
+    "lat": 5.4442,
+    "lng": 73.3662,
+    "country": "Maldives"
+  },
+  {
+    "city": "Mahibadhoo",
+    "lat": 3.7571,
+    "lng": 72.9689,
+    "country": "Maldives"
+  },
+  {
+    "city": "Eydhafushi",
+    "lat": 5.1038,
+    "lng": 73.0699,
+    "country": "Maldives"
+  },
+  {
+    "city": "Funadhoo",
+    "lat": 6.1509,
+    "lng": 73.2901,
+    "country": "Maldives"
+  },
+  {
+    "city": "Kudahuvadhoo",
+    "lat": 2.6717,
+    "lng": 72.8936,
+    "country": "Maldives"
+  },
+  {
+    "city": "Kulhudhuffushi",
+    "lat": 6.6223,
+    "lng": 73.0702,
+    "country": "Maldives"
+  },
+  {
+    "city": "Thinadhoo",
+    "lat": 0.5303,
+    "lng": 72.9967,
+    "country": "Maldives"
+  },
+  {
+    "city": "Thulusdhoo",
+    "lat": 4.3742,
+    "lng": 73.6517,
+    "country": "Maldives"
+  },
+  {
+    "city": "Bamako",
+    "lat": 12.6458,
+    "lng": -7.9922,
+    "country": "Mali"
+  },
+  {
+    "city": "Sikasso",
+    "lat": 11.3167,
+    "lng": -5.6667,
+    "country": "Mali"
+  },
+  {
+    "city": "Segou",
+    "lat": 13.45,
+    "lng": -6.2667,
+    "country": "Mali"
+  },
+  {
+    "city": "Mopti",
+    "lat": 14.49,
+    "lng": -4.18,
+    "country": "Mali"
+  },
+  {
+    "city": "Koutiala",
+    "lat": 12.3833,
+    "lng": -5.4667,
+    "country": "Mali"
+  },
+  {
+    "city": "Kayes",
+    "lat": 14.45,
+    "lng": -11.4167,
+    "country": "Mali"
+  },
+  {
+    "city": "Kati",
+    "lat": 12.7504,
+    "lng": -8.08,
+    "country": "Mali"
+  },
+  {
+    "city": "Markala",
+    "lat": 13.6739,
+    "lng": -6.075,
+    "country": "Mali"
+  },
+  {
+    "city": "Gao",
+    "lat": 16.2667,
+    "lng": -0.05,
+    "country": "Mali"
+  },
+  {
+    "city": "Kita",
+    "lat": 13.0504,
+    "lng": -9.4833,
+    "country": "Mali"
+  },
+  {
+    "city": "Birkirkara",
+    "lat": 35.9,
+    "lng": 14.4667,
+    "country": "Malta"
+  },
+  {
+    "city": "Saint Paul's Bay",
+    "lat": 35.9483,
+    "lng": 14.4017,
+    "country": "Malta"
+  },
+  {
+    "city": "Mosta",
+    "lat": 35.9,
+    "lng": 14.4333,
+    "country": "Malta"
+  },
+  {
+    "city": "Sliema",
+    "lat": 35.9122,
+    "lng": 14.5042,
+    "country": "Malta"
+  },
+  {
+    "city": "Qormi",
+    "lat": 35.8794,
+    "lng": 14.4722,
+    "country": "Malta"
+  },
+  {
+    "city": "Zabbar",
+    "lat": 35.8772,
+    "lng": 14.5381,
+    "country": "Malta"
+  },
+  {
+    "city": "Naxxar",
+    "lat": 35.915,
+    "lng": 14.4447,
+    "country": "Malta"
+  },
+  {
+    "city": "San Gwann",
+    "lat": 35.9094,
+    "lng": 14.4786,
+    "country": "Malta"
+  },
+  {
+    "city": "Marsaskala",
+    "lat": 35.8625,
+    "lng": 14.5675,
+    "country": "Malta"
+  },
+  {
+    "city": "Zebbug",
+    "lat": 35.8733,
+    "lng": 14.4417,
+    "country": "Malta"
+  },
+  {
+    "city": "Majuro",
+    "lat": 7.0918,
+    "lng": 171.3802,
+    "country": "Marshall Islands"
+  },
+  {
+    "city": "Fort-de-France",
+    "lat": 14.6104,
+    "lng": -61.08,
+    "country": "Martinique"
+  },
+  {
+    "city": "Nouakchott",
+    "lat": 18.0858,
+    "lng": -15.9785,
+    "country": "Mauritania"
+  },
+  {
+    "city": "Nema",
+    "lat": 16.6171,
+    "lng": -7.25,
+    "country": "Mauritania"
+  },
+  {
+    "city": "Nouadhibou",
+    "lat": 20.95,
+    "lng": -17.0333,
+    "country": "Mauritania"
+  },
+  {
+    "city": "Kiffa",
+    "lat": 16.6164,
+    "lng": -11.4044,
+    "country": "Mauritania"
+  },
+  {
+    "city": "Zouerate",
+    "lat": 22.7344,
+    "lng": -12.4725,
+    "country": "Mauritania"
+  },
+  {
+    "city": "Rosso",
+    "lat": 16.5128,
+    "lng": -15.805,
+    "country": "Mauritania"
+  },
+  {
+    "city": "Atar",
+    "lat": 20.5167,
+    "lng": -13.05,
+    "country": "Mauritania"
+  },
+  {
+    "city": "Tidjikja",
+    "lat": 18.55,
+    "lng": -11.4166,
+    "country": "Mauritania"
+  },
+  {
+    "city": "Boutilimit",
+    "lat": 17.5504,
+    "lng": -14.7,
+    "country": "Mauritania"
+  },
+  {
+    "city": "Bogue",
+    "lat": 16.5904,
+    "lng": -14.27,
+    "country": "Mauritania"
+  },
+  {
+    "city": "Curepipe",
+    "lat": -20.3162,
+    "lng": 57.5166,
+    "country": "Mauritius"
+  },
+  {
+    "city": "Port Louis",
+    "lat": -20.1667,
+    "lng": 57.5,
+    "country": "Mauritius"
+  },
+  {
+    "city": "Quartier Militaire",
+    "lat": -20.25,
+    "lng": 57.55,
+    "country": "Mauritius"
+  },
+  {
+    "city": "Centre de Flacq",
+    "lat": -20.2002,
+    "lng": 57.7177,
+    "country": "Mauritius"
+  },
+  {
+    "city": "Port Mathurin",
+    "lat": -19.6833,
+    "lng": 63.4211,
+    "country": "Mauritius"
+  },
+  {
+    "city": "Cap Malheureux",
+    "lat": -19.9842,
+    "lng": 57.6142,
+    "country": "Mauritius"
+  },
+  {
+    "city": "Mamoudzou",
+    "lat": -12.7871,
+    "lng": 45.275,
+    "country": "Mayotte"
+  },
+  {
+    "city": "Mexico City",
+    "lat": 19.4333,
+    "lng": -99.1333,
+    "country": "Mexico"
+  },
+  {
+    "city": "Guadalajara",
+    "lat": 20.6767,
+    "lng": -103.3475,
+    "country": "Mexico"
+  },
+  {
+    "city": "Tijuana",
+    "lat": 32.525,
+    "lng": -117.0333,
+    "country": "Mexico"
+  },
+  {
+    "city": "Ecatepec",
+    "lat": 19.6097,
+    "lng": -99.06,
+    "country": "Mexico"
+  },
+  {
+    "city": "Leon de los Aldama",
+    "lat": 21.1167,
+    "lng": -101.6833,
+    "country": "Mexico"
+  },
+  {
+    "city": "Puebla",
+    "lat": 19.0333,
+    "lng": -98.1833,
+    "country": "Mexico"
+  },
+  {
+    "city": "Zapopan",
+    "lat": 20.7167,
+    "lng": -103.4,
+    "country": "Mexico"
+  },
+  {
+    "city": "Juarez",
+    "lat": 31.7386,
+    "lng": -106.487,
+    "country": "Mexico"
+  },
+  {
+    "city": "Monterrey",
+    "lat": 25.6667,
+    "lng": -100.3,
+    "country": "Mexico"
+  },
+  {
+    "city": "Ciudad Nezahualcoyotl",
+    "lat": 19.41,
+    "lng": -99.03,
+    "country": "Mexico"
+  },
+  {
+    "city": "Chisinau",
+    "lat": 47.0228,
+    "lng": 28.8353,
+    "country": "Moldova"
+  },
+  {
+    "city": "Tiraspol",
+    "lat": 46.85,
+    "lng": 29.6333,
+    "country": "Moldova"
+  },
+  {
+    "city": "Balti",
+    "lat": 47.7617,
+    "lng": 27.9289,
+    "country": "Moldova"
+  },
+  {
+    "city": "Bender",
+    "lat": 46.8333,
+    "lng": 29.4833,
+    "country": "Moldova"
+  },
+  {
+    "city": "Ribnita",
+    "lat": 47.7664,
+    "lng": 29.0006,
+    "country": "Moldova"
+  },
+  {
+    "city": "Ungheni",
+    "lat": 47.2042,
+    "lng": 27.7958,
+    "country": "Moldova"
+  },
+  {
+    "city": "Cahul",
+    "lat": 45.9075,
+    "lng": 28.1944,
+    "country": "Moldova"
+  },
+  {
+    "city": "Dubasari",
+    "lat": 47.2667,
+    "lng": 29.1667,
+    "country": "Moldova"
+  },
+  {
+    "city": "Soroca",
+    "lat": 48.1558,
+    "lng": 28.2975,
+    "country": "Moldova"
+  },
+  {
+    "city": "Orhei",
+    "lat": 47.3831,
+    "lng": 28.8231,
+    "country": "Moldova"
+  },
+  {
+    "city": "Monaco",
+    "lat": 43.7396,
+    "lng": 7.4069,
+    "country": "Monaco"
+  },
+  {
+    "city": "Ulaanbaatar",
+    "lat": 47.9214,
+    "lng": 106.9055,
+    "country": "Mongolia"
+  },
+  {
+    "city": "Moron",
+    "lat": 49.6375,
+    "lng": 100.1614,
+    "country": "Mongolia"
+  },
+  {
+    "city": "Erdenet",
+    "lat": 49.0278,
+    "lng": 104.0444,
+    "country": "Mongolia"
+  },
+  {
+    "city": "Darhan",
+    "lat": 49.4867,
+    "lng": 105.9228,
+    "country": "Mongolia"
+  },
+  {
+    "city": "Darhan",
+    "lat": 49.6167,
+    "lng": 106.35,
+    "country": "Mongolia"
+  },
+  {
+    "city": "Choybalsan",
+    "lat": 48.0706,
+    "lng": 114.5228,
+    "country": "Mongolia"
+  },
+  {
+    "city": "Olgiy",
+    "lat": 48.9656,
+    "lng": 89.9632,
+    "country": "Mongolia"
+  },
+  {
+    "city": "Ulaangom",
+    "lat": 49.9754,
+    "lng": 92.0661,
+    "country": "Mongolia"
+  },
+  {
+    "city": "Bayanhongor",
+    "lat": 46.1944,
+    "lng": 100.7181,
+    "country": "Mongolia"
+  },
+  {
+    "city": "Hovd",
+    "lat": 48.0167,
+    "lng": 91.5667,
+    "country": "Mongolia"
+  },
+  {
+    "city": "Podgorica",
+    "lat": 42.4397,
+    "lng": 19.2661,
+    "country": "Montenegro"
+  },
+  {
+    "city": "Ulcinj",
+    "lat": 41.9236,
+    "lng": 19.2056,
+    "country": "Montenegro"
+  },
+  {
+    "city": "Budva",
+    "lat": 42.2847,
+    "lng": 18.8453,
+    "country": "Montenegro"
+  },
+  {
+    "city": "Pljevlja",
+    "lat": 43.3566,
+    "lng": 19.3502,
+    "country": "Montenegro"
+  },
+  {
+    "city": "Herceg Novi",
+    "lat": 42.4531,
+    "lng": 18.5375,
+    "country": "Montenegro"
+  },
+  {
+    "city": "Bijelo Polje",
+    "lat": 43.0292,
+    "lng": 19.7456,
+    "country": "Montenegro"
+  },
+  {
+    "city": "Cetinje",
+    "lat": 42.3933,
+    "lng": 18.9219,
+    "country": "Montenegro"
+  },
+  {
+    "city": "Plav",
+    "lat": 42.5956,
+    "lng": 19.945,
+    "country": "Montenegro"
+  },
+  {
+    "city": "Bar",
+    "lat": 42.1,
+    "lng": 19.1,
+    "country": "Montenegro"
+  },
+  {
+    "city": "Berane",
+    "lat": 42.8473,
+    "lng": 19.8694,
+    "country": "Montenegro"
+  },
+  {
+    "city": "Brades",
+    "lat": 16.7928,
+    "lng": -62.2106,
+    "country": "Montserrat"
+  },
+  {
+    "city": "Casablanca",
+    "lat": 33.5992,
+    "lng": -7.62,
+    "country": "Morocco"
+  },
+  {
+    "city": "El Kelaa des Srarhna",
+    "lat": 32.05,
+    "lng": -7.4,
+    "country": "Morocco"
+  },
+  {
+    "city": "Fes",
+    "lat": 34.0433,
+    "lng": -5.0033,
+    "country": "Morocco"
+  },
+  {
+    "city": "Tangier",
+    "lat": 35.7767,
+    "lng": -5.8039,
+    "country": "Morocco"
+  },
+  {
+    "city": "Marrakech",
+    "lat": 31.6295,
+    "lng": -7.9811,
+    "country": "Morocco"
+  },
+  {
+    "city": "Sale",
+    "lat": 34.05,
+    "lng": -6.8167,
+    "country": "Morocco"
+  },
+  {
+    "city": "Rabat",
+    "lat": 34.0253,
+    "lng": -6.8361,
+    "country": "Morocco"
+  },
+  {
+    "city": "Meknes",
+    "lat": 33.8833,
+    "lng": -5.55,
+    "country": "Morocco"
+  },
+  {
+    "city": "Oujda-Angad",
+    "lat": 34.6867,
+    "lng": -1.9114,
+    "country": "Morocco"
+  },
+  {
+    "city": "Kenitra",
+    "lat": 34.25,
+    "lng": -6.5833,
+    "country": "Morocco"
+  },
+  {
+    "city": "Maputo",
+    "lat": -25.9153,
+    "lng": 32.5764,
+    "country": "Mozambique"
+  },
+  {
+    "city": "Matola",
+    "lat": -25.9667,
+    "lng": 32.4667,
+    "country": "Mozambique"
+  },
+  {
+    "city": "Nampula",
+    "lat": -15.1167,
+    "lng": 39.2667,
+    "country": "Mozambique"
+  },
+  {
+    "city": "Beira",
+    "lat": -19.8333,
+    "lng": 34.85,
+    "country": "Mozambique"
+  },
+  {
+    "city": "Chimoio",
+    "lat": -19.1167,
+    "lng": 33.45,
+    "country": "Mozambique"
+  },
+  {
+    "city": "Cidade de Nacala",
+    "lat": -14.55,
+    "lng": 40.6833,
+    "country": "Mozambique"
+  },
+  {
+    "city": "Quelimane",
+    "lat": -17.8764,
+    "lng": 36.8872,
+    "country": "Mozambique"
+  },
+  {
+    "city": "Tete",
+    "lat": -16.1579,
+    "lng": 33.5898,
+    "country": "Mozambique"
+  },
+  {
+    "city": "Lichinga",
+    "lat": -13.3,
+    "lng": 35.2456,
+    "country": "Mozambique"
+  },
+  {
+    "city": "Pemba",
+    "lat": -12.9667,
+    "lng": 40.5167,
+    "country": "Mozambique"
+  },
+  {
+    "city": "Rangoon",
+    "lat": 16.795,
+    "lng": 96.16,
+    "country": "Myanmar"
+  },
+  {
+    "city": "Mandalay",
+    "lat": 21.9831,
+    "lng": 96.0844,
+    "country": "Myanmar"
+  },
+  {
+    "city": "Nay Pyi Taw",
+    "lat": 19.7475,
+    "lng": 96.115,
+    "country": "Myanmar"
+  },
+  {
+    "city": "Hpa-An",
+    "lat": 16.8906,
+    "lng": 97.6333,
+    "country": "Myanmar"
+  },
+  {
+    "city": "Bago",
+    "lat": 17.3433,
+    "lng": 96.4981,
+    "country": "Myanmar"
+  },
+  {
+    "city": "Myeik",
+    "lat": 12.4394,
+    "lng": 98.6003,
+    "country": "Myanmar"
+  },
+  {
+    "city": "Myitkyina",
+    "lat": 25.3867,
+    "lng": 97.3936,
+    "country": "Myanmar"
+  },
+  {
+    "city": "Pathein",
+    "lat": 16.7667,
+    "lng": 94.7333,
+    "country": "Myanmar"
+  },
+  {
+    "city": "Monywa",
+    "lat": 22.1086,
+    "lng": 95.1358,
+    "country": "Myanmar"
+  },
+  {
+    "city": "Sittwe",
+    "lat": 20.1444,
+    "lng": 92.8969,
+    "country": "Myanmar"
+  },
+  {
+    "city": "Windhoek",
+    "lat": -22.57,
+    "lng": 17.0836,
+    "country": "Namibia"
+  },
+  {
+    "city": "Walvisbaai",
+    "lat": -22.9494,
+    "lng": 14.5069,
+    "country": "Namibia"
+  },
+  {
+    "city": "Rundu",
+    "lat": -17.9167,
+    "lng": 19.7667,
+    "country": "Namibia"
+  },
+  {
+    "city": "Oshakati",
+    "lat": -17.8,
+    "lng": 15.6833,
+    "country": "Namibia"
+  },
+  {
+    "city": "Swakopmund",
+    "lat": -22.6667,
+    "lng": 14.5333,
+    "country": "Namibia"
+  },
+  {
+    "city": "Katima Mulilo",
+    "lat": -17.5,
+    "lng": 24.2667,
+    "country": "Namibia"
+  },
+  {
+    "city": "Otjiwarongo",
+    "lat": -20.4642,
+    "lng": 16.6528,
+    "country": "Namibia"
+  },
+  {
+    "city": "Rehoboth",
+    "lat": -23.3167,
+    "lng": 17.0833,
+    "country": "Namibia"
+  },
+  {
+    "city": "Grootfontein",
+    "lat": -19.5658,
+    "lng": 18.1036,
+    "country": "Namibia"
+  },
+  {
+    "city": "Okahandja",
+    "lat": -21.9796,
+    "lng": 16.91,
+    "country": "Namibia"
+  },
+  {
+    "city": "Yaren",
+    "lat": -0.5477,
+    "lng": 166.9209,
+    "country": "Nauru"
+  },
+  {
+    "city": "Kathmandu",
+    "lat": 27.7167,
+    "lng": 85.3667,
+    "country": "Nepal"
+  },
+  {
+    "city": "Pokhara",
+    "lat": 28.2097,
+    "lng": 83.9853,
+    "country": "Nepal"
+  },
+  {
+    "city": "Jitpur",
+    "lat": 27.6666,
+    "lng": 85.3333,
+    "country": "Nepal"
+  },
+  {
+    "city": "Biratnagar",
+    "lat": 26.4833,
+    "lng": 87.2833,
+    "country": "Nepal"
+  },
+  {
+    "city": "Ghorahi",
+    "lat": 28.0408,
+    "lng": 82.4861,
+    "country": "Nepal"
+  },
+  {
+    "city": "Bharatpur",
+    "lat": 27.6833,
+    "lng": 84.4333,
+    "country": "Nepal"
+  },
+  {
+    "city": "Birganj",
+    "lat": 27.0,
+    "lng": 84.8667,
+    "country": "Nepal"
+  },
+  {
+    "city": "Butwal",
+    "lat": 27.7,
+    "lng": 83.45,
+    "country": "Nepal"
+  },
+  {
+    "city": "Dharan",
+    "lat": 26.8167,
+    "lng": 87.2667,
+    "country": "Nepal"
+  },
+  {
+    "city": "Dhangadhi",
+    "lat": 28.7056,
+    "lng": 80.575,
+    "country": "Nepal"
+  },
+  {
+    "city": "Amsterdam",
+    "lat": 52.3667,
+    "lng": 4.8833,
+    "country": "Netherlands"
+  },
+  {
+    "city": "Rotterdam",
+    "lat": 51.9225,
+    "lng": 4.4792,
+    "country": "Netherlands"
+  },
+  {
+    "city": "The Hague",
+    "lat": 52.08,
+    "lng": 4.31,
+    "country": "Netherlands"
+  },
+  {
+    "city": "Utrecht",
+    "lat": 52.0889,
+    "lng": 5.1156,
+    "country": "Netherlands"
+  },
+  {
+    "city": "Eindhoven",
+    "lat": 51.4344,
+    "lng": 5.4842,
+    "country": "Netherlands"
+  },
+  {
+    "city": "Tilburg",
+    "lat": 51.57,
+    "lng": 5.07,
+    "country": "Netherlands"
+  },
+  {
+    "city": "Almere",
+    "lat": 52.3758,
+    "lng": 5.2256,
+    "country": "Netherlands"
+  },
+  {
+    "city": "Groningen",
+    "lat": 53.2167,
+    "lng": 6.5667,
+    "country": "Netherlands"
+  },
+  {
+    "city": "Breda",
+    "lat": 51.5875,
+    "lng": 4.775,
+    "country": "Netherlands"
+  },
+  {
+    "city": "Nijmegen",
+    "lat": 51.8475,
+    "lng": 5.8625,
+    "country": "Netherlands"
+  },
+  {
+    "city": "Noumea",
+    "lat": -22.2625,
+    "lng": 166.4443,
+    "country": "New Caledonia"
+  },
+  {
+    "city": "Kone",
+    "lat": -21.0667,
+    "lng": 164.8667,
+    "country": "New Caledonia"
+  },
+  {
+    "city": "We",
+    "lat": -20.9,
+    "lng": 167.2667,
+    "country": "New Caledonia"
+  },
+  {
+    "city": "Auckland",
+    "lat": -36.85,
+    "lng": 174.7833,
+    "country": "New Zealand"
+  },
+  {
+    "city": "Wellington",
+    "lat": -41.2889,
+    "lng": 174.7772,
+    "country": "New Zealand"
+  },
+  {
+    "city": "Christchurch",
+    "lat": -43.5309,
+    "lng": 172.6365,
+    "country": "New Zealand"
+  },
+  {
+    "city": "Manukau City",
+    "lat": -37.0,
+    "lng": 174.885,
+    "country": "New Zealand"
+  },
+  {
+    "city": "Waitakere",
+    "lat": -36.849,
+    "lng": 174.543,
+    "country": "New Zealand"
+  },
+  {
+    "city": "Northcote",
+    "lat": -36.7913,
+    "lng": 174.7758,
+    "country": "New Zealand"
+  },
+  {
+    "city": "Hamilton",
+    "lat": -37.7833,
+    "lng": 175.2833,
+    "country": "New Zealand"
+  },
+  {
+    "city": "Tauranga",
+    "lat": -37.6858,
+    "lng": 176.1667,
+    "country": "New Zealand"
+  },
+  {
+    "city": "Lower Hutt",
+    "lat": -41.2167,
+    "lng": 174.9167,
+    "country": "New Zealand"
+  },
+  {
+    "city": "Dunedin",
+    "lat": -45.8742,
+    "lng": 170.5036,
+    "country": "New Zealand"
+  },
+  {
+    "city": "Managua",
+    "lat": 12.15,
+    "lng": -86.2667,
+    "country": "Nicaragua"
+  },
+  {
+    "city": "Boaco",
+    "lat": 12.4667,
+    "lng": -85.6667,
+    "country": "Nicaragua"
+  },
+  {
+    "city": "Leon",
+    "lat": 12.4333,
+    "lng": -86.8833,
+    "country": "Nicaragua"
+  },
+  {
+    "city": "Masaya",
+    "lat": 11.9667,
+    "lng": -86.1,
+    "country": "Nicaragua"
+  },
+  {
+    "city": "Jinotega",
+    "lat": 13.0833,
+    "lng": -86.0,
+    "country": "Nicaragua"
+  },
+  {
+    "city": "Matagalpa",
+    "lat": 12.9167,
+    "lng": -85.9167,
+    "country": "Nicaragua"
+  },
+  {
+    "city": "Esteli",
+    "lat": 13.0833,
+    "lng": -86.35,
+    "country": "Nicaragua"
+  },
+  {
+    "city": "Chinandega",
+    "lat": 12.6242,
+    "lng": -87.1297,
+    "country": "Nicaragua"
+  },
+  {
+    "city": "Tipitapa",
+    "lat": 12.2,
+    "lng": -86.1,
+    "country": "Nicaragua"
+  },
+  {
+    "city": "Granada",
+    "lat": 11.93,
+    "lng": -85.9561,
+    "country": "Nicaragua"
+  },
+  {
+    "city": "Niamey",
+    "lat": 13.5086,
+    "lng": 2.1111,
+    "country": "Niger"
+  },
+  {
+    "city": "Maradi",
+    "lat": 13.5,
+    "lng": 7.1,
+    "country": "Niger"
+  },
+  {
+    "city": "Zinder",
+    "lat": 13.8,
+    "lng": 8.9833,
+    "country": "Niger"
+  },
+  {
+    "city": "Agadez",
+    "lat": 16.9959,
+    "lng": 7.9828,
+    "country": "Niger"
+  },
+  {
+    "city": "Tahoua",
+    "lat": 14.9,
+    "lng": 5.2599,
+    "country": "Niger"
+  },
+  {
+    "city": "Arlit",
+    "lat": 18.7333,
+    "lng": 7.3833,
+    "country": "Niger"
+  },
+  {
+    "city": "Birnin Konni",
+    "lat": 13.7904,
+    "lng": 5.2599,
+    "country": "Niger"
+  },
+  {
+    "city": "Dosso",
+    "lat": 13.05,
+    "lng": 3.2,
+    "country": "Niger"
+  },
+  {
+    "city": "Gaya",
+    "lat": 11.8878,
+    "lng": 3.4467,
+    "country": "Niger"
+  },
+  {
+    "city": "Diffa",
+    "lat": 13.3171,
+    "lng": 12.6089,
+    "country": "Niger"
+  },
+  {
+    "city": "Lagos",
+    "lat": 6.45,
+    "lng": 3.4,
+    "country": "Nigeria"
+  },
+  {
+    "city": "Kano",
+    "lat": 12.0,
+    "lng": 8.5167,
+    "country": "Nigeria"
+  },
+  {
+    "city": "Ibadan",
+    "lat": 7.3964,
+    "lng": 3.9167,
+    "country": "Nigeria"
+  },
+  {
+    "city": "Aba",
+    "lat": 5.1167,
+    "lng": 7.3667,
+    "country": "Nigeria"
+  },
+  {
+    "city": "Onitsha",
+    "lat": 6.1667,
+    "lng": 6.7833,
+    "country": "Nigeria"
+  },
+  {
+    "city": "Abuja",
+    "lat": 9.0556,
+    "lng": 7.4914,
+    "country": "Nigeria"
+  },
+  {
+    "city": "Maiduguri",
+    "lat": 11.8333,
+    "lng": 13.15,
+    "country": "Nigeria"
+  },
+  {
+    "city": "Benin City",
+    "lat": 6.3176,
+    "lng": 5.6145,
+    "country": "Nigeria"
+  },
+  {
+    "city": "Ikare",
+    "lat": 7.5304,
+    "lng": 5.76,
+    "country": "Nigeria"
+  },
+  {
+    "city": "Ogbomoso",
+    "lat": 8.1333,
+    "lng": 4.25,
+    "country": "Nigeria"
+  },
+  {
+    "city": "Alofi",
+    "lat": -19.056,
+    "lng": -169.921,
+    "country": "Niue"
+  },
+  {
+    "city": "Kingston",
+    "lat": -29.0569,
+    "lng": 167.9617,
+    "country": "Norfolk Island"
+  },
+  {
+    "city": "Pyongyang",
+    "lat": 39.03,
+    "lng": 125.73,
+    "country": "North Korea"
+  },
+  {
+    "city": "Nampo",
+    "lat": 38.7689,
+    "lng": 125.4505,
+    "country": "North Korea"
+  },
+  {
+    "city": "Hamhung",
+    "lat": 39.9167,
+    "lng": 127.5333,
+    "country": "North Korea"
+  },
+  {
+    "city": "Ch'ongjin",
+    "lat": 41.8,
+    "lng": 129.7831,
+    "country": "North Korea"
+  },
+  {
+    "city": "Sunch'on",
+    "lat": 39.4167,
+    "lng": 125.9333,
+    "country": "North Korea"
+  },
+  {
+    "city": "Wonsan",
+    "lat": 39.1475,
+    "lng": 127.4461,
+    "country": "North Korea"
+  },
+  {
+    "city": "Sinuiju",
+    "lat": 40.1,
+    "lng": 124.4,
+    "country": "North Korea"
+  },
+  {
+    "city": "Tanch'on",
+    "lat": 40.458,
+    "lng": 128.911,
+    "country": "North Korea"
+  },
+  {
+    "city": "Kaesong",
+    "lat": 37.964,
+    "lng": 126.5644,
+    "country": "North Korea"
+  },
+  {
+    "city": "Kaech'on",
+    "lat": 39.6986,
+    "lng": 125.9061,
+    "country": "North Korea"
+  },
+  {
+    "city": "Capitol Hill",
+    "lat": 15.2137,
+    "lng": 145.7546,
+    "country": "Northern Mariana Islands"
+  },
+  {
+    "city": "Oslo",
+    "lat": 59.9111,
+    "lng": 10.7528,
+    "country": "Norway"
+  },
+  {
+    "city": "Bergen",
+    "lat": 60.3925,
+    "lng": 5.3233,
+    "country": "Norway"
+  },
+  {
+    "city": "Trondheim",
+    "lat": 63.44,
+    "lng": 10.4,
+    "country": "Norway"
+  },
+  {
+    "city": "Stavanger",
+    "lat": 58.9701,
+    "lng": 5.7333,
+    "country": "Norway"
+  },
+  {
+    "city": "Kristiansand",
+    "lat": 58.1467,
+    "lng": 7.9956,
+    "country": "Norway"
+  },
+  {
+    "city": "Drammen",
+    "lat": 59.7439,
+    "lng": 10.2045,
+    "country": "Norway"
+  },
+  {
+    "city": "Fredrikstad",
+    "lat": 59.2167,
+    "lng": 10.95,
+    "country": "Norway"
+  },
+  {
+    "city": "Sandefjord",
+    "lat": 59.1288,
+    "lng": 10.2197,
+    "country": "Norway"
+  },
+  {
+    "city": "Asker",
+    "lat": 59.8331,
+    "lng": 10.4392,
+    "country": "Norway"
+  },
+  {
+    "city": "Nordre Fale",
+    "lat": 59.75,
+    "lng": 10.8667,
+    "country": "Norway"
+  },
+  {
+    "city": "Muscat",
+    "lat": 23.6139,
+    "lng": 58.5922,
+    "country": "Oman"
+  },
+  {
+    "city": "As Sib",
+    "lat": 23.6802,
+    "lng": 58.1825,
+    "country": "Oman"
+  },
+  {
+    "city": "Matrah",
+    "lat": 23.6167,
+    "lng": 58.5667,
+    "country": "Oman"
+  },
+  {
+    "city": "Salalah",
+    "lat": 17.0197,
+    "lng": 54.0897,
+    "country": "Oman"
+  },
+  {
+    "city": "As Suwayhirah as Sahil",
+    "lat": 24.362,
+    "lng": 56.7344,
+    "country": "Oman"
+  },
+  {
+    "city": "`Ibri",
+    "lat": 23.2254,
+    "lng": 56.517,
+    "country": "Oman"
+  },
+  {
+    "city": "Nizwa",
+    "lat": 22.9264,
+    "lng": 57.5314,
+    "country": "Oman"
+  },
+  {
+    "city": "Al Madrah Sama'il",
+    "lat": 23.3032,
+    "lng": 57.9782,
+    "country": "Oman"
+  },
+  {
+    "city": "Khasab",
+    "lat": 26.1833,
+    "lng": 56.25,
+    "country": "Oman"
+  },
+  {
+    "city": "Mirbat",
+    "lat": 16.9924,
+    "lng": 54.6918,
+    "country": "Oman"
+  },
+  {
+    "city": "Karachi",
+    "lat": 24.86,
+    "lng": 67.01,
+    "country": "Pakistan"
+  },
+  {
+    "city": "Lahore",
+    "lat": 31.5497,
+    "lng": 74.3436,
+    "country": "Pakistan"
+  },
+  {
+    "city": "Faisalabad",
+    "lat": 31.418,
+    "lng": 73.079,
+    "country": "Pakistan"
+  },
+  {
+    "city": "Rawalpindi",
+    "lat": 33.6007,
+    "lng": 73.0679,
+    "country": "Pakistan"
+  },
+  {
+    "city": "Gujranwala",
+    "lat": 32.15,
+    "lng": 74.1833,
+    "country": "Pakistan"
+  },
+  {
+    "city": "Peshawar",
+    "lat": 34.0,
+    "lng": 71.5,
+    "country": "Pakistan"
+  },
+  {
+    "city": "Multan",
+    "lat": 30.1978,
+    "lng": 71.4711,
+    "country": "Pakistan"
+  },
+  {
+    "city": "Saidu Sharif",
+    "lat": 34.75,
+    "lng": 72.3572,
+    "country": "Pakistan"
+  },
+  {
+    "city": "Hyderabad City",
+    "lat": 25.3792,
+    "lng": 68.3683,
+    "country": "Pakistan"
+  },
+  {
+    "city": "Islamabad",
+    "lat": 33.6989,
+    "lng": 73.0369,
+    "country": "Pakistan"
+  },
+  {
+    "city": "Koror",
+    "lat": 7.3433,
+    "lng": 134.4804,
+    "country": "Palau"
+  },
+  {
+    "city": "Melekeok",
+    "lat": 7.4874,
+    "lng": 134.6265,
+    "country": "Palau"
+  },
+  {
+    "city": "Ngerulmud",
+    "lat": 7.5006,
+    "lng": 134.6242,
+    "country": "Palau"
+  },
+  {
+    "city": "Panama City",
+    "lat": 9.0,
+    "lng": -79.5,
+    "country": "Panama"
+  },
+  {
+    "city": "San Miguelito",
+    "lat": 9.033,
+    "lng": -79.5,
+    "country": "Panama"
+  },
+  {
+    "city": "Colon",
+    "lat": 9.365,
+    "lng": -79.875,
+    "country": "Panama"
+  },
+  {
+    "city": "David",
+    "lat": 8.4333,
+    "lng": -82.4333,
+    "country": "Panama"
+  },
+  {
+    "city": "La Chorrera",
+    "lat": 8.8792,
+    "lng": -79.7822,
+    "country": "Panama"
+  },
+  {
+    "city": "Balboa Heights",
+    "lat": 8.95,
+    "lng": -79.5667,
+    "country": "Panama"
+  },
+  {
+    "city": "Pacora",
+    "lat": 9.08,
+    "lng": -79.28,
+    "country": "Panama"
+  },
+  {
+    "city": "Chitre",
+    "lat": 7.9667,
+    "lng": -80.4333,
+    "country": "Panama"
+  },
+  {
+    "city": "Santiago",
+    "lat": 8.1004,
+    "lng": -80.9833,
+    "country": "Panama"
+  },
+  {
+    "city": "Penonome",
+    "lat": 8.51,
+    "lng": -80.36,
+    "country": "Panama"
+  },
+  {
+    "city": "Port Moresby",
+    "lat": -9.4789,
+    "lng": 147.1494,
+    "country": "Papua New Guinea"
+  },
+  {
+    "city": "Lae",
+    "lat": -6.7303,
+    "lng": 147.0008,
+    "country": "Papua New Guinea"
+  },
+  {
+    "city": "Madang",
+    "lat": -5.2248,
+    "lng": 145.7853,
+    "country": "Papua New Guinea"
+  },
+  {
+    "city": "Arawa",
+    "lat": -6.228,
+    "lng": 155.566,
+    "country": "Papua New Guinea"
+  },
+  {
+    "city": "Mount Hagen",
+    "lat": -5.8667,
+    "lng": 144.2167,
+    "country": "Papua New Guinea"
+  },
+  {
+    "city": "Popondetta",
+    "lat": -8.7656,
+    "lng": 148.2347,
+    "country": "Papua New Guinea"
+  },
+  {
+    "city": "Mendi",
+    "lat": -6.1478,
+    "lng": 143.6572,
+    "country": "Papua New Guinea"
+  },
+  {
+    "city": "Wewak",
+    "lat": -3.55,
+    "lng": 143.6333,
+    "country": "Papua New Guinea"
+  },
+  {
+    "city": "Goroka",
+    "lat": -6.0833,
+    "lng": 145.3833,
+    "country": "Papua New Guinea"
+  },
+  {
+    "city": "Kavieng",
+    "lat": -2.5667,
+    "lng": 150.8,
+    "country": "Papua New Guinea"
+  },
+  {
+    "city": "Asuncion",
+    "lat": -25.3,
+    "lng": -57.6333,
+    "country": "Paraguay"
+  },
+  {
+    "city": "Ciudad del Este",
+    "lat": -25.5167,
+    "lng": -54.6167,
+    "country": "Paraguay"
+  },
+  {
+    "city": "San Lorenzo",
+    "lat": -25.3431,
+    "lng": -57.5094,
+    "country": "Paraguay"
+  },
+  {
+    "city": "Pedro Juan Caballero",
+    "lat": -22.5667,
+    "lng": -55.7167,
+    "country": "Paraguay"
+  },
+  {
+    "city": "Coronel Oviedo",
+    "lat": -25.45,
+    "lng": -56.44,
+    "country": "Paraguay"
+  },
+  {
+    "city": "Ita",
+    "lat": -25.4833,
+    "lng": -57.35,
+    "country": "Paraguay"
+  },
+  {
+    "city": "San Antonio",
+    "lat": -25.3797,
+    "lng": -57.6097,
+    "country": "Paraguay"
+  },
+  {
+    "city": "Encarnacion",
+    "lat": -27.3333,
+    "lng": -55.8667,
+    "country": "Paraguay"
+  },
+  {
+    "city": "Aregua",
+    "lat": -25.3,
+    "lng": -57.4169,
+    "country": "Paraguay"
+  },
+  {
+    "city": "San Ignacio",
+    "lat": -26.8867,
+    "lng": -57.0283,
+    "country": "Paraguay"
+  },
+  {
+    "city": "Lima",
+    "lat": -12.06,
+    "lng": -77.0375,
+    "country": "Peru"
+  },
+  {
+    "city": "Callao",
+    "lat": -12.0611,
+    "lng": -77.1333,
+    "country": "Peru"
+  },
+  {
+    "city": "Arequipa",
+    "lat": -16.3988,
+    "lng": -71.5369,
+    "country": "Peru"
+  },
+  {
+    "city": "Trujillo",
+    "lat": -8.1119,
+    "lng": -79.0289,
+    "country": "Peru"
+  },
+  {
+    "city": "Chiclayo",
+    "lat": -6.763,
+    "lng": -79.8366,
+    "country": "Peru"
+  },
+  {
+    "city": "Chimbote",
+    "lat": -9.0745,
+    "lng": -78.5936,
+    "country": "Peru"
+  },
+  {
+    "city": "Piura",
+    "lat": -5.2008,
+    "lng": -80.6253,
+    "country": "Peru"
+  },
+  {
+    "city": "Cusco",
+    "lat": -13.5222,
+    "lng": -71.9833,
+    "country": "Peru"
+  },
+  {
+    "city": "Huancayo",
+    "lat": -12.0667,
+    "lng": -75.2167,
+    "country": "Peru"
+  },
+  {
+    "city": "Iquitos",
+    "lat": -3.7333,
+    "lng": -73.25,
+    "country": "Peru"
+  },
+  {
+    "city": "Manila",
+    "lat": 14.6,
+    "lng": 120.9833,
+    "country": "Philippines"
+  },
+  {
+    "city": "Quezon City",
+    "lat": 14.6333,
+    "lng": 121.0333,
+    "country": "Philippines"
+  },
+  {
+    "city": "Davao",
+    "lat": 7.0667,
+    "lng": 125.6,
+    "country": "Philippines"
+  },
+  {
+    "city": "Caloocan City",
+    "lat": 14.65,
+    "lng": 120.9667,
+    "country": "Philippines"
+  },
+  {
+    "city": "Zamboanga City",
+    "lat": 6.9167,
+    "lng": 122.0833,
+    "country": "Philippines"
+  },
+  {
+    "city": "Cebu City",
+    "lat": 10.293,
+    "lng": 123.902,
+    "country": "Philippines"
+  },
+  {
+    "city": "Antipolo",
+    "lat": 14.5842,
+    "lng": 121.1763,
+    "country": "Philippines"
+  },
+  {
+    "city": "Taguig City",
+    "lat": 14.5167,
+    "lng": 121.05,
+    "country": "Philippines"
+  },
+  {
+    "city": "Pasig City",
+    "lat": 14.575,
+    "lng": 121.0833,
+    "country": "Philippines"
+  },
+  {
+    "city": "Cagayan de Oro",
+    "lat": 8.4833,
+    "lng": 124.65,
+    "country": "Philippines"
+  },
+  {
+    "city": "Adamstown",
+    "lat": -25.0667,
+    "lng": -130.0833,
+    "country": "Pitcairn Islands"
+  },
+  {
+    "city": "Warsaw",
+    "lat": 52.23,
+    "lng": 21.0111,
+    "country": "Poland"
+  },
+  {
+    "city": "Krakow",
+    "lat": 50.0614,
+    "lng": 19.9372,
+    "country": "Poland"
+  },
+  {
+    "city": "Lodz",
+    "lat": 51.7769,
+    "lng": 19.4547,
+    "country": "Poland"
+  },
+  {
+    "city": "Wroclaw",
+    "lat": 51.11,
+    "lng": 17.0325,
+    "country": "Poland"
+  },
+  {
+    "city": "Poznan",
+    "lat": 52.4083,
+    "lng": 16.9336,
+    "country": "Poland"
+  },
+  {
+    "city": "Gdansk",
+    "lat": 54.3667,
+    "lng": 18.6333,
+    "country": "Poland"
+  },
+  {
+    "city": "Szczecin",
+    "lat": 53.4247,
+    "lng": 14.5553,
+    "country": "Poland"
+  },
+  {
+    "city": "Bydgoszcz",
+    "lat": 53.1167,
+    "lng": 18.0,
+    "country": "Poland"
+  },
+  {
+    "city": "Lublin",
+    "lat": 51.2333,
+    "lng": 22.5667,
+    "country": "Poland"
+  },
+  {
+    "city": "Bialystok",
+    "lat": 53.1167,
+    "lng": 23.1667,
+    "country": "Poland"
+  },
+  {
+    "city": "Lisbon",
+    "lat": 38.708,
+    "lng": -9.139,
+    "country": "Portugal"
+  },
+  {
+    "city": "Sintra",
+    "lat": 38.7974,
+    "lng": -9.3904,
+    "country": "Portugal"
+  },
+  {
+    "city": "Vila Nova de Gaia",
+    "lat": 41.1333,
+    "lng": -8.6167,
+    "country": "Portugal"
+  },
+  {
+    "city": "Porto",
+    "lat": 41.1495,
+    "lng": -8.6108,
+    "country": "Portugal"
+  },
+  {
+    "city": "Cascais",
+    "lat": 38.6969,
+    "lng": -9.4206,
+    "country": "Portugal"
+  },
+  {
+    "city": "Loures",
+    "lat": 38.8333,
+    "lng": -9.1667,
+    "country": "Portugal"
+  },
+  {
+    "city": "Braga",
+    "lat": 41.5503,
+    "lng": -8.42,
+    "country": "Portugal"
+  },
+  {
+    "city": "Matosinhos",
+    "lat": 41.1867,
+    "lng": -8.6844,
+    "country": "Portugal"
+  },
+  {
+    "city": "Amadora",
+    "lat": 38.75,
+    "lng": -9.2333,
+    "country": "Portugal"
+  },
+  {
+    "city": "Almada",
+    "lat": 38.6803,
+    "lng": -9.1583,
+    "country": "Portugal"
+  },
+  {
+    "city": "San Juan",
+    "lat": 18.4037,
+    "lng": -66.0636,
+    "country": "Puerto Rico"
+  },
+  {
+    "city": "Bayamon",
+    "lat": 18.3793,
+    "lng": -66.1635,
+    "country": "Puerto Rico"
+  },
+  {
+    "city": "Carolina",
+    "lat": 18.4054,
+    "lng": -65.9792,
+    "country": "Puerto Rico"
+  },
+  {
+    "city": "Ponce",
+    "lat": 18.012,
+    "lng": -66.6198,
+    "country": "Puerto Rico"
+  },
+  {
+    "city": "Caguas",
+    "lat": 18.2319,
+    "lng": -66.0388,
+    "country": "Puerto Rico"
+  },
+  {
+    "city": "Guaynabo",
+    "lat": 18.3839,
+    "lng": -66.1134,
+    "country": "Puerto Rico"
+  },
+  {
+    "city": "Mayaguez",
+    "lat": 18.2003,
+    "lng": -67.1397,
+    "country": "Puerto Rico"
+  },
+  {
+    "city": "Trujillo Alto",
+    "lat": 18.3601,
+    "lng": -66.0103,
+    "country": "Puerto Rico"
+  },
+  {
+    "city": "Arecibo",
+    "lat": 18.4491,
+    "lng": -66.7387,
+    "country": "Puerto Rico"
+  },
+  {
+    "city": "Levittown",
+    "lat": 18.4454,
+    "lng": -66.1759,
+    "country": "Puerto Rico"
+  },
+  {
+    "city": "Doha",
+    "lat": 25.3,
+    "lng": 51.5333,
+    "country": "Qatar"
+  },
+  {
+    "city": "Al Wakrah",
+    "lat": 25.18,
+    "lng": 51.61,
+    "country": "Qatar"
+  },
+  {
+    "city": "Ar Rayyan",
+    "lat": 25.2919,
+    "lng": 51.4244,
+    "country": "Qatar"
+  },
+  {
+    "city": "Al Khawr",
+    "lat": 25.6839,
+    "lng": 51.5058,
+    "country": "Qatar"
+  },
+  {
+    "city": "Umm Salal `Ali",
+    "lat": 25.4697,
+    "lng": 51.3975,
+    "country": "Qatar"
+  },
+  {
+    "city": "Ash Shihaniyah",
+    "lat": 25.3722,
+    "lng": 51.2047,
+    "country": "Qatar"
+  },
+  {
+    "city": "Az Za`ayin",
+    "lat": 25.5669,
+    "lng": 51.4847,
+    "country": "Qatar"
+  },
+  {
+    "city": "Madinat ash Shamal",
+    "lat": 26.14,
+    "lng": 51.22,
+    "country": "Qatar"
+  },
+  {
+    "city": "Saint-Denis",
+    "lat": -20.8789,
+    "lng": 55.4481,
+    "country": "Reunion"
+  },
+  {
+    "city": "Saint-Benoit",
+    "lat": -21.0335,
+    "lng": 55.7128,
+    "country": "Reunion"
+  },
+  {
+    "city": "Bucharest",
+    "lat": 44.4,
+    "lng": 26.0833,
+    "country": "Romania"
+  },
+  {
+    "city": "Cluj-Napoca",
+    "lat": 46.78,
+    "lng": 23.5594,
+    "country": "Romania"
+  },
+  {
+    "city": "Timisoara",
+    "lat": 45.7597,
+    "lng": 21.23,
+    "country": "Romania"
+  },
+  {
+    "city": "Brasov",
+    "lat": 45.65,
+    "lng": 25.6,
+    "country": "Romania"
+  },
+  {
+    "city": "Iasi",
+    "lat": 47.1622,
+    "lng": 27.5889,
+    "country": "Romania"
+  },
+  {
+    "city": "Constanta",
+    "lat": 44.1733,
+    "lng": 28.6383,
+    "country": "Romania"
+  },
+  {
+    "city": "Craiova",
+    "lat": 44.3333,
+    "lng": 23.8167,
+    "country": "Romania"
+  },
+  {
+    "city": "Galati",
+    "lat": 45.4233,
+    "lng": 28.0425,
+    "country": "Romania"
+  },
+  {
+    "city": "Ploiesti",
+    "lat": 44.9386,
+    "lng": 26.0225,
+    "country": "Romania"
+  },
+  {
+    "city": "Oradea",
+    "lat": 47.0722,
+    "lng": 21.9211,
+    "country": "Romania"
+  },
+  {
+    "city": "Moscow",
+    "lat": 55.7558,
+    "lng": 37.6178,
+    "country": "Russia"
+  },
+  {
+    "city": "Saint Petersburg",
+    "lat": 59.95,
+    "lng": 30.3167,
+    "country": "Russia"
+  },
+  {
+    "city": "Novosibirsk",
+    "lat": 55.0333,
+    "lng": 82.9167,
+    "country": "Russia"
+  },
+  {
+    "city": "Yekaterinburg",
+    "lat": 56.8356,
+    "lng": 60.6128,
+    "country": "Russia"
+  },
+  {
+    "city": "Nizhniy Novgorod",
+    "lat": 56.3269,
+    "lng": 44.0075,
+    "country": "Russia"
+  },
+  {
+    "city": "Kazan",
+    "lat": 55.7908,
+    "lng": 49.1144,
+    "country": "Russia"
+  },
+  {
+    "city": "Chelyabinsk",
+    "lat": 55.15,
+    "lng": 61.4,
+    "country": "Russia"
+  },
+  {
+    "city": "Omsk",
+    "lat": 54.9667,
+    "lng": 73.3833,
+    "country": "Russia"
+  },
+  {
+    "city": "Samara",
+    "lat": 53.1833,
+    "lng": 50.1167,
+    "country": "Russia"
+  },
+  {
+    "city": "Rostov",
+    "lat": 47.2333,
+    "lng": 39.7167,
+    "country": "Russia"
+  },
+  {
+    "city": "Kigali",
+    "lat": -1.9536,
+    "lng": 30.0606,
+    "country": "Rwanda"
+  },
+  {
+    "city": "Nyanza",
+    "lat": -2.3496,
+    "lng": 29.74,
+    "country": "Rwanda"
+  },
+  {
+    "city": "Gisenyi",
+    "lat": -1.6928,
+    "lng": 29.25,
+    "country": "Rwanda"
+  },
+  {
+    "city": "Gitarama",
+    "lat": -2.0696,
+    "lng": 29.76,
+    "country": "Rwanda"
+  },
+  {
+    "city": "Ruhengeri",
+    "lat": -1.4944,
+    "lng": 29.6417,
+    "country": "Rwanda"
+  },
+  {
+    "city": "Butare",
+    "lat": -2.6,
+    "lng": 29.75,
+    "country": "Rwanda"
+  },
+  {
+    "city": "Muhanga",
+    "lat": -2.0783,
+    "lng": 29.7581,
+    "country": "Rwanda"
+  },
+  {
+    "city": "Kabuga",
+    "lat": -1.9765,
+    "lng": 30.2247,
+    "country": "Rwanda"
+  },
+  {
+    "city": "Byumba",
+    "lat": -1.5794,
+    "lng": 30.0694,
+    "country": "Rwanda"
+  },
+  {
+    "city": "Cyangugu",
+    "lat": -2.4833,
+    "lng": 28.8967,
+    "country": "Rwanda"
+  },
+  {
+    "city": "Gustavia",
+    "lat": 17.8958,
+    "lng": -62.8508,
+    "country": "Saint Barthelemy"
+  },
+  {
+    "city": "Jamestown",
+    "lat": -15.9251,
+    "lng": -5.7179,
+    "country": "Saint Helena, Ascension, And Tristan Da Cunha"
+  },
+  {
+    "city": "Georgetown",
+    "lat": -7.9286,
+    "lng": -14.4119,
+    "country": "Saint Helena, Ascension, And Tristan Da Cunha"
+  },
+  {
+    "city": "Edinburgh of the Seven Seas",
+    "lat": -37.0675,
+    "lng": -12.3105,
+    "country": "Saint Helena, Ascension, And Tristan Da Cunha"
+  },
+  {
+    "city": "Basseterre",
+    "lat": 17.2983,
+    "lng": -62.7342,
+    "country": "Saint Kitts And Nevis"
+  },
+  {
+    "city": "Castries",
+    "lat": 14.0167,
+    "lng": -60.9833,
+    "country": "Saint Lucia"
+  },
+  {
+    "city": "Gros Islet",
+    "lat": 14.081,
+    "lng": -60.953,
+    "country": "Saint Lucia"
+  },
+  {
+    "city": "Marigot",
+    "lat": 18.0706,
+    "lng": -63.0847,
+    "country": "Saint Martin"
+  },
+  {
+    "city": "Saint-Pierre",
+    "lat": 46.7811,
+    "lng": -56.1764,
+    "country": "Saint Pierre And Miquelon"
+  },
+  {
+    "city": "Kingstown",
+    "lat": 13.1667,
+    "lng": -61.2333,
+    "country": "Saint Vincent And The Grenadines"
+  },
+  {
+    "city": "Apia",
+    "lat": -13.8333,
+    "lng": -171.8333,
+    "country": "Samoa"
+  },
+  {
+    "city": "Afega",
+    "lat": -13.7973,
+    "lng": -171.8531,
+    "country": "Samoa"
+  },
+  {
+    "city": "Leulumoega",
+    "lat": -13.823,
+    "lng": -171.9613,
+    "country": "Samoa"
+  },
+  {
+    "city": "Mulifanua",
+    "lat": -13.8318,
+    "lng": -172.036,
+    "country": "Samoa"
+  },
+  {
+    "city": "Lufilufi",
+    "lat": -13.8745,
+    "lng": -171.5986,
+    "country": "Samoa"
+  },
+  {
+    "city": "Safotulafai",
+    "lat": -13.6715,
+    "lng": -172.1777,
+    "country": "Samoa"
+  },
+  {
+    "city": "Samamea",
+    "lat": -13.9338,
+    "lng": -171.5312,
+    "country": "Samoa"
+  },
+  {
+    "city": "Satupa`itea",
+    "lat": -13.7659,
+    "lng": -172.3269,
+    "country": "Samoa"
+  },
+  {
+    "city": "Asau",
+    "lat": -13.5196,
+    "lng": -172.6378,
+    "country": "Samoa"
+  },
+  {
+    "city": "Safotu",
+    "lat": -13.4513,
+    "lng": -172.4018,
+    "country": "Samoa"
+  },
+  {
+    "city": "San Marino",
+    "lat": 43.932,
+    "lng": 12.4484,
+    "country": "San Marino"
+  },
+  {
+    "city": "Serravalle",
+    "lat": 43.9683,
+    "lng": 12.4811,
+    "country": "San Marino"
+  },
+  {
+    "city": "Borgo Maggiore",
+    "lat": 43.9408,
+    "lng": 12.4475,
+    "country": "San Marino"
+  },
+  {
+    "city": "Domagnano",
+    "lat": 43.9492,
+    "lng": 12.4686,
+    "country": "San Marino"
+  },
+  {
+    "city": "Acquaviva",
+    "lat": 43.9453,
+    "lng": 12.4183,
+    "country": "San Marino"
+  },
+  {
+    "city": "Fiorentino",
+    "lat": 43.9092,
+    "lng": 12.4581,
+    "country": "San Marino"
+  },
+  {
+    "city": "Montegiardino",
+    "lat": 43.9092,
+    "lng": 12.4833,
+    "country": "San Marino"
+  },
+  {
+    "city": "Chiesanuova",
+    "lat": 43.9061,
+    "lng": 12.4214,
+    "country": "San Marino"
+  },
+  {
+    "city": "Faetano",
+    "lat": 43.9261,
+    "lng": 12.4981,
+    "country": "San Marino"
+  },
+  {
+    "city": "Sao Tome",
+    "lat": 0.3333,
+    "lng": 6.7333,
+    "country": "Sao Tome And Principe"
+  },
+  {
+    "city": "Trindade",
+    "lat": 0.3,
+    "lng": 6.6667,
+    "country": "Sao Tome And Principe"
+  },
+  {
+    "city": "Santo Antonio",
+    "lat": 1.6806,
+    "lng": 7.4394,
+    "country": "Sao Tome And Principe"
+  },
+  {
+    "city": "Guadalupe",
+    "lat": 0.3792,
+    "lng": 6.6375,
+    "country": "Sao Tome And Principe"
+  },
+  {
+    "city": "Santana",
+    "lat": 0.26,
+    "lng": 6.7414,
+    "country": "Sao Tome And Principe"
+  },
+  {
+    "city": "Neves",
+    "lat": 0.3586,
+    "lng": 6.5525,
+    "country": "Sao Tome And Principe"
+  },
+  {
+    "city": "Sao Joao dos Angolares",
+    "lat": 0.1342,
+    "lng": 6.6494,
+    "country": "Sao Tome And Principe"
+  },
+  {
+    "city": "Riyadh",
+    "lat": 24.65,
+    "lng": 46.71,
+    "country": "Saudi Arabia"
+  },
+  {
+    "city": "Jeddah",
+    "lat": 21.5428,
+    "lng": 39.1728,
+    "country": "Saudi Arabia"
+  },
+  {
+    "city": "Mecca",
+    "lat": 21.4225,
+    "lng": 39.8261,
+    "country": "Saudi Arabia"
+  },
+  {
+    "city": "Medina",
+    "lat": 24.4667,
+    "lng": 39.6,
+    "country": "Saudi Arabia"
+  },
+  {
+    "city": "Ad Dammam",
+    "lat": 26.4333,
+    "lng": 50.1,
+    "country": "Saudi Arabia"
+  },
+  {
+    "city": "Al Hufuf",
+    "lat": 25.3608,
+    "lng": 49.5997,
+    "country": "Saudi Arabia"
+  },
+  {
+    "city": "Al Hillah",
+    "lat": 23.4895,
+    "lng": 46.7564,
+    "country": "Saudi Arabia"
+  },
+  {
+    "city": "At Ta'if",
+    "lat": 21.2667,
+    "lng": 40.4167,
+    "country": "Saudi Arabia"
+  },
+  {
+    "city": "Tabuk",
+    "lat": 28.3838,
+    "lng": 36.555,
+    "country": "Saudi Arabia"
+  },
+  {
+    "city": "Buraydah",
+    "lat": 26.3333,
+    "lng": 43.9667,
+    "country": "Saudi Arabia"
+  },
+  {
+    "city": "Pikine",
+    "lat": 14.75,
+    "lng": -17.4,
+    "country": "Senegal"
+  },
+  {
+    "city": "Dakar",
+    "lat": 14.7319,
+    "lng": -17.4572,
+    "country": "Senegal"
+  },
+  {
+    "city": "Touba",
+    "lat": 14.8667,
+    "lng": -15.8833,
+    "country": "Senegal"
+  },
+  {
+    "city": "Thies",
+    "lat": 14.7833,
+    "lng": -16.9167,
+    "country": "Senegal"
+  },
+  {
+    "city": "Rufisque",
+    "lat": 14.7167,
+    "lng": -17.2667,
+    "country": "Senegal"
+  },
+  {
+    "city": "Ziguinchor",
+    "lat": 12.5833,
+    "lng": -16.2667,
+    "country": "Senegal"
+  },
+  {
+    "city": "Saint-Louis",
+    "lat": 16.0333,
+    "lng": -16.5,
+    "country": "Senegal"
+  },
+  {
+    "city": "Kaolack",
+    "lat": 14.1389,
+    "lng": -16.0764,
+    "country": "Senegal"
+  },
+  {
+    "city": "Diourbel",
+    "lat": 14.655,
+    "lng": -16.2314,
+    "country": "Senegal"
+  },
+  {
+    "city": "Louga",
+    "lat": 15.6167,
+    "lng": -16.2167,
+    "country": "Senegal"
+  },
+  {
+    "city": "Belgrade",
+    "lat": 44.8167,
+    "lng": 20.4667,
+    "country": "Serbia"
+  },
+  {
+    "city": "Novi Sad",
+    "lat": 45.2644,
+    "lng": 19.8317,
+    "country": "Serbia"
+  },
+  {
+    "city": "Nis",
+    "lat": 43.3192,
+    "lng": 21.8961,
+    "country": "Serbia"
+  },
+  {
+    "city": "Zemun",
+    "lat": 44.85,
+    "lng": 20.4,
+    "country": "Serbia"
+  },
+  {
+    "city": "Kragujevac",
+    "lat": 44.0142,
+    "lng": 20.9394,
+    "country": "Serbia"
+  },
+  {
+    "city": "Valjevo",
+    "lat": 44.2667,
+    "lng": 19.8833,
+    "country": "Serbia"
+  },
+  {
+    "city": "Loznica",
+    "lat": 44.5333,
+    "lng": 19.2258,
+    "country": "Serbia"
+  },
+  {
+    "city": "Zrenjanin",
+    "lat": 45.3778,
+    "lng": 20.3861,
+    "country": "Serbia"
+  },
+  {
+    "city": "Pancevo",
+    "lat": 44.8739,
+    "lng": 20.6519,
+    "country": "Serbia"
+  },
+  {
+    "city": "Cacak",
+    "lat": 43.8914,
+    "lng": 20.3497,
+    "country": "Serbia"
+  },
+  {
+    "city": "Victoria",
+    "lat": -4.6236,
+    "lng": 55.4544,
+    "country": "Seychelles"
+  },
+  {
+    "city": "Freetown",
+    "lat": 8.4833,
+    "lng": -13.2331,
+    "country": "Sierra Leone"
+  },
+  {
+    "city": "Bo",
+    "lat": 7.9564,
+    "lng": -11.74,
+    "country": "Sierra Leone"
+  },
+  {
+    "city": "Kenema",
+    "lat": 7.8833,
+    "lng": -11.1833,
+    "country": "Sierra Leone"
+  },
+  {
+    "city": "Makeni",
+    "lat": 8.8817,
+    "lng": -12.0442,
+    "country": "Sierra Leone"
+  },
+  {
+    "city": "Koidu-Bulma",
+    "lat": 8.4405,
+    "lng": -10.85,
+    "country": "Sierra Leone"
+  },
+  {
+    "city": "Port Loko",
+    "lat": 8.7667,
+    "lng": -12.7833,
+    "country": "Sierra Leone"
+  },
+  {
+    "city": "Singapore",
+    "lat": 1.3,
+    "lng": 103.8,
+    "country": "Singapore"
+  },
+  {
+    "city": "Philipsburg",
+    "lat": 18.0256,
+    "lng": -63.0492,
+    "country": "Sint Maarten"
+  },
+  {
+    "city": "Bratislava",
+    "lat": 48.1447,
+    "lng": 17.1128,
+    "country": "Slovakia"
+  },
+  {
+    "city": "Kosice",
+    "lat": 48.7167,
+    "lng": 21.25,
+    "country": "Slovakia"
+  },
+  {
+    "city": "Petrzalka",
+    "lat": 48.1333,
+    "lng": 17.1167,
+    "country": "Slovakia"
+  },
+  {
+    "city": "Presov",
+    "lat": 49.0,
+    "lng": 21.2333,
+    "country": "Slovakia"
+  },
+  {
+    "city": "Zilina",
+    "lat": 49.2167,
+    "lng": 18.7333,
+    "country": "Slovakia"
+  },
+  {
+    "city": "Banska Bystrica",
+    "lat": 48.7353,
+    "lng": 19.1453,
+    "country": "Slovakia"
+  },
+  {
+    "city": "Nitra",
+    "lat": 48.3147,
+    "lng": 18.0875,
+    "country": "Slovakia"
+  },
+  {
+    "city": "Trnava",
+    "lat": 48.3777,
+    "lng": 17.5862,
+    "country": "Slovakia"
+  },
+  {
+    "city": "Trencin",
+    "lat": 48.8942,
+    "lng": 18.0406,
+    "country": "Slovakia"
+  },
+  {
+    "city": "Martin",
+    "lat": 49.0636,
+    "lng": 18.9214,
+    "country": "Slovakia"
+  },
+  {
+    "city": "Ljubljana",
+    "lat": 46.05,
+    "lng": 14.5167,
+    "country": "Slovenia"
+  },
+  {
+    "city": "Maribor",
+    "lat": 46.55,
+    "lng": 15.6333,
+    "country": "Slovenia"
+  },
+  {
+    "city": "Kranj",
+    "lat": 46.2389,
+    "lng": 14.3556,
+    "country": "Slovenia"
+  },
+  {
+    "city": "Celje",
+    "lat": 46.2291,
+    "lng": 15.2641,
+    "country": "Slovenia"
+  },
+  {
+    "city": "Koper",
+    "lat": 45.5475,
+    "lng": 13.7307,
+    "country": "Slovenia"
+  },
+  {
+    "city": "Velenje",
+    "lat": 46.3667,
+    "lng": 15.1167,
+    "country": "Slovenia"
+  },
+  {
+    "city": "Novo Mesto",
+    "lat": 45.7981,
+    "lng": 15.1628,
+    "country": "Slovenia"
+  },
+  {
+    "city": "Ptuj",
+    "lat": 46.4186,
+    "lng": 15.8714,
+    "country": "Slovenia"
+  },
+  {
+    "city": "Kamnik",
+    "lat": 46.225,
+    "lng": 14.6097,
+    "country": "Slovenia"
+  },
+  {
+    "city": "Jesenice",
+    "lat": 46.4366,
+    "lng": 14.0602,
+    "country": "Slovenia"
+  },
+  {
+    "city": "Honiara",
+    "lat": -9.4333,
+    "lng": 159.95,
+    "country": "Solomon Islands"
+  },
+  {
+    "city": "Gizo",
+    "lat": -8.1,
+    "lng": 156.85,
+    "country": "Solomon Islands"
+  },
+  {
+    "city": "Lata",
+    "lat": -10.738,
+    "lng": 165.8567,
+    "country": "Solomon Islands"
+  },
+  {
+    "city": "Kirakira",
+    "lat": -10.4544,
+    "lng": 161.9205,
+    "country": "Solomon Islands"
+  },
+  {
+    "city": "Auki",
+    "lat": -8.7678,
+    "lng": 160.6978,
+    "country": "Solomon Islands"
+  },
+  {
+    "city": "Taro",
+    "lat": -6.7111,
+    "lng": 156.3972,
+    "country": "Solomon Islands"
+  },
+  {
+    "city": "Tulagi",
+    "lat": -9.1031,
+    "lng": 160.1506,
+    "country": "Solomon Islands"
+  },
+  {
+    "city": "Buala",
+    "lat": -8.1448,
+    "lng": 159.5905,
+    "country": "Solomon Islands"
+  },
+  {
+    "city": "Tigoa",
+    "lat": -11.5531,
+    "lng": 160.0647,
+    "country": "Solomon Islands"
+  },
+  {
+    "city": "Mogadishu",
+    "lat": 2.0408,
+    "lng": 45.3425,
+    "country": "Somalia"
+  },
+  {
+    "city": "Marka",
+    "lat": 1.7156,
+    "lng": 44.7703,
+    "country": "Somalia"
+  },
+  {
+    "city": "Jamaame",
+    "lat": 0.0722,
+    "lng": 42.7506,
+    "country": "Somalia"
+  },
+  {
+    "city": "Kismaayo",
+    "lat": -0.3603,
+    "lng": 42.5489,
+    "country": "Somalia"
+  },
+  {
+    "city": "Baidoa",
+    "lat": 3.1167,
+    "lng": 43.65,
+    "country": "Somalia"
+  },
+  {
+    "city": "Jawhar",
+    "lat": 2.7833,
+    "lng": 45.5,
+    "country": "Somalia"
+  },
+  {
+    "city": "Beledweyne",
+    "lat": 4.736,
+    "lng": 45.204,
+    "country": "Somalia"
+  },
+  {
+    "city": "Gaalkacyo",
+    "lat": 6.7697,
+    "lng": 47.4308,
+    "country": "Somalia"
+  },
+  {
+    "city": "Boosaaso",
+    "lat": 11.28,
+    "lng": 49.18,
+    "country": "Somalia"
+  },
+  {
+    "city": "Garbahaarrey",
+    "lat": 3.35,
+    "lng": 42.2667,
+    "country": "Somalia"
+  },
+  {
+    "city": "Johannesburg",
+    "lat": -26.2044,
+    "lng": 28.0416,
+    "country": "South Africa"
+  },
+  {
+    "city": "Soweto",
+    "lat": -26.2678,
+    "lng": 27.8586,
+    "country": "South Africa"
+  },
+  {
+    "city": "Vereeniging",
+    "lat": -26.6736,
+    "lng": 27.9319,
+    "country": "South Africa"
+  },
+  {
+    "city": "Pietermaritzburg",
+    "lat": -29.6009,
+    "lng": 30.3796,
+    "country": "South Africa"
+  },
+  {
+    "city": "Pretoria",
+    "lat": -25.7464,
+    "lng": 28.1881,
+    "country": "South Africa"
+  },
+  {
+    "city": "Durban",
+    "lat": -29.8583,
+    "lng": 31.025,
+    "country": "South Africa"
+  },
+  {
+    "city": "Cape Town",
+    "lat": -33.925,
+    "lng": 18.425,
+    "country": "South Africa"
+  },
+  {
+    "city": "Welkom",
+    "lat": -27.9831,
+    "lng": 26.7208,
+    "country": "South Africa"
+  },
+  {
+    "city": "East London",
+    "lat": -33.0153,
+    "lng": 27.9116,
+    "country": "South Africa"
+  },
+  {
+    "city": "Randburg",
+    "lat": -26.0936,
+    "lng": 28.0064,
+    "country": "South Africa"
+  },
+  {
+    "city": "Grytviken",
+    "lat": -54.2806,
+    "lng": -36.508,
+    "country": "South Georgia And South Sandwich Islands"
+  },
+  {
+    "city": "King Edward Point",
+    "lat": -54.2833,
+    "lng": -36.5,
+    "country": "South Georgia And South Sandwich Islands"
+  },
+  {
+    "city": "Seoul",
+    "lat": 37.56,
+    "lng": 126.99,
+    "country": "South Korea"
+  },
+  {
+    "city": "Busan",
+    "lat": 35.1,
+    "lng": 129.0403,
+    "country": "South Korea"
+  },
+  {
+    "city": "Incheon",
+    "lat": 37.4639,
+    "lng": 126.6486,
+    "country": "South Korea"
+  },
+  {
+    "city": "Daegu",
+    "lat": 35.8667,
+    "lng": 128.6,
+    "country": "South Korea"
+  },
+  {
+    "city": "Gwangju",
+    "lat": 35.1667,
+    "lng": 126.9167,
+    "country": "South Korea"
+  },
+  {
+    "city": "Daejeon",
+    "lat": 36.351,
+    "lng": 127.385,
+    "country": "South Korea"
+  },
+  {
+    "city": "Suwon",
+    "lat": 37.2858,
+    "lng": 127.01,
+    "country": "South Korea"
+  },
+  {
+    "city": "Ulsan",
+    "lat": 35.55,
+    "lng": 129.3167,
+    "country": "South Korea"
+  },
+  {
+    "city": "Goyang",
+    "lat": 37.6564,
+    "lng": 126.835,
+    "country": "South Korea"
+  },
+  {
+    "city": "Changwon",
+    "lat": 35.2281,
+    "lng": 128.6811,
+    "country": "South Korea"
+  },
+  {
+    "city": "Juba",
+    "lat": 4.85,
+    "lng": 31.6,
+    "country": "South Sudan"
+  },
+  {
+    "city": "Bor",
+    "lat": 6.2167,
+    "lng": 31.55,
+    "country": "South Sudan"
+  },
+  {
+    "city": "Yei",
+    "lat": 4.0904,
+    "lng": 30.68,
+    "country": "South Sudan"
+  },
+  {
+    "city": "Wau",
+    "lat": 7.7,
+    "lng": 27.9833,
+    "country": "South Sudan"
+  },
+  {
+    "city": "Malakal",
+    "lat": 9.5333,
+    "lng": 31.65,
+    "country": "South Sudan"
+  },
+  {
+    "city": "Gogrial",
+    "lat": 8.5337,
+    "lng": 28.1167,
+    "country": "South Sudan"
+  },
+  {
+    "city": "Aweil",
+    "lat": 8.7666,
+    "lng": 27.4,
+    "country": "South Sudan"
+  },
+  {
+    "city": "Yambio",
+    "lat": 4.5705,
+    "lng": 28.4163,
+    "country": "South Sudan"
+  },
+  {
+    "city": "Rumbek",
+    "lat": 6.8,
+    "lng": 29.6833,
+    "country": "South Sudan"
+  },
+  {
+    "city": "Torit",
+    "lat": 4.4167,
+    "lng": 32.5667,
+    "country": "South Sudan"
+  },
+  {
+    "city": "Madrid",
+    "lat": 40.4167,
+    "lng": -3.7167,
+    "country": "Spain"
+  },
+  {
+    "city": "Barcelona",
+    "lat": 41.3825,
+    "lng": 2.1769,
+    "country": "Spain"
+  },
+  {
+    "city": "Valencia",
+    "lat": 39.47,
+    "lng": -0.3764,
+    "country": "Spain"
+  },
+  {
+    "city": "Sevilla",
+    "lat": 37.39,
+    "lng": -5.99,
+    "country": "Spain"
+  },
+  {
+    "city": "Zaragoza",
+    "lat": 41.65,
+    "lng": -0.8833,
+    "country": "Spain"
+  },
+  {
+    "city": "Malaga",
+    "lat": 36.7194,
+    "lng": -4.42,
+    "country": "Spain"
+  },
+  {
+    "city": "Murcia",
+    "lat": 37.9861,
+    "lng": -1.1303,
+    "country": "Spain"
+  },
+  {
+    "city": "Palma",
+    "lat": 39.5667,
+    "lng": 2.65,
+    "country": "Spain"
+  },
+  {
+    "city": "Las Palmas",
+    "lat": 28.1272,
+    "lng": -15.4314,
+    "country": "Spain"
+  },
+  {
+    "city": "Bilbao",
+    "lat": 43.2569,
+    "lng": -2.9236,
+    "country": "Spain"
+  },
+  {
+    "city": "Colombo",
+    "lat": 6.9167,
+    "lng": 79.8333,
+    "country": "Sri Lanka"
+  },
+  {
+    "city": "Moratuwa",
+    "lat": 6.7804,
+    "lng": 79.88,
+    "country": "Sri Lanka"
+  },
+  {
+    "city": "Kandy",
+    "lat": 7.297,
+    "lng": 80.6385,
+    "country": "Sri Lanka"
+  },
+  {
+    "city": "Negombo",
+    "lat": 7.2111,
+    "lng": 79.8386,
+    "country": "Sri Lanka"
+  },
+  {
+    "city": "Batticaloa",
+    "lat": 7.717,
+    "lng": 81.7,
+    "country": "Sri Lanka"
+  },
+  {
+    "city": "Sri Jayewardenepura Kotte",
+    "lat": 6.9,
+    "lng": 79.9164,
+    "country": "Sri Lanka"
+  },
+  {
+    "city": "Kilinochchi",
+    "lat": 9.4004,
+    "lng": 80.3999,
+    "country": "Sri Lanka"
+  },
+  {
+    "city": "Trincomalee",
+    "lat": 8.5667,
+    "lng": 81.2333,
+    "country": "Sri Lanka"
+  },
+  {
+    "city": "Galle",
+    "lat": 6.0395,
+    "lng": 80.2194,
+    "country": "Sri Lanka"
+  },
+  {
+    "city": "Jaffna",
+    "lat": 9.6647,
+    "lng": 80.0167,
+    "country": "Sri Lanka"
+  },
+  {
+    "city": "Khartoum",
+    "lat": 15.6031,
+    "lng": 32.5265,
+    "country": "Sudan"
+  },
+  {
+    "city": "Omdurman",
+    "lat": 15.6167,
+    "lng": 32.48,
+    "country": "Sudan"
+  },
+  {
+    "city": "Khartoum North",
+    "lat": 15.6333,
+    "lng": 32.6333,
+    "country": "Sudan"
+  },
+  {
+    "city": "Port Sudan",
+    "lat": 19.6158,
+    "lng": 37.2164,
+    "country": "Sudan"
+  },
+  {
+    "city": "Kassala",
+    "lat": 15.45,
+    "lng": 36.4,
+    "country": "Sudan"
+  },
+  {
+    "city": "Nyala",
+    "lat": 12.05,
+    "lng": 24.8833,
+    "country": "Sudan"
+  },
+  {
+    "city": "El Obeid",
+    "lat": 13.1833,
+    "lng": 30.2167,
+    "country": "Sudan"
+  },
+  {
+    "city": "Gedaref",
+    "lat": 14.0333,
+    "lng": 35.3833,
+    "country": "Sudan"
+  },
+  {
+    "city": "Kusti",
+    "lat": 13.17,
+    "lng": 32.66,
+    "country": "Sudan"
+  },
+  {
+    "city": "Wad Medani",
+    "lat": 14.4,
+    "lng": 33.51,
+    "country": "Sudan"
+  },
+  {
+    "city": "Paramaribo",
+    "lat": 5.8667,
+    "lng": -55.1667,
+    "country": "Suriname"
+  },
+  {
+    "city": "Cottica",
+    "lat": 3.8547,
+    "lng": -54.2289,
+    "country": "Suriname"
+  },
+  {
+    "city": "Nieuw Nickerie",
+    "lat": 5.9261,
+    "lng": -56.9731,
+    "country": "Suriname"
+  },
+  {
+    "city": "Brokopondo",
+    "lat": 5.0404,
+    "lng": -55.02,
+    "country": "Suriname"
+  },
+  {
+    "city": "Moengo",
+    "lat": 5.6167,
+    "lng": -54.4,
+    "country": "Suriname"
+  },
+  {
+    "city": "Tamanredjo",
+    "lat": 5.7667,
+    "lng": -55.0,
+    "country": "Suriname"
+  },
+  {
+    "city": "Domburg",
+    "lat": 5.7,
+    "lng": -55.0833,
+    "country": "Suriname"
+  },
+  {
+    "city": "Albina",
+    "lat": 5.5,
+    "lng": -54.05,
+    "country": "Suriname"
+  },
+  {
+    "city": "Nieuw Amsterdam",
+    "lat": 5.91,
+    "lng": -55.07,
+    "country": "Suriname"
+  },
+  {
+    "city": "Brownsweg",
+    "lat": 5.02,
+    "lng": -55.17,
+    "country": "Suriname"
+  },
+  {
+    "city": "Longyearbyen",
+    "lat": 78.2167,
+    "lng": 15.6333,
+    "country": "Svalbard"
+  },
+  {
+    "city": "Manzini",
+    "lat": -26.4833,
+    "lng": 31.3667,
+    "country": "Swaziland"
+  },
+  {
+    "city": "Mbabane",
+    "lat": -26.3208,
+    "lng": 31.1617,
+    "country": "Swaziland"
+  },
+  {
+    "city": "Mhlume",
+    "lat": -26.0333,
+    "lng": 31.85,
+    "country": "Swaziland"
+  },
+  {
+    "city": "Siteki",
+    "lat": -26.45,
+    "lng": 31.95,
+    "country": "Swaziland"
+  },
+  {
+    "city": "Lobamba",
+    "lat": -26.4465,
+    "lng": 31.2064,
+    "country": "Swaziland"
+  },
+  {
+    "city": "Piggs Peak",
+    "lat": -25.961,
+    "lng": 31.247,
+    "country": "Swaziland"
+  },
+  {
+    "city": "Lavumisa",
+    "lat": -27.3167,
+    "lng": 31.9,
+    "country": "Swaziland"
+  },
+  {
+    "city": "Hlatikulu",
+    "lat": -26.9667,
+    "lng": 31.3167,
+    "country": "Swaziland"
+  },
+  {
+    "city": "Nhlangano",
+    "lat": -27.1167,
+    "lng": 31.2,
+    "country": "Swaziland"
+  },
+  {
+    "city": "Stockholm",
+    "lat": 59.3294,
+    "lng": 18.0686,
+    "country": "Sweden"
+  },
+  {
+    "city": "Gothenburg",
+    "lat": 57.6717,
+    "lng": 11.981,
+    "country": "Sweden"
+  },
+  {
+    "city": "Malmo",
+    "lat": 55.5833,
+    "lng": 13.0333,
+    "country": "Sweden"
+  },
+  {
+    "city": "Uppsala",
+    "lat": 59.8498,
+    "lng": 17.6389,
+    "country": "Sweden"
+  },
+  {
+    "city": "Uppsala",
+    "lat": 59.8601,
+    "lng": 17.64,
+    "country": "Sweden"
+  },
+  {
+    "city": "Vasteras",
+    "lat": 59.6173,
+    "lng": 16.5422,
+    "country": "Sweden"
+  },
+  {
+    "city": "Orebro",
+    "lat": 59.2669,
+    "lng": 15.1965,
+    "country": "Sweden"
+  },
+  {
+    "city": "Linkoping",
+    "lat": 58.4094,
+    "lng": 15.6257,
+    "country": "Sweden"
+  },
+  {
+    "city": "Helsingborg",
+    "lat": 56.0424,
+    "lng": 12.721,
+    "country": "Sweden"
+  },
+  {
+    "city": "Umea",
+    "lat": 63.8285,
+    "lng": 20.2706,
+    "country": "Sweden"
+  },
+  {
+    "city": "Zurich",
+    "lat": 47.3744,
+    "lng": 8.5411,
+    "country": "Switzerland"
+  },
+  {
+    "city": "Geneva",
+    "lat": 46.2,
+    "lng": 6.15,
+    "country": "Switzerland"
+  },
+  {
+    "city": "Basel",
+    "lat": 47.5606,
+    "lng": 7.5906,
+    "country": "Switzerland"
+  },
+  {
+    "city": "Lausanne",
+    "lat": 46.5333,
+    "lng": 6.6333,
+    "country": "Switzerland"
+  },
+  {
+    "city": "Bern",
+    "lat": 46.948,
+    "lng": 7.4474,
+    "country": "Switzerland"
+  },
+  {
+    "city": "Winterthur",
+    "lat": 47.4992,
+    "lng": 8.7267,
+    "country": "Switzerland"
+  },
+  {
+    "city": "Lucerne",
+    "lat": 47.0523,
+    "lng": 8.3059,
+    "country": "Switzerland"
+  },
+  {
+    "city": "Sankt Gallen",
+    "lat": 47.4233,
+    "lng": 9.3772,
+    "country": "Switzerland"
+  },
+  {
+    "city": "Lugano",
+    "lat": 46.0103,
+    "lng": 8.9625,
+    "country": "Switzerland"
+  },
+  {
+    "city": "Biel/Bienne",
+    "lat": 47.1372,
+    "lng": 7.2472,
+    "country": "Switzerland"
+  },
+  {
+    "city": "Aleppo",
+    "lat": 36.2,
+    "lng": 37.15,
+    "country": "Syria"
+  },
+  {
+    "city": "Damascus",
+    "lat": 33.5131,
+    "lng": 36.2919,
+    "country": "Syria"
+  },
+  {
+    "city": "Homs",
+    "lat": 34.7333,
+    "lng": 36.7167,
+    "country": "Syria"
+  },
+  {
+    "city": "Latakia",
+    "lat": 35.5236,
+    "lng": 35.7917,
+    "country": "Syria"
+  },
+  {
+    "city": "Hamah",
+    "lat": 35.1333,
+    "lng": 36.75,
+    "country": "Syria"
+  },
+  {
+    "city": "Ar Raqqah",
+    "lat": 35.95,
+    "lng": 39.01,
+    "country": "Syria"
+  },
+  {
+    "city": "Dayr az Zawr",
+    "lat": 35.3333,
+    "lng": 40.15,
+    "country": "Syria"
+  },
+  {
+    "city": "Al Qamishli",
+    "lat": 37.05,
+    "lng": 41.2167,
+    "country": "Syria"
+  },
+  {
+    "city": "Idlib",
+    "lat": 35.9333,
+    "lng": 36.6333,
+    "country": "Syria"
+  },
+  {
+    "city": "Dar`a",
+    "lat": 32.625,
+    "lng": 36.105,
+    "country": "Syria"
+  },
+  {
+    "city": "Taichung",
+    "lat": 24.15,
+    "lng": 120.6667,
+    "country": "Taiwan"
+  },
+  {
+    "city": "Kaohsiung",
+    "lat": 22.6167,
+    "lng": 120.3,
+    "country": "Taiwan"
+  },
+  {
+    "city": "Taipei",
+    "lat": 25.0478,
+    "lng": 121.5319,
+    "country": "Taiwan"
+  },
+  {
+    "city": "Tainan",
+    "lat": 22.9833,
+    "lng": 120.1833,
+    "country": "Taiwan"
+  },
+  {
+    "city": "Zhongli",
+    "lat": 24.965,
+    "lng": 121.2168,
+    "country": "Taiwan"
+  },
+  {
+    "city": "Changhua",
+    "lat": 24.0667,
+    "lng": 120.5333,
+    "country": "Taiwan"
+  },
+  {
+    "city": "Pingtung",
+    "lat": 22.6761,
+    "lng": 120.4942,
+    "country": "Taiwan"
+  },
+  {
+    "city": "Hsinchu",
+    "lat": 24.8047,
+    "lng": 120.9714,
+    "country": "Taiwan"
+  },
+  {
+    "city": "Taoyuan District",
+    "lat": 24.9889,
+    "lng": 121.3111,
+    "country": "Taiwan"
+  },
+  {
+    "city": "Keelung",
+    "lat": 25.1283,
+    "lng": 121.7419,
+    "country": "Taiwan"
+  },
+  {
+    "city": "Dushanbe",
+    "lat": 38.5731,
+    "lng": 68.7864,
+    "country": "Tajikistan"
+  },
+  {
+    "city": "Khujand",
+    "lat": 40.2833,
+    "lng": 69.6167,
+    "country": "Tajikistan"
+  },
+  {
+    "city": "Kulob",
+    "lat": 37.9119,
+    "lng": 69.7808,
+    "country": "Tajikistan"
+  },
+  {
+    "city": "Bokhtar",
+    "lat": 37.8364,
+    "lng": 68.7803,
+    "country": "Tajikistan"
+  },
+  {
+    "city": "Istaravshan",
+    "lat": 39.9108,
+    "lng": 69.0064,
+    "country": "Tajikistan"
+  },
+  {
+    "city": "Konibodom",
+    "lat": 40.2833,
+    "lng": 70.4167,
+    "country": "Tajikistan"
+  },
+  {
+    "city": "Tursunzoda",
+    "lat": 38.5108,
+    "lng": 68.2303,
+    "country": "Tajikistan"
+  },
+  {
+    "city": "Vahdat",
+    "lat": 38.5531,
+    "lng": 69.0197,
+    "country": "Tajikistan"
+  },
+  {
+    "city": "Isfara",
+    "lat": 40.1167,
+    "lng": 70.6333,
+    "country": "Tajikistan"
+  },
+  {
+    "city": "Panjakent",
+    "lat": 39.5031,
+    "lng": 67.615,
+    "country": "Tajikistan"
+  },
+  {
+    "city": "Dar es Salaam",
+    "lat": -6.8,
+    "lng": 39.2833,
+    "country": "Tanzania"
+  },
+  {
+    "city": "Arusha",
+    "lat": -3.3667,
+    "lng": 36.6833,
+    "country": "Tanzania"
+  },
+  {
+    "city": "Dodoma",
+    "lat": -6.1835,
+    "lng": 35.746,
+    "country": "Tanzania"
+  },
+  {
+    "city": "Mwanza",
+    "lat": -2.5167,
+    "lng": 32.9,
+    "country": "Tanzania"
+  },
+  {
+    "city": "Mbeya",
+    "lat": -8.9,
+    "lng": 33.45,
+    "country": "Tanzania"
+  },
+  {
+    "city": "Tanga",
+    "lat": -5.0667,
+    "lng": 39.1,
+    "country": "Tanzania"
+  },
+  {
+    "city": "Morogoro",
+    "lat": -6.8242,
+    "lng": 37.6633,
+    "country": "Tanzania"
+  },
+  {
+    "city": "Zanzibar",
+    "lat": -6.1667,
+    "lng": 39.2,
+    "country": "Tanzania"
+  },
+  {
+    "city": "Sumbawanga",
+    "lat": -7.9667,
+    "lng": 31.6167,
+    "country": "Tanzania"
+  },
+  {
+    "city": "Moshi",
+    "lat": -3.3349,
+    "lng": 37.3404,
+    "country": "Tanzania"
+  },
+  {
+    "city": "Bangkok",
+    "lat": 13.75,
+    "lng": 100.5167,
+    "country": "Thailand"
+  },
+  {
+    "city": "Nonthaburi",
+    "lat": 13.8667,
+    "lng": 100.5167,
+    "country": "Thailand"
+  },
+  {
+    "city": "Pak Kret",
+    "lat": 13.9125,
+    "lng": 100.4978,
+    "country": "Thailand"
+  },
+  {
+    "city": "Hat Yai",
+    "lat": 7.0167,
+    "lng": 100.4667,
+    "country": "Thailand"
+  },
+  {
+    "city": "Nakhon Ratchasima",
+    "lat": 14.9736,
+    "lng": 102.0831,
+    "country": "Thailand"
+  },
+  {
+    "city": "Chiang Mai",
+    "lat": 18.7889,
+    "lng": 98.9833,
+    "country": "Thailand"
+  },
+  {
+    "city": "Surat Thani",
+    "lat": 9.1397,
+    "lng": 99.3306,
+    "country": "Thailand"
+  },
+  {
+    "city": "Udon Thani",
+    "lat": 17.4253,
+    "lng": 102.7902,
+    "country": "Thailand"
+  },
+  {
+    "city": "Ban Bang Pu Mai",
+    "lat": 13.5441,
+    "lng": 100.6175,
+    "country": "Thailand"
+  },
+  {
+    "city": "Khon Kaen",
+    "lat": 16.4333,
+    "lng": 102.8333,
+    "country": "Thailand"
+  },
+  {
+    "city": "Nassau",
+    "lat": 25.0667,
+    "lng": -77.3333,
+    "country": "The Bahamas"
+  },
+  {
+    "city": "Freeport City",
+    "lat": 26.52,
+    "lng": -78.66,
+    "country": "The Bahamas"
+  },
+  {
+    "city": "Marsh Harbour",
+    "lat": 26.4,
+    "lng": -77.17,
+    "country": "The Bahamas"
+  },
+  {
+    "city": "Brikama",
+    "lat": 13.2804,
+    "lng": -16.6599,
+    "country": "The Gambia"
+  },
+  {
+    "city": "Farafenni",
+    "lat": 13.5667,
+    "lng": -15.6,
+    "country": "The Gambia"
+  },
+  {
+    "city": "Banjul",
+    "lat": 13.4531,
+    "lng": -16.5775,
+    "country": "The Gambia"
+  },
+  {
+    "city": "Mansa Konko",
+    "lat": 13.3773,
+    "lng": -15.6786,
+    "country": "The Gambia"
+  },
+  {
+    "city": "Basse Santa Su",
+    "lat": 13.31,
+    "lng": -14.223,
+    "country": "The Gambia"
+  },
+  {
+    "city": "Bansang",
+    "lat": 13.4336,
+    "lng": -14.65,
+    "country": "The Gambia"
+  },
+  {
+    "city": "Janjanbureh",
+    "lat": 13.551,
+    "lng": -14.767,
+    "country": "The Gambia"
+  },
+  {
+    "city": "Kerewan",
+    "lat": 13.494,
+    "lng": -16.095,
+    "country": "The Gambia"
+  },
+  {
+    "city": "Kanifing",
+    "lat": 13.45,
+    "lng": -16.6667,
+    "country": "The Gambia"
+  },
+  {
+    "city": "Dili",
+    "lat": -8.5536,
+    "lng": 125.5783,
+    "country": "Timor-Leste"
+  },
+  {
+    "city": "Maliana",
+    "lat": -8.9917,
+    "lng": 125.2197,
+    "country": "Timor-Leste"
+  },
+  {
+    "city": "Baucau",
+    "lat": -8.4667,
+    "lng": 126.45,
+    "country": "Timor-Leste"
+  },
+  {
+    "city": "Manatuto",
+    "lat": -8.5167,
+    "lng": 126.0167,
+    "country": "Timor-Leste"
+  },
+  {
+    "city": "Gleno",
+    "lat": -8.7239,
+    "lng": 125.4361,
+    "country": "Timor-Leste"
+  },
+  {
+    "city": "Viqueque",
+    "lat": -8.85,
+    "lng": 126.3667,
+    "country": "Timor-Leste"
+  },
+  {
+    "city": "Liquica",
+    "lat": -8.5935,
+    "lng": 125.3273,
+    "country": "Timor-Leste"
+  },
+  {
+    "city": "Ainaro",
+    "lat": -8.9833,
+    "lng": 125.5,
+    "country": "Timor-Leste"
+  },
+  {
+    "city": "Same",
+    "lat": -9.0,
+    "lng": 125.65,
+    "country": "Timor-Leste"
+  },
+  {
+    "city": "Aileu",
+    "lat": -8.7281,
+    "lng": 125.5664,
+    "country": "Timor-Leste"
+  },
+  {
+    "city": "Lome",
+    "lat": 6.1319,
+    "lng": 1.2228,
+    "country": "Togo"
+  },
+  {
+    "city": "Sokode",
+    "lat": 8.9833,
+    "lng": 1.1333,
+    "country": "Togo"
+  },
+  {
+    "city": "Kpalime",
+    "lat": 6.91,
+    "lng": 0.6281,
+    "country": "Togo"
+  },
+  {
+    "city": "Atakpame",
+    "lat": 7.53,
+    "lng": 1.12,
+    "country": "Togo"
+  },
+  {
+    "city": "Sansanne-Mango",
+    "lat": 10.3556,
+    "lng": 0.4756,
+    "country": "Togo"
+  },
+  {
+    "city": "Bassar",
+    "lat": 9.25,
+    "lng": 0.7833,
+    "country": "Togo"
+  },
+  {
+    "city": "Sotouboua",
+    "lat": 8.5667,
+    "lng": 0.9833,
+    "country": "Togo"
+  },
+  {
+    "city": "Dapaong",
+    "lat": 10.8623,
+    "lng": 0.2076,
+    "country": "Togo"
+  },
+  {
+    "city": "Kara",
+    "lat": 9.5511,
+    "lng": 1.1861,
+    "country": "Togo"
+  },
+  {
+    "city": "Nuku`alofa",
+    "lat": -21.1347,
+    "lng": -175.2083,
+    "country": "Tonga"
+  },
+  {
+    "city": "Neiafu",
+    "lat": -18.6496,
+    "lng": -173.9833,
+    "country": "Tonga"
+  },
+  {
+    "city": "Chaguanas",
+    "lat": 10.5144,
+    "lng": -61.4075,
+    "country": "Trinidad And Tobago"
+  },
+  {
+    "city": "San Fernando",
+    "lat": 10.2833,
+    "lng": -61.4667,
+    "country": "Trinidad And Tobago"
+  },
+  {
+    "city": "Couva",
+    "lat": 10.4167,
+    "lng": -61.45,
+    "country": "Trinidad And Tobago"
+  },
+  {
+    "city": "Port of Spain",
+    "lat": 10.6667,
+    "lng": -61.5167,
+    "country": "Trinidad And Tobago"
+  },
+  {
+    "city": "Laventille",
+    "lat": 10.65,
+    "lng": -61.4833,
+    "country": "Trinidad And Tobago"
+  },
+  {
+    "city": "Tunapuna",
+    "lat": 10.6333,
+    "lng": -61.3833,
+    "country": "Trinidad And Tobago"
+  },
+  {
+    "city": "Saint Joseph",
+    "lat": 10.65,
+    "lng": -61.4167,
+    "country": "Trinidad And Tobago"
+  },
+  {
+    "city": "San Juan",
+    "lat": 10.65,
+    "lng": -61.45,
+    "country": "Trinidad And Tobago"
+  },
+  {
+    "city": "Siparia",
+    "lat": 10.1333,
+    "lng": -61.5,
+    "country": "Trinidad And Tobago"
+  },
+  {
+    "city": "Arima",
+    "lat": 10.6374,
+    "lng": -61.2823,
+    "country": "Trinidad And Tobago"
+  },
+  {
+    "city": "Tunis",
+    "lat": 36.8008,
+    "lng": 10.18,
+    "country": "Tunisia"
+  },
+  {
+    "city": "Sidi Bouzid",
+    "lat": 35.0381,
+    "lng": 9.4858,
+    "country": "Tunisia"
+  },
+  {
+    "city": "Sfax",
+    "lat": 34.74,
+    "lng": 10.76,
+    "country": "Tunisia"
+  },
+  {
+    "city": "Sousse",
+    "lat": 35.8333,
+    "lng": 10.6333,
+    "country": "Tunisia"
+  },
+  {
+    "city": "Kairouan",
+    "lat": 35.6833,
+    "lng": 10.1,
+    "country": "Tunisia"
+  },
+  {
+    "city": "Metouia",
+    "lat": 33.96,
+    "lng": 10.0,
+    "country": "Tunisia"
+  },
+  {
+    "city": "Kebili",
+    "lat": 33.705,
+    "lng": 8.965,
+    "country": "Tunisia"
+  },
+  {
+    "city": "Bizerte",
+    "lat": 37.2744,
+    "lng": 9.8739,
+    "country": "Tunisia"
+  },
+  {
+    "city": "Gabes",
+    "lat": 33.8814,
+    "lng": 10.0983,
+    "country": "Tunisia"
+  },
+  {
+    "city": "Ariana",
+    "lat": 36.8625,
+    "lng": 10.1956,
+    "country": "Tunisia"
+  },
+  {
+    "city": "Istanbul",
+    "lat": 41.01,
+    "lng": 28.9603,
+    "country": "Turkey"
+  },
+  {
+    "city": "Bagcilar",
+    "lat": 41.0406,
+    "lng": 28.8261,
+    "country": "Turkey"
+  },
+  {
+    "city": "Kucukcekmece",
+    "lat": 41.0,
+    "lng": 28.8,
+    "country": "Turkey"
+  },
+  {
+    "city": "Kagithane",
+    "lat": 41.0719,
+    "lng": 28.9664,
+    "country": "Turkey"
+  },
+  {
+    "city": "Elazig",
+    "lat": 38.6667,
+    "lng": 39.2167,
+    "country": "Turkey"
+  },
+  {
+    "city": "Esenler",
+    "lat": 41.0794,
+    "lng": 28.8539,
+    "country": "Turkey"
+  },
+  {
+    "city": "Esenyurt",
+    "lat": 41.0343,
+    "lng": 28.6801,
+    "country": "Turkey"
+  },
+  {
+    "city": "Manisa",
+    "lat": 38.6333,
+    "lng": 27.4167,
+    "country": "Turkey"
+  },
+  {
+    "city": "Van",
+    "lat": 38.5019,
+    "lng": 43.4167,
+    "country": "Turkey"
+  },
+  {
+    "city": "Hatay",
+    "lat": 36.2025,
+    "lng": 36.1606,
+    "country": "Turkey"
+  },
+  {
+    "city": "Turkmenabat",
+    "lat": 39.1,
+    "lng": 63.5667,
+    "country": "Turkmenistan"
+  },
+  {
+    "city": "Dasoguz",
+    "lat": 41.8167,
+    "lng": 59.9831,
+    "country": "Turkmenistan"
+  },
+  {
+    "city": "Mary",
+    "lat": 37.6,
+    "lng": 61.8333,
+    "country": "Turkmenistan"
+  },
+  {
+    "city": "Balkanabat",
+    "lat": 39.5119,
+    "lng": 54.365,
+    "country": "Turkmenistan"
+  },
+  {
+    "city": "Serdar",
+    "lat": 38.9667,
+    "lng": 56.2667,
+    "country": "Turkmenistan"
+  },
+  {
+    "city": "Turkmenbasy",
+    "lat": 40.023,
+    "lng": 52.9697,
+    "country": "Turkmenistan"
+  },
+  {
+    "city": "Tejen",
+    "lat": 37.3786,
+    "lng": 60.496,
+    "country": "Turkmenistan"
+  },
+  {
+    "city": "Abadan",
+    "lat": 38.0517,
+    "lng": 58.21,
+    "country": "Turkmenistan"
+  },
+  {
+    "city": "Kaka",
+    "lat": 37.3503,
+    "lng": 59.6,
+    "country": "Turkmenistan"
+  },
+  {
+    "city": "Atamyrat",
+    "lat": 37.8167,
+    "lng": 65.2,
+    "country": "Turkmenistan"
+  },
+  {
+    "city": "Grand Turk",
+    "lat": 21.4664,
+    "lng": -71.136,
+    "country": "Turks And Caicos Islands"
+  },
+  {
+    "city": "Funafuti",
+    "lat": -8.5243,
+    "lng": 179.1942,
+    "country": "Tuvalu"
+  },
+  {
+    "city": "Charlotte Amalie",
+    "lat": 18.3419,
+    "lng": -64.9332,
+    "country": "U.S. Virgin Islands"
+  },
+  {
+    "city": "Kampala",
+    "lat": 0.3136,
+    "lng": 32.5811,
+    "country": "Uganda"
+  },
+  {
+    "city": "Mbale",
+    "lat": 1.0806,
+    "lng": 34.175,
+    "country": "Uganda"
+  },
+  {
+    "city": "Arua",
+    "lat": 3.03,
+    "lng": 30.91,
+    "country": "Uganda"
+  },
+  {
+    "city": "Tororo",
+    "lat": 0.6928,
+    "lng": 34.1808,
+    "country": "Uganda"
+  },
+  {
+    "city": "Gulu",
+    "lat": 2.7667,
+    "lng": 32.3056,
+    "country": "Uganda"
+  },
+  {
+    "city": "Lira",
+    "lat": 2.2489,
+    "lng": 32.9,
+    "country": "Uganda"
+  },
+  {
+    "city": "Mbarara",
+    "lat": -0.5996,
+    "lng": 30.65,
+    "country": "Uganda"
+  },
+  {
+    "city": "Bombo",
+    "lat": 0.5833,
+    "lng": 32.5333,
+    "country": "Uganda"
+  },
+  {
+    "city": "Jinja",
+    "lat": 0.4431,
+    "lng": 33.2128,
+    "country": "Uganda"
+  },
+  {
+    "city": "Entebbe",
+    "lat": 0.05,
+    "lng": 32.46,
+    "country": "Uganda"
+  },
+  {
+    "city": "Kyiv",
+    "lat": 50.45,
+    "lng": 30.5236,
+    "country": "Ukraine"
+  },
+  {
+    "city": "Kharkiv",
+    "lat": 50.0,
+    "lng": 36.2292,
+    "country": "Ukraine"
+  },
+  {
+    "city": "Odesa",
+    "lat": 46.4775,
+    "lng": 30.7326,
+    "country": "Ukraine"
+  },
+  {
+    "city": "Dnipro",
+    "lat": 48.4675,
+    "lng": 35.04,
+    "country": "Ukraine"
+  },
+  {
+    "city": "Donetsk",
+    "lat": 48.0089,
+    "lng": 37.8042,
+    "country": "Ukraine"
+  },
+  {
+    "city": "Zaporizhzhia",
+    "lat": 47.8378,
+    "lng": 35.1383,
+    "country": "Ukraine"
+  },
+  {
+    "city": "Lviv",
+    "lat": 49.8419,
+    "lng": 24.0315,
+    "country": "Ukraine"
+  },
+  {
+    "city": "Kryvyi Rih",
+    "lat": 47.9086,
+    "lng": 33.3433,
+    "country": "Ukraine"
+  },
+  {
+    "city": "Sevastopol",
+    "lat": 44.6,
+    "lng": 33.5333,
+    "country": "Ukraine"
+  },
+  {
+    "city": "Mykolaiv",
+    "lat": 46.9667,
+    "lng": 32.0,
+    "country": "Ukraine"
+  },
+  {
+    "city": "Dubai",
+    "lat": 25.2697,
+    "lng": 55.3094,
+    "country": "United Arab Emirates"
+  },
+  {
+    "city": "Abu Dhabi",
+    "lat": 24.4511,
+    "lng": 54.3969,
+    "country": "United Arab Emirates"
+  },
+  {
+    "city": "Sharjah",
+    "lat": 25.3575,
+    "lng": 55.3919,
+    "country": "United Arab Emirates"
+  },
+  {
+    "city": "Al `Ayn",
+    "lat": 24.2075,
+    "lng": 55.7447,
+    "country": "United Arab Emirates"
+  },
+  {
+    "city": "`Ajman",
+    "lat": 25.3994,
+    "lng": 55.4797,
+    "country": "United Arab Emirates"
+  },
+  {
+    "city": "Ra's al Khaymah",
+    "lat": 25.7851,
+    "lng": 55.9479,
+    "country": "United Arab Emirates"
+  },
+  {
+    "city": "Al Fujayrah",
+    "lat": 25.1308,
+    "lng": 56.3347,
+    "country": "United Arab Emirates"
+  },
+  {
+    "city": "Umm al Qaywayn",
+    "lat": 25.5653,
+    "lng": 55.5533,
+    "country": "United Arab Emirates"
+  },
+  {
+    "city": "Madinat Zayid",
+    "lat": 23.6522,
+    "lng": 53.6536,
+    "country": "United Arab Emirates"
+  },
+  {
+    "city": "London",
+    "lat": 51.5072,
+    "lng": -0.1275,
+    "country": "United Kingdom"
+  },
+  {
+    "city": "Birmingham",
+    "lat": 52.48,
+    "lng": -1.9025,
+    "country": "United Kingdom"
+  },
+  {
+    "city": "Leeds",
+    "lat": 53.7997,
+    "lng": -1.5492,
+    "country": "United Kingdom"
+  },
+  {
+    "city": "Glasgow",
+    "lat": 55.8611,
+    "lng": -4.25,
+    "country": "United Kingdom"
+  },
+  {
+    "city": "Bristol",
+    "lat": 51.45,
+    "lng": -2.5833,
+    "country": "United Kingdom"
+  },
+  {
+    "city": "Manchester",
+    "lat": 53.4794,
+    "lng": -2.2453,
+    "country": "United Kingdom"
+  },
+  {
+    "city": "Sheffield",
+    "lat": 53.3808,
+    "lng": -1.4703,
+    "country": "United Kingdom"
+  },
+  {
+    "city": "Liverpool",
+    "lat": 53.4075,
+    "lng": -2.9919,
+    "country": "United Kingdom"
+  },
+  {
+    "city": "Edinburgh",
+    "lat": 55.953,
+    "lng": -3.189,
+    "country": "United Kingdom"
+  },
+  {
+    "city": "Leicester",
+    "lat": 52.6344,
+    "lng": -1.1319,
+    "country": "United Kingdom"
+  },
+  {
+    "city": "New York",
+    "lat": 40.6943,
+    "lng": -73.9249,
+    "country": "United States"
+  },
+  {
+    "city": "Los Angeles",
+    "lat": 34.1139,
+    "lng": -118.4068,
+    "country": "United States"
+  },
+  {
+    "city": "Chicago",
+    "lat": 41.8373,
+    "lng": -87.6862,
+    "country": "United States"
+  },
+  {
+    "city": "Miami",
+    "lat": 25.7839,
+    "lng": -80.2102,
+    "country": "United States"
+  },
+  {
+    "city": "Dallas",
+    "lat": 32.7936,
+    "lng": -96.7662,
+    "country": "United States"
+  },
+  {
+    "city": "Philadelphia",
+    "lat": 40.0077,
+    "lng": -75.1339,
+    "country": "United States"
+  },
+  {
+    "city": "Houston",
+    "lat": 29.7863,
+    "lng": -95.3889,
+    "country": "United States"
+  },
+  {
+    "city": "Atlanta",
+    "lat": 33.7627,
+    "lng": -84.4224,
+    "country": "United States"
+  },
+  {
+    "city": "Washington",
+    "lat": 38.9047,
+    "lng": -77.0163,
+    "country": "United States"
+  },
+  {
+    "city": "Boston",
+    "lat": 42.3188,
+    "lng": -71.0846,
+    "country": "United States"
+  },
+  {
+    "city": "Montevideo",
+    "lat": -34.8667,
+    "lng": -56.1667,
+    "country": "Uruguay"
+  },
+  {
+    "city": "Salto",
+    "lat": -31.3883,
+    "lng": -57.9606,
+    "country": "Uruguay"
+  },
+  {
+    "city": "Ciudad de la Costa",
+    "lat": -34.8167,
+    "lng": -55.95,
+    "country": "Uruguay"
+  },
+  {
+    "city": "Maldonado",
+    "lat": -34.9088,
+    "lng": -54.9581,
+    "country": "Uruguay"
+  },
+  {
+    "city": "Paysandu",
+    "lat": -32.32,
+    "lng": -58.0756,
+    "country": "Uruguay"
+  },
+  {
+    "city": "Las Piedras",
+    "lat": -34.7167,
+    "lng": -56.2167,
+    "country": "Uruguay"
+  },
+  {
+    "city": "Rivera",
+    "lat": -30.9025,
+    "lng": -55.5506,
+    "country": "Uruguay"
+  },
+  {
+    "city": "Tacuarembo",
+    "lat": -31.7144,
+    "lng": -55.9828,
+    "country": "Uruguay"
+  },
+  {
+    "city": "Melo",
+    "lat": -32.3667,
+    "lng": -54.1833,
+    "country": "Uruguay"
+  },
+  {
+    "city": "Mercedes",
+    "lat": -33.25,
+    "lng": -58.0319,
+    "country": "Uruguay"
+  },
+  {
+    "city": "Tashkent",
+    "lat": 41.3,
+    "lng": 69.2667,
+    "country": "Uzbekistan"
+  },
+  {
+    "city": "Namangan",
+    "lat": 40.9953,
+    "lng": 71.6725,
+    "country": "Uzbekistan"
+  },
+  {
+    "city": "Samarkand",
+    "lat": 39.6542,
+    "lng": 66.9597,
+    "country": "Uzbekistan"
+  },
+  {
+    "city": "Andijon",
+    "lat": 40.7,
+    "lng": 72.35,
+    "country": "Uzbekistan"
+  },
+  {
+    "city": "Qoqon",
+    "lat": 40.5404,
+    "lng": 70.94,
+    "country": "Uzbekistan"
+  },
+  {
+    "city": "Nukus",
+    "lat": 42.4647,
+    "lng": 59.6022,
+    "country": "Uzbekistan"
+  },
+  {
+    "city": "Farg`ona",
+    "lat": 40.3864,
+    "lng": 71.7864,
+    "country": "Uzbekistan"
+  },
+  {
+    "city": "Bukhara",
+    "lat": 39.7747,
+    "lng": 64.4286,
+    "country": "Uzbekistan"
+  },
+  {
+    "city": "Qarshi",
+    "lat": 38.8667,
+    "lng": 65.8,
+    "country": "Uzbekistan"
+  },
+  {
+    "city": "Denov",
+    "lat": 38.2772,
+    "lng": 67.8872,
+    "country": "Uzbekistan"
+  },
+  {
+    "city": "Port-Vila",
+    "lat": -17.7333,
+    "lng": 168.3167,
+    "country": "Vanuatu"
+  },
+  {
+    "city": "Luganville",
+    "lat": -15.5126,
+    "lng": 167.1766,
+    "country": "Vanuatu"
+  },
+  {
+    "city": "Lakatoro",
+    "lat": -16.1069,
+    "lng": 167.4208,
+    "country": "Vanuatu"
+  },
+  {
+    "city": "Isangel",
+    "lat": -19.5417,
+    "lng": 169.2817,
+    "country": "Vanuatu"
+  },
+  {
+    "city": "Saratamata",
+    "lat": -15.2869,
+    "lng": 167.9906,
+    "country": "Vanuatu"
+  },
+  {
+    "city": "Sola",
+    "lat": -13.8761,
+    "lng": 167.5517,
+    "country": "Vanuatu"
+  },
+  {
+    "city": "Vatican City",
+    "lat": 41.9033,
+    "lng": 12.4534,
+    "country": "Vatican City"
+  },
+  {
+    "city": "Caracas",
+    "lat": 10.5,
+    "lng": -66.9333,
+    "country": "Venezuela"
+  },
+  {
+    "city": "Maracaibo",
+    "lat": 10.6333,
+    "lng": -71.6333,
+    "country": "Venezuela"
+  },
+  {
+    "city": "Valencia",
+    "lat": 10.1667,
+    "lng": -68.0,
+    "country": "Venezuela"
+  },
+  {
+    "city": "Barquisimeto",
+    "lat": 10.0678,
+    "lng": -69.3467,
+    "country": "Venezuela"
+  },
+  {
+    "city": "Ciudad Guayana",
+    "lat": 8.3596,
+    "lng": -62.6517,
+    "country": "Venezuela"
+  },
+  {
+    "city": "Catia La Mar",
+    "lat": 10.6038,
+    "lng": -67.0303,
+    "country": "Venezuela"
+  },
+  {
+    "city": "Ciudad Bolivar",
+    "lat": 8.1167,
+    "lng": -63.55,
+    "country": "Venezuela"
+  },
+  {
+    "city": "Santa Teresa del Tuy",
+    "lat": 10.2333,
+    "lng": -66.65,
+    "country": "Venezuela"
+  },
+  {
+    "city": "Maturin",
+    "lat": 9.7457,
+    "lng": -63.1832,
+    "country": "Venezuela"
+  },
+  {
+    "city": "Barcelona",
+    "lat": 10.1333,
+    "lng": -64.6833,
+    "country": "Venezuela"
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "lat": 10.8167,
+    "lng": 106.6333,
+    "country": "Vietnam"
+  },
+  {
+    "city": "Hanoi",
+    "lat": 21.0245,
+    "lng": 105.8412,
+    "country": "Vietnam"
+  },
+  {
+    "city": "Haiphong",
+    "lat": 20.8,
+    "lng": 106.6667,
+    "country": "Vietnam"
+  },
+  {
+    "city": "Can Tho",
+    "lat": 10.0333,
+    "lng": 105.7833,
+    "country": "Vietnam"
+  },
+  {
+    "city": "Bien Hoa",
+    "lat": 10.9508,
+    "lng": 106.8221,
+    "country": "Vietnam"
+  },
+  {
+    "city": "Thu Duc",
+    "lat": 10.7924,
+    "lng": 106.7518,
+    "country": "Vietnam"
+  },
+  {
+    "city": "Quang Ha",
+    "lat": 16.06,
+    "lng": 108.25,
+    "country": "Vietnam"
+  },
+  {
+    "city": "Hue",
+    "lat": 16.4637,
+    "lng": 107.5908,
+    "country": "Vietnam"
+  },
+  {
+    "city": "Bac Ninh",
+    "lat": 21.1861,
+    "lng": 106.0763,
+    "country": "Vietnam"
+  },
+  {
+    "city": "Hai Duong",
+    "lat": 20.9399,
+    "lng": 106.3309,
+    "country": "Vietnam"
+  },
+  {
+    "city": "Mata-Utu",
+    "lat": -13.2825,
+    "lng": -176.1736,
+    "country": "Wallis And Futuna"
+  },
+  {
+    "city": "Leava",
+    "lat": -14.2933,
+    "lng": -178.1583,
+    "country": "Wallis And Futuna"
+  },
+  {
+    "city": "Al Quds",
+    "lat": 31.7764,
+    "lng": 35.2269,
+    "country": "West Bank"
+  },
+  {
+    "city": "Sanaa",
+    "lat": 15.35,
+    "lng": 44.2,
+    "country": "Yemen"
+  },
+  {
+    "city": "Ta`izz",
+    "lat": 13.5789,
+    "lng": 44.0219,
+    "country": "Yemen"
+  },
+  {
+    "city": "Al Hudaydah",
+    "lat": 14.8022,
+    "lng": 42.9511,
+    "country": "Yemen"
+  },
+  {
+    "city": "Aden",
+    "lat": 12.8,
+    "lng": 45.0333,
+    "country": "Yemen"
+  },
+  {
+    "city": "Ibb",
+    "lat": 13.9667,
+    "lng": 44.1667,
+    "country": "Yemen"
+  },
+  {
+    "city": "Ibb",
+    "lat": 13.9759,
+    "lng": 44.1709,
+    "country": "Yemen"
+  },
+  {
+    "city": "Dhamar",
+    "lat": 14.55,
+    "lng": 44.4017,
+    "country": "Yemen"
+  },
+  {
+    "city": "Al Mukalla",
+    "lat": 14.5333,
+    "lng": 49.1333,
+    "country": "Yemen"
+  },
+  {
+    "city": "Tarim",
+    "lat": 16.05,
+    "lng": 49.0,
+    "country": "Yemen"
+  },
+  {
+    "city": "Ash Shaykh `Uthman",
+    "lat": 12.8866,
+    "lng": 45.0279,
+    "country": "Yemen"
+  },
+  {
+    "city": "Lusaka",
+    "lat": -15.4167,
+    "lng": 28.2833,
+    "country": "Zambia"
+  },
+  {
+    "city": "Ndola",
+    "lat": -12.9683,
+    "lng": 28.6337,
+    "country": "Zambia"
+  },
+  {
+    "city": "Kitwe",
+    "lat": -12.8208,
+    "lng": 28.2119,
+    "country": "Zambia"
+  },
+  {
+    "city": "Mazabuka",
+    "lat": -15.8667,
+    "lng": 27.7667,
+    "country": "Zambia"
+  },
+  {
+    "city": "Kasama",
+    "lat": -10.1996,
+    "lng": 31.1799,
+    "country": "Zambia"
+  },
+  {
+    "city": "Kashikishi",
+    "lat": -9.3172,
+    "lng": 28.7331,
+    "country": "Zambia"
+  },
+  {
+    "city": "Nchelenge",
+    "lat": -9.3467,
+    "lng": 28.7344,
+    "country": "Zambia"
+  },
+  {
+    "city": "Chingola",
+    "lat": -12.5447,
+    "lng": 27.8708,
+    "country": "Zambia"
+  },
+  {
+    "city": "Livingstone",
+    "lat": -17.85,
+    "lng": 25.8667,
+    "country": "Zambia"
+  },
+  {
+    "city": "Mansa",
+    "lat": -11.1822,
+    "lng": 28.8833,
+    "country": "Zambia"
+  },
+  {
+    "city": "Harare",
+    "lat": -17.8292,
+    "lng": 31.0522,
+    "country": "Zimbabwe"
+  },
+  {
+    "city": "Bulawayo",
+    "lat": -20.1667,
+    "lng": 28.5667,
+    "country": "Zimbabwe"
+  },
+  {
+    "city": "Chitungwiza",
+    "lat": -18.0,
+    "lng": 31.1,
+    "country": "Zimbabwe"
+  },
+  {
+    "city": "Mutare",
+    "lat": -18.9728,
+    "lng": 32.6694,
+    "country": "Zimbabwe"
+  },
+  {
+    "city": "Gweru",
+    "lat": -19.458,
+    "lng": 29.82,
+    "country": "Zimbabwe"
+  },
+  {
+    "city": "Kwekwe",
+    "lat": -18.9167,
+    "lng": 29.9833,
+    "country": "Zimbabwe"
+  },
+  {
+    "city": "Kadoma",
+    "lat": -18.35,
+    "lng": 29.9167,
+    "country": "Zimbabwe"
+  },
+  {
+    "city": "Masvingo",
+    "lat": -20.0744,
+    "lng": 30.8328,
+    "country": "Zimbabwe"
+  },
+  {
+    "city": "Chinhoyi",
+    "lat": -17.35,
+    "lng": 30.2,
+    "country": "Zimbabwe"
+  },
+  {
+    "city": "Marondera",
+    "lat": -18.1833,
+    "lng": 31.55,
+    "country": "Zimbabwe"
+  }
+]
