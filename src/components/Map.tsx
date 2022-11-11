@@ -54,10 +54,17 @@ export default function Map({ target, location }: MapProps) {
         const svg = select("#map");
         svg.selectAll("*").remove();
 
+        const globe: GeoGeometryObjects = {
+          type: "Sphere",
+        };
+
+        const globePath = svg.append("path").attr("fill", colors.blue[100]);
+        globePath.attr("d", geoGenerator(globe));
+
         const mapG = svg
           .append("g")
-          .attr("fill", colors.slate[50])
-          .attr("stroke", colors.slate[900]);
+          .attr("fill", colors.stone[200])
+          .attr("stroke", colors.slate[800]);
         mapG
           .selectAll("path")
           .data((geoJson as ExtendedFeatureCollection).features)
