@@ -1,10 +1,13 @@
 import { Dispatch } from "react";
+import { Coordinates } from "../types/cartography";
 import { ActionType, Modes, StageList } from "../types/game";
+import { Degrees } from "../types/math";
 import { getScore } from "../utilities/game";
 
 interface ButtonProps {
   gameLength: number;
-  location: GeolocationCoordinates;
+  location: Coordinates;
+  heading: Degrees;
   mode: Modes;
   setMode: Dispatch<Modes>;
   stages: StageList;
@@ -13,13 +16,19 @@ interface ButtonProps {
 
 export default function Button(props: ButtonProps) {
   return (
-    <button className="rounded-full bg-slate-500 text-slate-50 w-3/4 p-4" onClick={() => handleClick(props)}>{buttonText(props)}</button>
+    <button
+      className="rounded-full bg-slate-500 text-slate-50 w-3/4 p-4"
+      onClick={() => handleClick(props)}
+    >
+      {buttonText(props)}
+    </button>
   );
 }
 
 function handleClick({
   gameLength,
   location,
+  heading,
   mode,
   setMode,
   stages,
@@ -28,14 +37,17 @@ function handleClick({
   switch (mode) {
     case "intro":
       setMode("guess");
-      dispatch({ type: "next" });
+      dispatch({ type: "next", payload: stages });
       break;
 
     case "guess":
       setMode("answer");
       dispatch({
         type: "guess",
-        payload: getScore(location, stages[stages.length - 1]),
+        payload: {
+          heading: heading,
+          score: getScore(location, heading, stages[stages.length - 1]),
+        },
       });
       break;
 
@@ -44,7 +56,7 @@ function handleClick({
         setMode("outro");
       } else {
         setMode("guess");
-        dispatch({ type: "next" });
+        dispatch({ type: "next", payload: stages });
       }
       break;
 
