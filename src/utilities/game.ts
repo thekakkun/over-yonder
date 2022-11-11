@@ -53,7 +53,9 @@ export function getLocation(currentStages: StageList = []): CurrentLocation {
   while (true) {
     candidate = cities[getRandomInt(0, cities.length)];
 
-    if (currentStages.filter(compareCandidate(candidate))) {
+    if (currentStages.length === 0) {
+      return candidate;
+    } else if (currentStages.filter(compareCandidate(candidate)).length !== 0) {
       continue;
     }
 

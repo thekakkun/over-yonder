@@ -19,7 +19,12 @@ function App() {
 
   const [location, setLocation] = useState<Coordinates | null>(null);
   useEffect(() => {
-    if (geolocationAvailable()) {
+    if (process.env.NODE_ENV === "development") {
+      setLocation({
+        latitude: 43.6532,
+        longitude: -79.3832,
+      });
+    } else if (geolocationAvailable()) {
       navigator.geolocation.watchPosition(
         ({ coords: { latitude, longitude } }) => {
           setLocation({
@@ -33,7 +38,9 @@ function App() {
 
   const [heading, setHeading] = useState<Degrees | null>(null);
   useEffect(() => {
-    if ("ondeviceorientationabsolute" in window) {
+    if (process.env.NODE_ENV === "development") {
+      setHeading(30);
+    } else if ("ondeviceorientationabsolute" in window) {
       window.addEventListener("deviceorientationabsolute", (event) => {
         setHeading(getHeading(event as DeviceOrientationEvent));
       });
