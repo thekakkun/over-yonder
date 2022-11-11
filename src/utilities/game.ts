@@ -24,37 +24,21 @@ export function getScore(
 }
 
 export function getLocation(exclude: StageList = []): CurrentLocation {
-  let candidate: {
-    // # TODO: I don't like how I'm doing this
-    city: string;
-    country: string;
-    lat: number;
-    lng: number;
-  };
+  let candidate: CurrentLocation;
 
   while (true) {
     candidate = cities[getRandomInt(0, cities.length)];
 
     if (
       exclude.filter(
-        ({ location }) =>
-          location.country === candidate.country &&
-          location.city === candidate.city
+        ({ country, city }) =>
+          country === candidate.country && city === candidate.city
       )
     ) {
       continue;
     }
 
-    return {
-      location: {
-        city: candidate.city,
-        country: candidate.country,
-      },
-      coordinates: {
-        latitude: candidate.lat,
-        longitude: candidate.lng,
-      },
-    };
+    return candidate;
   }
 }
 
