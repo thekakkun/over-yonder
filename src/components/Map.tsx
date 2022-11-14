@@ -1,17 +1,17 @@
 import {
   ExtendedFeatureCollection,
   geoAzimuthalEquidistant,
-  GeoGeometryObjects,
   geoPath,
 } from "d3-geo";
 import { select } from "d3-selection";
 import { useEffect, useRef, useState } from "react";
 import colors from "tailwindcss/colors";
 
+import geoJson from "../assets/data/ne_50m_admin_0_countries.json";
 import { Coordinates } from "../types/cartography";
 import { CompletedLocation } from "../types/game";
 import { getBearing, getDestination } from "../utilities/cartography";
-import geoJson from "../assets/data/ne_50m_admin_0_countries.json";
+import MapElement from "./MapElement";
 
 interface MapProps {
   target: CompletedLocation;
@@ -19,91 +19,125 @@ interface MapProps {
 }
 
 export default function Map({ target, location }: MapProps) {
-  const [svgSize, setSvgSize] = useState<{ width: number; height: number }>({
-    width: 0,
-    height: 0,
-  });
   const svgRef = useRef<SVGSVGElement>(null);
+  let projection = geoAzimuthalEquidistant().rotate([
+    -location.longitude,
+    -location.latitude,
+    getBearing(location, target),
+  ]);
   useEffect(() => {
     if (svgRef.current) {
-      setSvgSize({
-        height: svgRef.current.clientHeight,
-        width: svgRef.current.clientWidth,
-      });
-    } else {
-      throw Error("svgRef is not assigned");
+      projection.fitSize(
+        [svgRef.current.clientWidth, svgRef.current.clientHeight],
+        geoJson as ExtendedFeatureCollection
+      );
     }
   }, [svgRef]);
 
-  useEffect(() => {
-    function drawMap() {
-      if (geoJson) {
-        const projection = geoAzimuthalEquidistant()
-          .fitSize(
-            [svgSize.width, svgSize.height],
-            geoJson as ExtendedFeatureCollection
-          )
-          .rotate([
-            -location.longitude,
-            -location.latitude,
-            getBearing(location, target),
-          ]);
+  const guessDest = getDestination(location, target.heading, 5000);
 
-        const geoGenerator = geoPath(projection);
+  const geoGenerator = geoPath(projection);
+  // useEffect(() => {
+  //   if (geoJson) {
+  //     const svg = select("#map");
+  //     svg.selectAll("*").remove();
 
-        const svg = select("#map");
-        svg.selectAll("*").remove();
+  //     const globePath = svg
+  //       .append("path")
+  //       .attr("fill", colors.blue[100])
+  //       .attr(
+  //         "d",
+  //         geoGenerator({
+  //           type: "Sphere",
+  //         })
+  //       );
 
-        const globe: GeoGeometryObjects = {
-          type: "Sphere",
-        };
+  //     // const mapGroup = svg
+  //     //   .append("g")
+  //     //   .attr("fill", colors.stone[100])
+  //     //   .attr("stroke", colors.slate[800])
+  //     //   .selectAll("path")
+  //     //   .data((geoJson as ExtendedFeatureCollection).features)
+  //     //   .enter()
+  //     //   .append("path")
+  //     //   .attr("d", (d) => geoGenerator(d));
 
-        const globePath = svg.append("path").attr("fill", colors.blue[100]);
-        globePath.attr("d", geoGenerator(globe));
+  //     const targetPath = svg
+  //       .append("path")
+  //       .attr("fill-opacity", 0)
+  //       .attr("stroke", colors.red[500])
+  //       .attr("stroke-width", "3px")
+  //       .attr(
+  //         "d",
+  //         geoGenerator({
+  //           type: "LineString",
+  //           coordinates: [
+  //             [location.longitude, location.latitude],
+  //             [target.longitude, target.latitude],
+  //           ],
+  //         })
+  //       );
 
-        const mapG = svg
-          .append("g")
-          .attr("fill", colors.stone[100])
-          .attr("stroke", colors.slate[800]);
-        mapG
-          .selectAll("path")
-          .data((geoJson as ExtendedFeatureCollection).features)
-          .enter()
-          .append("path")
-          .attr("d", (d) => geoGenerator(d));
+  //     const guessDest = getDestination(location, target.heading, 5000);
+  //     // const guessPath = svg
+  //     //   .append("path")
+  //     //   .attr("fill-opacity", 0)
+  //     //   .attr("stroke", colors.green[500])
+  //     //   .attr("stroke-width", "3px")
+  //     //   .attr(
+  //     //     "d",
+  //     //     geoGenerator({
+  //     //       type: "LineString",
+  //     //       coordinates: [
+  //     //         [location.longitude, location.latitude],
+  //     //         [guessDest.longitude, guessDest.latitude],
+  //     //       ],
+  //     //     })
+  //     //   );
+  //   }
+  // }, [location, target, projection]);
 
-        const targetLine: GeoGeometryObjects = {
-          type: "LineString",
-          coordinates: [
-            [location.longitude, location.latitude],
-            [target.longitude, target.latitude],
-          ],
-        };
-        const targetPath = svg
-          .append("path")
-          .attr("fill-opacity", 0)
-          .attr("stroke", colors.red[500])
-          .attr("stroke-width", "3px");
-        targetPath.attr("d", geoGenerator(targetLine));
-
-        const guessDest = getDestination(location, target.heading, 5000);
-        const guessLine: GeoGeometryObjects = {
-          type: "LineString",
-          coordinates: [
-            [location.longitude, location.latitude],
-            [guessDest.longitude, guessDest.latitude],
-          ],
-        };
-        const guessPath = svg
-          .append("path")
-          .attr("fill-opacity", 0)
-          .attr("stroke", colors.green[500])
-          .attr("stroke-width", "3px");
-        guessPath.attr("d", geoGenerator(guessLine));
-      }
-    }
-    drawMap();
-  }, [location, target, svgSize]);
-
-  return <svg ref={svgRef} id="map" className="h-full"></svg>;
+  return (
+    <svg ref={svgRef} id="map" className="h-full">
+      <MapElement
+        svg={{
+          fill: colors.blue[100],
+          d:
+            geoGenerator({
+              type: "Sphere",
+            }) ?? "",
+        }}
+      ></MapElement>
+      <MapElement
+        svg={{
+          stroke: colors.red[500],
+          strokeWidth: 3,
+          fill: undefined,
+          d:
+            geoGenerator({
+              type: "LineString",
+              coordinates: [
+                [location.longitude, location.latitude],
+                [target.longitude, target.latitude],
+              ],
+            }) ?? "",
+        }}
+      ></MapElement>
+      <MapElement
+        svg={{
+          stroke: colors.green[500],
+          strokeWidth: 3,
+          fill: undefined,
+          d:
+            geoGenerator({
+              type: "LineString",
+              coordinates: [
+                [location.longitude, location.latitude],
+                [guessDest.longitude, guessDest.latitude],
+              ],
+            }) ?? "",
+        }}
+      ></MapElement>
+    </svg>
+  );
 }
