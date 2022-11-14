@@ -63,7 +63,7 @@ export default function Map({ target, location }: MapProps) {
 
         const mapG = svg
           .append("g")
-          .attr("fill", colors.stone[200])
+          .attr("fill", colors.stone[100])
           .attr("stroke", colors.slate[800]);
         mapG
           .selectAll("path")
