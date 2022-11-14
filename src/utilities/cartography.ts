@@ -43,14 +43,6 @@ function hav(theta: Radians) {
 }
 
 /**
- * The archaversine formula.
- * @param h The haversine
- * @returns The central angle between two points.
- */
-function archav(h: number) {
-  return Math.acos(1 - 2 * h);
-}
-/**
  * Calculate the shortest distance between two locations.
  * @param loc1 Coordinates of first location.
  * @param loc2 Coordinates of second location.
