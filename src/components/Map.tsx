@@ -6,6 +6,7 @@ import {
   GeoProjection,
 } from "d3-geo";
 import { select, Selection } from "d3-selection";
+import { zoom } from "d3-zoom";
 import { useEffect, useRef } from "react";
 import colors from "tailwindcss/colors";
 
@@ -74,11 +75,21 @@ class D3Map {
       );
     this.geoGenerator = geoPath(this.projection);
 
+    this.initZoom();
     this.draw();
+  }
+
+  /** Attach zoom behavior on target svg. */
+  initZoom() {
+    const zoomBehavior = zoom<SVGSVGElement, unknown>().on("zoom", (e) =>
+      this.svg.selectChildren().attr("transform", e.transform)
+    );
+    this.svg.call(zoomBehavior);
   }
 
   /** Draw the map. */
   draw() {
+    this.svg.selectChildren().remove();
     this.drawGlobe();
     this.drawCountries();
     this.drawDest();
@@ -115,7 +126,7 @@ class D3Map {
   drawDest() {
     this.svg
       .append("path")
-      .attr("fill-opacity", 0)
+      .attr("fill", null)
       .attr("stroke", colors.red[500])
       .attr("stroke-width", "3px")
       .attr(
