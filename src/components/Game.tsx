@@ -1,6 +1,7 @@
 import { Dispatch } from "react";
+
 import { Coordinates } from "../types/cartography";
-import { Modes, StageList, ActionType, CompletedLocation } from "../types/game";
+import { ActionType, CompletedLocation, Modes, StageList } from "../types/game";
 import { Degrees } from "../types/math";
 import Compass from "./Compass";
 import Display from "./Display";

@@ -1,102 +1,163 @@
 import {
   ExtendedFeatureCollection,
   geoAzimuthalEquidistant,
-  GeoGeometryObjects,
   geoPath,
+  GeoPath,
+  GeoProjection,
 } from "d3-geo";
-import { select } from "d3-selection";
-import { useEffect, useRef, useState } from "react";
+import { select, Selection } from "d3-selection";
+import { zoom } from "d3-zoom";
+import { useEffect, useRef } from "react";
 import colors from "tailwindcss/colors";
 
+import geoJson from "../assets/data/ne_50m_admin_0_countries.json";
 import { Coordinates } from "../types/cartography";
 import { CompletedLocation } from "../types/game";
 import { getBearing, getDestination } from "../utilities/cartography";
-import geoJson from "../assets/data/ne_50m_admin_0_countries.json";
 
 interface MapProps {
   target: CompletedLocation;
   location: Coordinates;
 }
 
+let map: D3Map;
+
 export default function Map({ target, location }: MapProps) {
-  const [svgSize, setSvgSize] = useState<{ width: number; height: number }>({
-    width: 0,
-    height: 0,
-  });
   const svgRef = useRef<SVGSVGElement>(null);
+
   useEffect(() => {
     if (svgRef.current) {
-      setSvgSize({
-        height: svgRef.current.clientHeight,
-        width: svgRef.current.clientWidth,
-      });
-    } else {
-      throw Error("svgRef is not assigned");
+      map = new D3Map(svgRef.current, target, location);
     }
-  }, [svgRef]);
+  }, [svgRef, target, location]);
 
-  useEffect(() => {
-    function drawMap() {
-      if (geoJson) {
-        const projection = geoAzimuthalEquidistant()
-          .fitSize(
-            [svgSize.width, svgSize.height],
-            geoJson as ExtendedFeatureCollection
-          )
-          .rotate([
-            -location.longitude,
-            -location.latitude,
-            getBearing(location, target),
-          ]);
+  return (
+    <div className="h-full">
+      <svg ref={svgRef} id="map" className="h-full w-full"></svg>
+    </div>
+  );
+}
 
-        const geoGenerator = geoPath(projection);
+/**
+ * Draw a map, using D3 in the specified element.
+ */
+class D3Map {
+  svg: Selection<SVGSVGElement, unknown, null, undefined>;
+  target: CompletedLocation;
+  location: Coordinates;
+  projection: GeoProjection;
+  geoGenerator: GeoPath;
 
-        const svg = select("#map");
-        svg.selectAll("*").remove();
+  /**
+   * Create a D3Map object.
+   * @param containerEl The element to draw the map on.
+   * @param target Target location for stage.
+   * @param location User's current location.
+   */
+  constructor(
+    containerEl: SVGSVGElement,
+    target: CompletedLocation,
+    location: Coordinates
+  ) {
+    this.svg = select(containerEl);
+    this.target = target;
+    this.location = location;
 
-        const mapG = svg
-          .append("g")
-          .attr("fill", colors.slate[50])
-          .attr("stroke", colors.slate[900]);
-        mapG
-          .selectAll("path")
-          .data((geoJson as ExtendedFeatureCollection).features)
-          .enter()
-          .append("path")
-          .attr("d", (d) => geoGenerator(d));
+    this.projection = geoAzimuthalEquidistant()
+      .rotate([
+        -this.location.longitude,
+        -this.location.latitude,
+        getBearing(location, target),
+      ])
+      .fitSize(
+        [containerEl.clientWidth, containerEl.clientHeight],
+        geoJson as ExtendedFeatureCollection
+      );
+    this.geoGenerator = geoPath(this.projection);
 
-        const targetLine: GeoGeometryObjects = {
+    this.initZoom();
+    this.draw();
+  }
+
+  /** Attach zoom behavior on target svg. */
+  initZoom() {
+    const zoomBehavior = zoom<SVGSVGElement, unknown>().on("zoom", (e) =>
+      this.svg.selectChildren().attr("transform", e.transform)
+    );
+    this.svg.call(zoomBehavior);
+  }
+
+  /** Draw the map. */
+  draw() {
+    this.svg.selectChildren().remove();
+    this.drawGlobe();
+    this.drawCountries();
+    this.drawDest();
+    this.drawGuess();
+  }
+
+  /** Draw the globe background. */
+  drawGlobe() {
+    this.svg
+      .append("path")
+      .attr("fill", colors.blue[100])
+      .attr(
+        "d",
+        this.geoGenerator({
+          type: "Sphere",
+        })
+      );
+  }
+
+  /** Draw the countries. */
+  drawCountries() {
+    this.svg
+      .append("g")
+      .attr("fill", colors.stone[100])
+      .attr("stroke", colors.slate[800])
+      .selectAll("path")
+      .data((geoJson as ExtendedFeatureCollection).features)
+      .enter()
+      .append("path")
+      .attr("d", this.geoGenerator);
+  }
+
+  /** Draw the destination line. */
+  drawDest() {
+    this.svg
+      .append("path")
+      .attr("fill", null)
+      .attr("stroke", colors.red[500])
+      .attr("stroke-width", "3px")
+      .attr(
+        "d",
+        this.geoGenerator({
           type: "LineString",
           coordinates: [
-            [location.longitude, location.latitude],
-            [target.longitude, target.latitude],
+            [this.location.longitude, this.location.latitude],
+            [this.target.longitude, this.target.latitude],
           ],
-        };
-        const targetPath = svg
-          .append("path")
-          .attr("fill-opacity", 0)
-          .attr("stroke", colors.red[500])
-          .attr("stroke-width", "3px");
-        targetPath.attr("d", geoGenerator(targetLine));
+        })
+      );
+  }
 
-        const guessDest = getDestination(location, target.heading, 5000);
-        const guessLine: GeoGeometryObjects = {
+  /** Draw the guess line */
+  drawGuess() {
+    const guessDest = getDestination(this.location, this.target.heading, 5000);
+    this.svg
+      .append("path")
+      .attr("fill-opacity", 0)
+      .attr("stroke", colors.green[500])
+      .attr("stroke-width", "3px")
+      .attr(
+        "d",
+        this.geoGenerator({
           type: "LineString",
           coordinates: [
-            [location.longitude, location.latitude],
+            [this.location.longitude, this.location.latitude],
             [guessDest.longitude, guessDest.latitude],
           ],
-        };
-        const guessPath = svg
-          .append("path")
-          .attr("fill-opacity", 0)
-          .attr("stroke", colors.green[500])
-          .attr("stroke-width", "3px");
-        guessPath.attr("d", geoGenerator(guessLine));
-      }
-    }
-    drawMap();
-  }, [location, target, svgSize]);
-
-  return <svg ref={svgRef} id="map" className="h-full"></svg>;
+        })
+      );
+  }
 }
