@@ -3,8 +3,7 @@ import {
   geoAzimuthalEquidistant,
   geoPath,
 } from "d3-geo";
-import { select } from "d3-selection";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import colors from "tailwindcss/colors";
 
 import geoJson from "../assets/data/ne_50m_admin_0_countries.json";
@@ -35,67 +34,7 @@ export default function Map({ target, location }: MapProps) {
   }, [svgRef]);
 
   const guessDest = getDestination(location, target.heading, 5000);
-
   const geoGenerator = geoPath(projection);
-  // useEffect(() => {
-  //   if (geoJson) {
-  //     const svg = select("#map");
-  //     svg.selectAll("*").remove();
-
-  //     const globePath = svg
-  //       .append("path")
-  //       .attr("fill", colors.blue[100])
-  //       .attr(
-  //         "d",
-  //         geoGenerator({
-  //           type: "Sphere",
-  //         })
-  //       );
-
-  //     // const mapGroup = svg
-  //     //   .append("g")
-  //     //   .attr("fill", colors.stone[100])
-  //     //   .attr("stroke", colors.slate[800])
-  //     //   .selectAll("path")
-  //     //   .data((geoJson as ExtendedFeatureCollection).features)
-  //     //   .enter()
-  //     //   .append("path")
-  //     //   .attr("d", (d) => geoGenerator(d));
-
-  //     const targetPath = svg
-  //       .append("path")
-  //       .attr("fill-opacity", 0)
-  //       .attr("stroke", colors.red[500])
-  //       .attr("stroke-width", "3px")
-  //       .attr(
-  //         "d",
-  //         geoGenerator({
-  //           type: "LineString",
-  //           coordinates: [
-  //             [location.longitude, location.latitude],
-  //             [target.longitude, target.latitude],
-  //           ],
-  //         })
-  //       );
-
-  //     const guessDest = getDestination(location, target.heading, 5000);
-  //     // const guessPath = svg
-  //     //   .append("path")
-  //     //   .attr("fill-opacity", 0)
-  //     //   .attr("stroke", colors.green[500])
-  //     //   .attr("stroke-width", "3px")
-  //     //   .attr(
-  //     //     "d",
-  //     //     geoGenerator({
-  //     //       type: "LineString",
-  //     //       coordinates: [
-  //     //         [location.longitude, location.latitude],
-  //     //         [guessDest.longitude, guessDest.latitude],
-  //     //       ],
-  //     //     })
-  //     //   );
-  //   }
-  // }, [location, target, projection]);
 
   return (
     <svg ref={svgRef} id="map" className="h-full">
@@ -107,6 +46,15 @@ export default function Map({ target, location }: MapProps) {
               type: "Sphere",
             }) ?? "",
         }}
+      ></MapElement>
+      <MapElement
+        svg={(geoJson as ExtendedFeatureCollection).features.map((feature) => {
+          return {
+            stroke: colors.slate[800],
+            fill: colors.stone[100],
+            d: geoGenerator(feature) ?? "",
+          };
+        })}
       ></MapElement>
       <MapElement
         svg={{

@@ -1,9 +1,9 @@
+import cities from "../assets/data/cities.json";
 import { Coordinates } from "../types/cartography";
 import { CurrentLocation, StageList } from "../types/game";
 import { Degrees } from "../types/math";
 import { getBearing } from "./cartography";
 import { getRandomInt } from "./math";
-import cities from "../assets/data/cities.json";
 
 export function getScore(
   location: Coordinates,
