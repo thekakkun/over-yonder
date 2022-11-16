@@ -5,8 +5,8 @@ import {
   GeoPath,
   GeoProjection,
 } from "d3-geo";
-import { select, Selection } from "d3-selection";
-import { zoom } from "d3-zoom";
+import { BaseType, select, Selection } from "d3-selection";
+import { zoom, ZoomBehavior, zoomIdentity } from "d3-zoom";
 import { useEffect, useRef } from "react";
 import colors from "tailwindcss/colors";
 
@@ -29,7 +29,7 @@ export default function Map({ target, location }: MapProps) {
     if (svgRef.current) {
       map = new D3Map(svgRef.current, target, location);
     }
-  }, [svgRef, target, location]);
+  }, [svgRef, target]);
 
   return (
     <div className="h-full">
@@ -47,6 +47,7 @@ class D3Map {
   location: Coordinates;
   projection: GeoProjection;
   geoGenerator: GeoPath;
+  zoomBehavior: ZoomBehavior<SVGSVGElement, unknown>;
 
   /**
    * Create a D3Map object.
@@ -74,17 +75,30 @@ class D3Map {
         geoJson as ExtendedFeatureCollection
       );
     this.geoGenerator = geoPath(this.projection);
+    this.zoomBehavior = zoom();
 
-    this.initZoom();
     this.draw();
+    this.initZoom();
+    this.zoomToElem(select("#destLine"));
   }
 
   /** Attach zoom behavior on target svg. */
   initZoom() {
-    const zoomBehavior = zoom<SVGSVGElement, unknown>().on("zoom", (e) =>
+    this.zoomBehavior.on("zoom", (e: any) =>
       this.svg.selectChildren().attr("transform", e.transform)
     );
-    this.svg.call(zoomBehavior);
+    this.svg.call(this.zoomBehavior);
+  }
+
+  zoomToElem(element: Selection<BaseType, unknown, HTMLElement, any>) {
+    const containerEl = this.svg.node();
+    if (containerEl !== null) {
+      const { clientHeight, clientWidth } = containerEl;
+      const { height, width, x, y } = containerEl.getBBox();
+      this.svg.call(
+        this.zoomBehavior.transform,
+        zoomIdentity.translate(0, 0).scale(1))
+    }
   }
 
   /** Draw the map. */
@@ -126,6 +140,7 @@ class D3Map {
   drawDest() {
     this.svg
       .append("path")
+      .attr("id", "destLine")
       .attr("fill", null)
       .attr("stroke", colors.red[500])
       .attr("stroke-width", "3px")
