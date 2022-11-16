@@ -1,3 +1,4 @@
+import { GeoProjection } from "d3-geo";
 import { Degrees } from "./math";
 
 export interface Location {
@@ -8,4 +9,8 @@ export interface Location {
 export interface Coordinates {
   longitude: Degrees;
   latitude: Degrees;
+}
+
+export interface VersorGeoProjection extends GeoProjection {
+  _scale: number | undefined;
 }
