@@ -1,19 +1,16 @@
 // @ts-nocheck
 import { drag } from "d3-drag";
 import {
-  GeoProjection,
-  GeoPath,
-  geoAzimuthalEquidistant,
   ExtendedFeatureCollection,
-  geoPath,
   geoOrthographic,
+  GeoPath,
+  geoPath,
+  GeoProjection,
 } from "d3-geo";
 import { pointers, select, Selection } from "d3-selection";
-import { ZoomBehavior, zoom } from "d3-zoom";
-
 import versor from "versor";
 
-import geoJson from "../assets/data/ne_50m_admin_0_countries.json";
+import geoJson from "../assets/data/ne_110m_admin_0_countries.json";
 import { Coordinates } from "../types/cartography";
 import { CompletedLocation } from "../types/game";
 import { getBearing, getDestination } from "../utilities/cartography";
@@ -28,7 +25,6 @@ export default class D3Map {
   location: Coordinates;
   projection: GeoProjection;
   geoGenerator: GeoPath;
-  zoomBehavior: ZoomBehavior<SVGSVGElement, unknown>;
 
   /**
    * Create a D3Map object.
@@ -60,11 +56,7 @@ export default class D3Map {
 
     this.drag = this.drag.bind(this);
     this.svg
-      .call(
-        this.drag().on("drag.render", () => {
-          this.draw();
-        })
-      )
+      .call(this.drag().on("drag.render", () => this.draw()))
       .call(() => this.draw());
   }
 
