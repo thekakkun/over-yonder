@@ -12,7 +12,7 @@ import versor from "versor";
 import geoJson from "../assets/data/ne_110m_admin_0_countries.json";
 import { Coordinates } from "../types/cartography";
 import { CompletedLocation } from "../types/game";
-import { getBearing, getDestination } from "../utilities/cartography";
+import { getDestination } from "../utilities/cartography";
 
 /**
  * Draw a map, using D3 in the specified element.
@@ -45,7 +45,7 @@ export default class D3Map {
       .rotate([
         -this.location.longitude,
         -this.location.latitude,
-        getBearing(location, target),
+        0,
       ])
       .fitSize(
         [containerEl.clientWidth, containerEl.clientHeight],
@@ -130,7 +130,7 @@ export default class D3Map {
     };
 
     const dragStarted = (event: DragEvent) => {
-      const [px, py, pa] = pointer(event);
+      const [px, py] = pointer(event);
       v0 = versor.cartesian(
         this.projection.invert?.([px, py]) ??
           (() => {
