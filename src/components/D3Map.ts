@@ -102,7 +102,7 @@ export default class D3Map {
     let v0, q0, r0, a0, l;
 
     const pointer = (event) => {
-      const t = pointers(event, this.svg);
+      const t = pointers(event, this.svg.node());
 
       if (t.length !== l) {
         l = t.length;
@@ -128,7 +128,7 @@ export default class D3Map {
     };
 
     const dragged = (event) => {
-      const p = pointer(event, this);
+      const p = pointer(event);
       const v1 = versor.cartesian(this.projection.rotate(r0).invert(p));
       const delta = versor.delta(v0, v1);
       let q1 = versor.multiply(q0, delta);
