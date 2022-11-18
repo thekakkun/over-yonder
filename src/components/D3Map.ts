@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { drag } from "d3-drag";
 import {
   ExtendedFeatureCollection,
@@ -62,7 +61,7 @@ export default class D3Map {
 
   /** Draw the map. */
   draw() {
-    this.svg.select("#globe").attr(
+    this.svg.select<SVGPathElement>("#globe").attr(
       "d",
       this.geoGenerator({
         type: "Sphere",
@@ -70,12 +69,12 @@ export default class D3Map {
     );
 
     const u = this.svg
-      .select("#countries")
-      .selectAll("path")
+      .select<SVGGElement>("#countries")
+      .selectAll<SVGPathElement, ExtendedFeatureCollection>("path")
       .data((geoJson as ExtendedFeatureCollection).features);
     u.enter().append("path").merge(u).attr("d", this.geoGenerator);
 
-    this.svg.select("#destLine").attr(
+    this.svg.select<SVGPathElement>("#destLine").attr(
       "d",
       this.geoGenerator({
         type: "LineString",
@@ -86,7 +85,7 @@ export default class D3Map {
       })
     );
 
-    this.svg.select("#guessLine").attr(
+    this.svg.select<SVGPathElement>("#guessLine").attr(
       "d",
       this.geoGenerator({
         type: "LineString",
@@ -99,14 +98,22 @@ export default class D3Map {
   }
 
   drag() {
-    let v0, q0, r0, a0, l;
+    let v0: [number, number, number],
+      q0: [number, number, number, number],
+      r0: [number, number, number],
+      a0: number,
+      l: number;
 
-    const pointer = (event) => {
+    const pointer = (
+      event: DragEvent
+    ): [number, number] | [number, number, number] => {
       const t = pointers(event, this.svg.node());
 
       if (t.length !== l) {
         l = t.length;
-        if (l > 1) a0 = Math.atan2(t[1][1] - t[0][1], t[1][0] - t[0][0]);
+        if (l > 1) {
+          a0 = Math.atan2(t[1][1] - t[0][1], t[1][0] - t[0][0]);
+        }
         dragStarted(event);
       }
 
@@ -122,20 +129,33 @@ export default class D3Map {
       return t[0];
     };
 
-    const dragStarted = (event) => {
-      v0 = versor.cartesian(this.projection.invert(pointer(event)));
+    const dragStarted = (event: DragEvent) => {
+      const [px, py, pa] = pointer(event);
+      v0 = versor.cartesian(
+        this.projection.invert?.([px, py]) ??
+          (() => {
+            throw new Error("Projection not invertible");
+          })()
+      );
+
       q0 = versor((r0 = this.projection.rotate()));
     };
 
-    const dragged = (event) => {
-      const p = pointer(event);
-      const v1 = versor.cartesian(this.projection.rotate(r0).invert(p));
+    const dragged = (event: DragEvent) => {
+      const [px, py, pa] = pointer(event);
+
+      const v1 = versor.cartesian(
+        this.projection.rotate(r0).invert?.([px, py]) ??
+          (() => {
+            throw new Error("Projection not invertible");
+          })()
+      );
       const delta = versor.delta(v0, v1);
       let q1 = versor.multiply(q0, delta);
 
       // For multitouch, compose with a rotation around the axis.
-      if (p[2]) {
-        const d = (p[2] - a0) / 2;
+      if (pa) {
+        const d = (pa - a0) / 2;
         const s = -Math.sin(d);
         const c = Math.sign(Math.cos(d));
         q1 = versor.multiply([Math.sqrt(1 - s * s), 0, 0, c * s], q1);
@@ -149,6 +169,8 @@ export default class D3Map {
       }
     };
 
-    return drag().on("start", dragStarted).on("drag", dragged);
+    return drag<SVGSVGElement, unknown>()
+      .on("start", dragStarted)
+      .on("drag", dragged);
   }
 }

@@ -10,7 +10,7 @@ declare module "versor" {
 
   declare function versor(
     e: [number, number, number]
-  ): [number, number, number];
+  ): [number, number, number, number];
 
   declare namespace versor {
     export function cartesian(e: [number, number]): [number, number, number];
