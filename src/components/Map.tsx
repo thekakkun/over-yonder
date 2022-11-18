@@ -22,48 +22,50 @@ export default function Map({ target, location }: MapProps) {
     }
   }, [svgRef]);
 
+  const globe = <path id="globe" fill={colors.blue[100]}></path>;
+  const countries = (
+    <g id="countries" fill={colors.stone[100]} stroke={colors.slate[400]}></g>
+  );
+  const destination = (
+    <g>
+      <path
+        id="destLine"
+        fillOpacity={0}
+        stroke={colors.red[500]}
+        strokeLinecap="round"
+        strokeWidth="2px"
+      ></path>
+      <path id="destPoint" fill={colors.red[600]}></path>
+      <text
+        id="destLabel"
+        dominantBaseline="middle"
+      >{`${target.city}, ${target.country}`}</text>
+    </g>
+  );
+  const guess = (
+    <g>
+      <path
+        id="guessLine"
+        fillOpacity={0}
+        stroke={colors.green[500]}
+        strokeLinecap="round"
+        strokeWidth="2px"
+      ></path>
+      <text cursor="default" fill={colors.green[800]}>
+        <textPath href="#guessLine" startOffset="10">
+          Your guess
+        </textPath>
+      </text>
+    </g>
+  );
+
   return (
     <div className="h-full">
       <svg ref={svgRef} id="map" className="h-full w-full">
-        <path id="globe" fill={colors.blue[100]}></path>
-        <g
-          id="countries"
-          fill={colors.stone[100]}
-          stroke={colors.slate[800]}
-        ></g>
-        <g>
-          <path
-            id="destLine"
-            fillOpacity={0}
-            stroke={colors.red[500]}
-            strokeLinecap="round"
-            strokeWidth="2px"
-          ></path>
-          <path id="destPoint" fill={colors.red[600]}></path>
-          <text
-            id="destLabel"
-            dominantBaseline="middle"
-          >{`${target.city}, ${target.country}`}</text>
-          <text cursor="default" fill={colors.red[800]}>
-            <textPath href="#destLine" startOffset="10">
-              Answer
-            </textPath>
-          </text>
-        </g>
-        <g>
-          <path
-            id="guessLine"
-            fillOpacity={0}
-            stroke={colors.green[500]}
-            strokeLinecap="round"
-            strokeWidth="2px"
-          ></path>
-          <text cursor="default" fill={colors.green[800]}>
-            <textPath href="#guessLine" startOffset="10">
-              Your guess
-            </textPath>
-          </text>
-        </g>
+        {globe}
+        {countries}
+        {destination}
+        {guess}
       </svg>
     </div>
   );

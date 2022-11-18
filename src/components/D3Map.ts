@@ -99,7 +99,7 @@ export default class D3Map {
     if (destPoint !== null) {
       this.svg
         .select<SVGTextElement>("#destLabel")
-        .attr("x", destPoint[0])
+        .attr("x", destPoint[0]+10)
         .attr("y", destPoint[1])
         .attr(
           "display",
