@@ -87,7 +87,7 @@ function App() {
   }
 
   return (
-    <div className="h-screen flex flex-col items-center justify-between gap-1 pb-4">
+    <div className="h-full flex flex-col items-center justify-between pb-4">
       <Header></Header>
       <Content>{getContent()}</Content>
       {location !== null && heading !== null && (
