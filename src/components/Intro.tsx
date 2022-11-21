@@ -1,13 +1,13 @@
 export default function Intro() {
   return (
     <div className="">
-      <h2 className="text-lg font-bold">How to play:</h2>
+      <h1 className="text-lg font-bold">How to play:</h1>
       <p>
         Try and guess which direction the specified city lies. There will be
         five stages, worth 200 points each, for a total of 1,000 points.
       </p>
 
-      <h3 className="text-base font-bold text-slate-700">Tips:</h3>
+      <h2 className="text-base font-bold text-slate-700">Tips:</h2>
       <ul className="list-disc list-inside">
         <li>
           If you're not sure where the city is, you can re-roll up to 3 times
@@ -15,7 +15,7 @@ export default function Intro() {
         </li>
       </ul>
 
-      <h2 className="text-lg font-bold mt-3">Requirements:</h2>
+      <h1 className="text-lg font-bold mt-3">Requirements:</h1>
       <p>
         This game depends on{" "}
         <span className="font-semibold">location services</span> (to figure out
