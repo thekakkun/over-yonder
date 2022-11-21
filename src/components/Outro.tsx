@@ -11,7 +11,16 @@ export default function Outro({ stages }: OutroProps) {
 
   return (
     <div>
-      <h1>Done!</h1>
+      <h1 className="text-lg font-bold">Good Job!</h1>
+      <p>
+        You scored{" "}
+        {`${stages.reduce(
+          (prev, curr) => prev + (curr as CompletedLocation).score,
+          0
+        )}/1000`}
+      </p>
+
+      <h2 className="text-base font-bold text-slate-700 mt-3">Breakdown</h2>
       <ol>
         {stages.map((stage) => {
           if (!("score" in stage)) {
@@ -19,15 +28,18 @@ export default function Outro({ stages }: OutroProps) {
           }
           return (
             <li
+              className="list-decimal list-inside"
               key={`${stage.city}_${stage.country}`}
-            >{`${stage.city}, ${stage.country}: ${stage.score}`}</li>
+            >
+              <a
+                href={`https://www.google.com/maps/search/?api=1&query=${stage.latitude},${stage.longitude}`}
+                className="underline text-sky-500"
+              >{`${stage.city}, ${stage.country}`}</a>
+              {`: ${stage.score}/200`}
+            </li>
           );
         })}
       </ol>
-      <p>{`Total: ${stages.reduce(
-        (prev, curr) => prev + (curr as CompletedLocation).score,
-        0
-      )}/1000`}</p>
     </div>
   );
 }

@@ -45,7 +45,7 @@ export default class D3Map {
       .rotate([
         -this.location.longitude,
         -this.location.latitude,
-        0,
+        this.target.heading,
       ])
       .fitSize(
         [containerEl.clientWidth, containerEl.clientHeight],
@@ -61,6 +61,7 @@ export default class D3Map {
 
   /** Draw the map. */
   draw() {
+    // The globe background
     this.svg.select<SVGPathElement>("#globe").attr(
       "d",
       this.geoGenerator({
@@ -68,12 +69,14 @@ export default class D3Map {
       })
     );
 
+    // The countries
     const u = this.svg
       .select<SVGGElement>("#countries")
       .selectAll<SVGPathElement, ExtendedFeatureCollection>("path")
       .data((geoJson as ExtendedFeatureCollection).features);
     u.enter().append("path").merge(u).attr("d", this.geoGenerator);
 
+    // Line to the destination
     this.svg.select<SVGPathElement>("#destLine").attr(
       "d",
       this.geoGenerator({
@@ -84,7 +87,36 @@ export default class D3Map {
         ],
       })
     );
+    this.svg.select<SVGPathElement>("#destPoint").attr(
+      "d",
+      this.geoGenerator({
+        type: "Point",
+        coordinates: [this.target.longitude, this.target.latitude],
+      })
+    );
 
+    const destPoint = this.projection([
+      this.target.longitude,
+      this.target.latitude,
+    ]);
+
+    if (destPoint !== null) {
+      this.svg
+        .select<SVGTextElement>("#destLabel")
+        .attr("x", destPoint[0] + 10)
+        .attr("y", destPoint[1])
+        .attr(
+          "display",
+          this.geoGenerator({
+            type: "Point",
+            coordinates: [this.target.longitude, this.target.latitude],
+          }) === null
+            ? "none"
+            : ""
+        );
+    }
+
+    // Guess by user
     this.svg.select<SVGPathElement>("#guessLine").attr(
       "d",
       this.geoGenerator({
@@ -97,6 +129,10 @@ export default class D3Map {
     );
   }
 
+  /**
+   * Define the drag behavior.
+   * @returns the drag behavior object.
+   */
   drag() {
     let v0: [number, number, number],
       q0: [number, number, number, number],
@@ -129,6 +165,10 @@ export default class D3Map {
       return t[0];
     };
 
+    /**
+     * Set the drag axis on touch start.
+     * @param event The drag event lauched on drag start.
+     */
     const dragStarted = (event: DragEvent) => {
       const [px, py] = pointer(event);
       v0 = versor.cartesian(
@@ -141,6 +181,10 @@ export default class D3Map {
       q0 = versor((r0 = this.projection.rotate()));
     };
 
+    /**
+     * Handle the drag event and update the projection rotation.
+     * @param event The drag event launched during drag.
+     */
     const dragged = (event: DragEvent) => {
       const [px, py, pa] = pointer(event);
 
