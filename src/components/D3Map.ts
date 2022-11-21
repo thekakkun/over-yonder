@@ -42,7 +42,11 @@ export default class D3Map {
     this.destination = getDestination(this.location, this.target.heading, 5000);
 
     this.projection = geoOrthographic()
-      .rotate([-this.location.longitude, -this.location.latitude, 0])
+      .rotate([
+        -this.location.longitude,
+        -this.location.latitude,
+        this.target.heading,
+      ])
       .fitSize(
         [containerEl.clientWidth, containerEl.clientHeight],
         geoJson as ExtendedFeatureCollection
@@ -99,7 +103,7 @@ export default class D3Map {
     if (destPoint !== null) {
       this.svg
         .select<SVGTextElement>("#destLabel")
-        .attr("x", destPoint[0]+10)
+        .attr("x", destPoint[0] + 10)
         .attr("y", destPoint[1])
         .attr(
           "display",
