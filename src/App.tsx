@@ -26,11 +26,11 @@ function App() {
       });
     } else if (geolocationAvailable()) {
       navigator.geolocation.watchPosition(
-        ({ coords: { latitude, longitude } }) => {
-          setLocation({
-            latitude: latitude,
-            longitude: longitude,
-          });
+        ({ coords }) => {
+          setLocation({ ...coords });
+        },
+        (error) => {
+          alert(`ERROR(${error.code}): ${error.message}`);
         }
       );
     }
@@ -53,11 +53,13 @@ function App() {
   }, []);
 
   function getContent() {
-    if (location === null) {
-      return <p>Location services are needed</p>;
-    }
-    if (heading === null) {
-      return <p>Device orientation data is needed</p>;
+    if (location === null || heading === null) {
+      return (
+        <>
+          {location && <p>Location services are needed</p>}
+          {heading && <p>Device orientation services are needed</p>}
+        </>
+      );
     }
 
     switch (mode) {
