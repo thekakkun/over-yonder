@@ -5,10 +5,9 @@ import { ActionType, CompletedLocation, Modes, StageList } from "../types/game";
 import { Degrees } from "../types/math";
 import Compass from "./Compass";
 import Display from "./Display";
+import Info from "./Info";
 import Map from "./Map";
 import Progress from "./Progress";
-import Score from "./Score";
-import Target from "./Target";
 
 interface GameProps {
   gameLength: number;
@@ -27,33 +26,19 @@ export default function Game({
   stages,
   dispatch,
 }: GameProps) {
-  const guessDisplay = (
-    <>
-      <Target
-        target={stages[stages.length - 1]}
-        dispatch={dispatch}
-        stages={stages}
-      ></Target>
-      <Compass heading={heading}></Compass>
-    </>
-  );
+  const guessDisplay = <Compass heading={heading}></Compass>;
 
   const answerDisplay = (
-    <>
-      <Score
-        target={stages[stages.length - 1] as CompletedLocation}
-        location={location}
-      ></Score>
-      <Map
-        target={stages[stages.length - 1] as CompletedLocation}
-        location={location}
-      ></Map>
-    </>
+    <Map
+      target={stages[stages.length - 1] as CompletedLocation}
+      location={location}
+    ></Map>
   );
 
   return (
     <div className="h-full flex flex-col gap-3">
       <Progress gameLength={gameLength} stages={stages}></Progress>
+      <Info mode={mode} dispatch={dispatch} stages={stages}></Info>
       <Display>{mode === "guess" ? guessDisplay : answerDisplay}</Display>
     </div>
   );
