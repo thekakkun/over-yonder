@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import { Position } from "../types/game";
 
+interface WebkitDeviceOrientationEvent extends DeviceOrientationEvent {
+  webkitCompassHeading: number;
+}
+
 export default function usePosition() {
   let initPosition: Position =
     process.env.NODE_ENV === "development"
@@ -21,36 +25,47 @@ export default function usePosition() {
   function setCoordinates(pos: GeolocationPosition) {
     setPosition({ ...position, coordinates: pos.coords });
   }
+  function geoErrorHandler(error: GeolocationPositionError) {
+    alert(`ERROR(${error.code}): ${error.message}`);
+  }
   useEffect(() => {
     if ("geolocation" in navigator) {
       let watchId = navigator.geolocation.watchPosition(
         setCoordinates,
-        (error) => {
-          alert(`ERROR(${error.code}): ${error.message}`);
-        }
+        geoErrorHandler
       );
 
       return () => navigator.geolocation.clearWatch(watchId);
     }
   }, []);
 
-  function setHeading(orientation: DeviceOrientationEvent | Event) {
+  function setHeading(
+    orientation: DeviceOrientationEvent | WebkitDeviceOrientationEvent
+  ) {
     if ("webkitCompassHeading" in orientation) {
       setPosition({
         ...position,
-        heading: (orientation as any).webkitCompassHeading,
+        heading: orientation.webkitCompassHeading,
       });
-    } else if ("absolute" in orientation && orientation.absolute) {
-      if ("alpha" in orientation && orientation.alpha !== null) {
-        setPosition({ ...position, heading: 359 - orientation.alpha });
-      }
+    } else if (orientation.absolute && orientation.alpha !== null) {
+      setPosition({
+        ...position,
+        heading: 359 - orientation.alpha,
+      });
     }
   }
+
   useEffect(() => {
     if ("ondeviceorientationabsolute" in window) {
-      window.addEventListener("deviceorientationabsolute", setHeading);
+      window.addEventListener<"deviceorientation">(
+        "deviceorientationabsolute" as "deviceorientation",
+        setHeading
+      );
       return () =>
-        window.removeEventListener("deviceorientationabsolute", setHeading);
+        window.removeEventListener<"deviceorientation">(
+          "deviceorientationabsolute" as "deviceorientation",
+          setHeading
+        );
     } else if ("ondeviceorientation" in window) {
       window.addEventListener("deviceorientation", setHeading);
       return () => window.removeEventListener("deviceorientation", setHeading);
