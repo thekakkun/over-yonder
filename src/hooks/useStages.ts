@@ -12,17 +12,16 @@ export default function useStages(gameLength = 5) {
   const [stages, setStages] = useState(initialStages);
 
   function getCurentStage() {
-    let lastStage: StageList[number] = null;
+    let lastStage = stages.reduce(
+      (accumulator, currentValue) =>
+        (accumulator = currentValue !== null ? currentValue : accumulator)
+    );
 
-    for (const stage of stages) {
-      if (stage === null) {
-        return lastStage as CurrentLocation | CompletedLocation;
-      } else {
-        lastStage = stage;
-      }
+    if (lastStage === null) {
+      throw new Error("Game not started.");
+    } else {
+      return lastStage;
     }
-
-    throw new Error("Game not started yet.");
   }
 
   function setNextStage() {
@@ -30,11 +29,7 @@ export default function useStages(gameLength = 5) {
 
     for (const [i, stage] of stages.entries()) {
       if (stage == null) {
-        setStages([
-          ...stages.slice(0, i - 1),
-          nextStage,
-          ...stages.slice(i - 1),
-        ]);
+        setStages([...stages.slice(0, i), nextStage, ...stages.slice(i + 1)]);
         return nextStage;
       }
     }
@@ -47,11 +42,7 @@ export default function useStages(gameLength = 5) {
 
     for (const [i, stage] of stages.entries()) {
       if (stage !== null && !("score" in stage)) {
-        setStages([
-          ...stages.slice(0, i - 1),
-          newStage,
-          ...stages.slice(i - 1),
-        ]);
+        setStages([...stages.slice(0, i), newStage, ...stages.slice(i + 1)]);
         return newStage;
       }
     }
@@ -65,9 +56,9 @@ export default function useStages(gameLength = 5) {
     for (const [i, stage] of stages.entries()) {
       if (stage !== null && !("score" in stage)) {
         setStages([
-          ...stages.slice(0, i - 1),
+          ...stages.slice(0, i),
           completedStage,
-          ...stages.slice(i - 1),
+          ...stages.slice(i + 1),
         ]);
         return;
       }

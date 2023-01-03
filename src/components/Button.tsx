@@ -42,8 +42,6 @@ function handleClick({ position, stageState }: ButtonProps) {
 }
 
 function buttonText({
-  stages,
-
   isStarted,
   isCompleted,
   getCurentStage,

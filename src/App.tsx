@@ -38,7 +38,6 @@ function App() {
   return (
     <div className="h-full flex flex-col items-center justify-between pb-4">
       <Header></Header>
-      <button onClick={stageState.setNextStage}>hi</button>
       <Content>{getContent()}</Content>
       {position.coordinates && position.heading && (
         <Button position={position} stageState={stageState}></Button>
