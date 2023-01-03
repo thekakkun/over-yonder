@@ -1,140 +1,50 @@
-import { useEffect, useReducer, useState } from "react";
+import { useEffect } from "react";
 import Button from "./components/Button";
 import Content from "./components/Content";
 import Game from "./components/Game";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Outro from "./components/Outro";
-import { Coordinates } from "./types/cartography";
-import { ActionType, Modes, StageList } from "./types/game";
-import { Degrees } from "./types/math";
-import { geolocationAvailable } from "./utilities/cartography";
-import { getHeading, getLocation } from "./utilities/game";
+import usePosition from "./hooks/usePosition";
+import useStages from "./hooks/useStages";
 
 function App() {
-  const gameLength = 5;
+  const position = usePosition();
+  const stageState = useStages();
 
-  const [mode, setMode] = useState<Modes>("intro");
-  const [stages, dispatch] = useReducer(stagesReducer, initialStages);
-
-  const [location, setLocation] = useState<Coordinates | null>(null);
   useEffect(() => {
-    if (process.env.NODE_ENV === "development") {
-      setLocation({
-        latitude: 43.6532,
-        longitude: -79.3832,
-      });
-    } else if (geolocationAvailable()) {
-      navigator.geolocation.watchPosition(
-        ({ coords }) => {
-          setLocation({ ...coords });
-        },
-        (error) => {
-          alert(`ERROR(${error.code}): ${error.message}`);
-        }
-      );
-    }
-  }, []);
-
-  const [heading, setHeading] = useState<Degrees | null>(null);
-  useEffect(() => {
-    if (process.env.NODE_ENV === "development") {
-      setHeading(30);
-    } else if ("ondeviceorientationabsolute" in window) {
-      window.addEventListener("deviceorientationabsolute", (event) => {
-        setHeading(getHeading(event as DeviceOrientationEvent));
-      });
-      return;
-    } else if ("ondeviceorientation" in window) {
-      window.addEventListener("deviceorientation", (event) => {
-        setHeading(getHeading(event));
-      });
-    }
-  }, []);
+    console.log(stageState.stages);
+  }, [stageState.stages]);
 
   function getContent() {
-    if (location === null || heading === null) {
+    if (position.coordinates === null || position.heading === null) {
       return (
         <>
-          {location && <p>Location services are needed</p>}
-          {heading && <p>Device orientation services are needed</p>}
+          {position.coordinates && <p>Location services are needed</p>}
+          {position.heading && <p>Device orientation services are needed</p>}
         </>
       );
     }
 
-    switch (mode) {
-      case "intro":
-        return <Intro></Intro>;
-
-      case "guess":
-      case "answer":
-        return (
-          <Game
-            gameLength={gameLength}
-            location={location}
-            heading={heading}
-            mode={mode}
-            stages={stages}
-            dispatch={dispatch}
-          ></Game>
-        );
-
-      case "outro":
-        return <Outro stages={stages}></Outro>;
-
-      default:
-        const _exhaustiveCheck: never = mode;
-        return _exhaustiveCheck;
+    if (!stageState.isStarted()) {
+      return <Intro></Intro>;
+    } else if (stageState.isCompleted()) {
+      return <Outro {...stageState}></Outro>;
+    } else {
+      return <Game position={position} stageState={stageState}></Game>;
     }
   }
 
   return (
     <div className="h-full flex flex-col items-center justify-between pb-4">
       <Header></Header>
+      <button onClick={stageState.setNextStage}>hi</button>
       <Content>{getContent()}</Content>
-      {location !== null && heading !== null && (
-        <Button
-          gameLength={gameLength}
-          location={location}
-          heading={heading}
-          mode={mode}
-          setMode={setMode}
-          stages={stages}
-          dispatch={dispatch}
-        ></Button>
+      {position.coordinates && position.heading && (
+        <Button position={position} stageState={stageState}></Button>
       )}
     </div>
   );
-}
-
-const initialStages: StageList = [];
-function stagesReducer(state: typeof initialStages, action: ActionType) {
-  switch (action.type) {
-    case "next":
-      return [...state, getLocation(action.payload)];
-
-    case "reroll":
-      return [...state.slice(0, -1), getLocation(action.payload)];
-
-    case "guess":
-      if (state.length === 0) {
-        throw Error("No stages");
-      }
-
-      const currentStage = state[state.length - 1];
-      if ("heading" in currentStage || "score" in currentStage) {
-        throw Error("Current stage already has a guess");
-      }
-
-      return [...state.slice(0, -1), { ...currentStage, ...action.payload }];
-
-    case "restart":
-      return initialStages;
-
-    default:
-      const _exhaustiveCheck: never = action;
-      return _exhaustiveCheck;
-  }
 }
 
 export default App;

@@ -20,7 +20,7 @@ export interface Guess {
 
 export interface CompletedLocation extends CurrentLocation, Guess {}
 
-export type StageList = (CurrentLocation | CompletedLocation)[];
+export type StageList = (CurrentLocation | CompletedLocation | null)[];
 
 export type ActionType =
   | { type: "next"; payload: StageList }

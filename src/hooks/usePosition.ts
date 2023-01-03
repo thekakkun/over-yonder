@@ -57,12 +57,12 @@ export default function usePosition() {
 
   useEffect(() => {
     if ("ondeviceorientationabsolute" in window) {
-      window.addEventListener<"deviceorientation">(
+      window.addEventListener(
         "deviceorientationabsolute" as "deviceorientation",
         setHeading
       );
       return () =>
-        window.removeEventListener<"deviceorientation">(
+        window.removeEventListener(
           "deviceorientationabsolute" as "deviceorientation",
           setHeading
         );

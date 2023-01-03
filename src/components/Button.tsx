@@ -1,17 +1,10 @@
-import { Dispatch } from "react";
-import { Coordinates } from "../types/cartography";
-import { ActionType, Modes, StageList } from "../types/game";
-import { Degrees } from "../types/math";
+import useStages from "../hooks/useStages";
+import { Position } from "../types/game";
 import { getScore } from "../utilities/game";
 
 interface ButtonProps {
-  gameLength: number;
-  location: Coordinates;
-  heading: Degrees;
-  mode: Modes;
-  setMode: Dispatch<Modes>;
-  stages: StageList;
-  dispatch: Dispatch<ActionType>;
+  position: Position;
+  stageState: ReturnType<typeof useStages>;
 }
 
 export default function Button(props: ButtonProps) {
@@ -20,77 +13,58 @@ export default function Button(props: ButtonProps) {
       className="rounded-full bg-slate-500 text-slate-50 w-3/4 p-4"
       onClick={() => handleClick(props)}
     >
-      {buttonText(props)}
+      {buttonText(props.stageState)}
     </button>
   );
 }
 
-function handleClick({
-  gameLength,
-  location,
-  heading,
-  mode,
-  setMode,
-  stages,
-  dispatch,
-}: ButtonProps) {
-  switch (mode) {
-    case "intro":
-      setMode("guess");
-      dispatch({ type: "next", payload: stages });
-      break;
+function handleClick({ position, stageState }: ButtonProps) {
+  if (!stageState.isStarted()) {
+    // game hasn't started yet
+    stageState.setNextStage();
+  } else if (stageState.isCompleted()) {
+    // game is done
+    stageState.restart();
+  } else if (!("score" in stageState.getCurentStage())) {
+    // current stage has no score
+    if (position.heading === null) {
+      throw new Error("Heading not available.");
+    }
 
-    case "guess":
-      setMode("answer");
-      dispatch({
-        type: "guess",
-        payload: {
-          heading: heading,
-          score: getScore(location, heading, stages[stages.length - 1]),
-        },
-      });
-      break;
-
-    case "answer":
-      if (stages.length === gameLength) {
-        setMode("outro");
-      } else {
-        setMode("guess");
-        dispatch({ type: "next", payload: stages });
-      }
-      break;
-
-    case "outro":
-      setMode("intro");
-      dispatch({ type: "restart" });
-      break;
-
-    default:
-      const _exhaustiveCheck: never = mode;
-      return _exhaustiveCheck;
+    let score = getScore(position, stageState.getCurentStage());
+    stageState.makeGuess({ heading: position.heading, score: score });
+  } else {
+    // current stage has score
+    if (!stageState.isCompleted()) {
+      stageState.setNextStage();
+    }
   }
 }
 
-function buttonText({ gameLength, mode, stages }: ButtonProps) {
-  switch (mode) {
-    case "intro":
-      return "Start game";
+function buttonText({
+  stages,
 
-    case "guess":
-      return "Make guess";
-
-    case "answer":
-      if (stages.length === gameLength) {
-        return "Final results";
-      } else {
-        return "Next location";
-      }
-
-    case "outro":
-      return "New game";
-
-    default:
-      const _exhaustiveCheck: never = mode;
-      return _exhaustiveCheck;
+  isStarted,
+  isCompleted,
+  getCurentStage,
+}: ReturnType<typeof useStages>) {
+  if (!isStarted()) {
+    // game hasn't started yet
+    return "Start Game";
+  } else if (isCompleted()) {
+    // game is done
+    return "New game";
+  } else if (!("score" in getCurentStage())) {
+    // current stage has no score
+    return "Make guess";
+  } else {
+    // current stage has score
+    if (isCompleted()) {
+      // all stages have score
+      return "Final results";
+    } else {
+      // still more stages to go
+      return "Next location";
+    }
   }
 }

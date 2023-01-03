@@ -1,16 +1,16 @@
-import { StageList } from "../types/game";
-import Stage from "./Stage";
+import useStages from "../hooks/useStages";
 
-interface ProgressProps {
-  gameLength: number;
-  stages: StageList;
-}
-
-export default function Progress({ gameLength, stages }: ProgressProps) {
+export default function Progress({ stages }: ReturnType<typeof useStages>) {
   return (
     <ol className="flex flex-row gap-1">
-      {Array.from({ ...stages, length: gameLength }).map((stage, i) => (
-        <Stage key={i} {...stage} stageNum={i}></Stage>
+      {stages.map((stage, i) => (
+        <li key={i} className="flex-1 bg-slate-400">
+          <p className="text-center">{i + 1}</p>
+          {stage !== null && <p className="text-center">{stage.city}</p>}
+          {stage !== null && "score" in stage && (
+            <p className="text-center">{stage.score}</p>
+          )}
+        </li>
       ))}
     </ol>
   );
