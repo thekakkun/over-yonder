@@ -3,7 +3,7 @@ import { CurrentLocation, Position, StageList } from "../types/game";
 import { Degrees } from "../types/math";
 import { getBearing } from "./cartography";
 
-export function getScore(position: Position, target: CurrentLocation) {
+export function getScore(target: CurrentLocation, position: Position, ) {
   if (position.heading === null) {
     throw Error("Heading not available");
   }

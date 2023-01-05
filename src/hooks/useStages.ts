@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import {
   CompletedLocation,
   CurrentLocation,
@@ -7,11 +8,19 @@ import {
 } from "../types/game";
 import { getRandomCity } from "../utilities/game";
 
-export default function useStages(gameLength = 5) {
-  const initialStages: StageList = new Array(gameLength).fill(null);
-  const [stages, setStages] = useState(initialStages);
+export default function useStages(length = 5) {
+  const [stages, setStages] = useState<StageList | null>(null);
 
-  function getCurentStage() {
+  function init() {
+    const initialStages: StageList = new Array(length).fill(null);
+    setStages(initialStages);
+  }
+
+  function current(): CurrentLocation | CompletedLocation {
+    if (stages === null) {
+      throw new Error("stage list not initialized.");
+    }
+
     let lastStage = stages.reduce(
       (accumulator, currentValue) =>
         (accumulator = currentValue !== null ? currentValue : accumulator)
@@ -24,7 +33,11 @@ export default function useStages(gameLength = 5) {
     }
   }
 
-  function setNextStage() {
+  function setNext(): CurrentLocation {
+    if (stages === null) {
+      throw new Error("stage list not initialized.");
+    }
+
     const nextStage = getRandomCity(stages);
 
     for (const [i, stage] of stages.entries()) {
@@ -37,21 +50,29 @@ export default function useStages(gameLength = 5) {
     throw new Error("Max number of stages reached.");
   }
 
-  function rerollStage() {
+  function reroll() {
+    if (stages === null) {
+      throw new Error("stage list not initialized.");
+    }
+
     const newStage = getRandomCity(stages);
 
     for (const [i, stage] of stages.entries()) {
       if (stage !== null && !("score" in stage)) {
         setStages([...stages.slice(0, i), newStage, ...stages.slice(i + 1)]);
-        return newStage;
+        return;
       }
     }
 
     throw new Error("No stages in progress.");
   }
 
-  function makeGuess(guess: Guess) {
-    const completedStage: CompletedLocation = { ...getCurentStage(), ...guess };
+  function makeGuess(guess: Guess): void {
+    if (stages === null) {
+      throw new Error("stage list not initialized.");
+    }
+
+    const completedStage: CompletedLocation = { ...current(), ...guess };
 
     for (const [i, stage] of stages.entries()) {
       if (stage !== null && !("score" in stage)) {
@@ -65,26 +86,21 @@ export default function useStages(gameLength = 5) {
     }
   }
 
-  function isStarted() {
-    return stages[0] !== null;
-  }
+  function onFinal(): boolean {
+    if (stages === null) {
+      throw new Error("stage list not initialized.");
+    }
 
-  function isCompleted() {
-    return stages.every((stage) => stage !== null && "score" in stage);
-  }
-
-  function restart() {
-    setStages(initialStages);
+    return stages[length - 1] !== null;
   }
 
   return {
-    stages,
-    getCurentStage,
-    setNextStage,
-    rerollStage,
+    list: stages,
+    init,
+    current,
+    setNext,
+    reroll,
     makeGuess,
-    isStarted,
-    isCompleted,
-    restart,
+    onFinal,
   };
 }

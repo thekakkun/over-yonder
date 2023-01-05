@@ -1,57 +1,57 @@
 import { useEffect, useState } from "react";
+import { Coordinates } from "../types/cartography";
 import { Position } from "../types/game";
+import { Degrees } from "../types/math";
 
 interface WebkitDeviceOrientationEvent extends DeviceOrientationEvent {
   webkitCompassHeading: number;
 }
 
-export default function usePosition() {
-  let initPosition: Position =
-    process.env.NODE_ENV === "development"
-      ? {
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-          heading: 30,
-        }
-      : {
-          coordinates: null,
-          heading: null,
-        };
+export default function usePosition(): Position {
+  const coordinates = useCoordinates();
+  const heading = useHeading();
 
-  const [position, setPosition] = useState(initPosition);
+  return { coordinates, heading };
+}
 
-  function setCoordinates(pos: GeolocationPosition) {
-    setPosition({ ...position, coordinates: pos.coords });
+function useCoordinates(): Coordinates | null {
+  const [coordinates, setCoordinates] = useState<Coordinates | null>(null);
+
+  if (process.env.NODE_ENV === "development") {
+    setCoordinates({
+      latitude: 43.6532,
+      longitude: -79.3832,
+    });
   }
-  function geoErrorHandler(error: GeolocationPositionError) {
-    alert(`ERROR(${error.code}): ${error.message}`);
-  }
+
   useEffect(() => {
     if ("geolocation" in navigator) {
       let watchId = navigator.geolocation.watchPosition(
-        setCoordinates,
-        geoErrorHandler
+        (pos) => setCoordinates(pos.coords),
+        (error) => alert(`ERROR(${error.code}): ${error.message}`)
       );
 
       return () => navigator.geolocation.clearWatch(watchId);
     }
   }, []);
 
-  function setHeading(
+  return coordinates;
+}
+
+function useHeading(): Degrees | null {
+  const [heading, setHeading] = useState<Degrees | null>(null);
+
+  if (process.env.NODE_ENV === "development") {
+    setHeading(30);
+  }
+
+  function orientationHandler(
     orientation: DeviceOrientationEvent | WebkitDeviceOrientationEvent
   ) {
     if ("webkitCompassHeading" in orientation) {
-      setPosition({
-        ...position,
-        heading: orientation.webkitCompassHeading,
-      });
+      setHeading(orientation.webkitCompassHeading);
     } else if (orientation.absolute && orientation.alpha !== null) {
-      setPosition({
-        ...position,
-        heading: 359 - orientation.alpha,
-      });
+      setHeading(359 - orientation.alpha);
     }
   }
 
@@ -59,18 +59,19 @@ export default function usePosition() {
     if ("ondeviceorientationabsolute" in window) {
       window.addEventListener(
         "deviceorientationabsolute" as "deviceorientation",
-        setHeading
+        orientationHandler
       );
       return () =>
         window.removeEventListener(
           "deviceorientationabsolute" as "deviceorientation",
-          setHeading
+          orientationHandler
         );
     } else if ("ondeviceorientation" in window) {
-      window.addEventListener("deviceorientation", setHeading);
-      return () => window.removeEventListener("deviceorientation", setHeading);
+      window.addEventListener("deviceorientation", orientationHandler);
+      return () =>
+        window.removeEventListener("deviceorientation", orientationHandler);
     }
   }, []);
 
-  return position;
+  return heading;
 }

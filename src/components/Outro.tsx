@@ -1,12 +1,9 @@
 import useStages from "../hooks/useStages";
 import { CompletedLocation } from "../types/game";
 
-export default function Outro({
-  stages,
-  isCompleted,
-}: ReturnType<typeof useStages>) {
-  if (!isCompleted()) {
-    throw new Error("Game not completed.");
+export default function Outro(stages: ReturnType<typeof useStages>) {
+  if (stages.list === null) {
+    throw new Error("Stages not initialized.");
   }
 
   return (
@@ -14,7 +11,7 @@ export default function Outro({
       <h1 className="text-lg font-bold">Good Job!</h1>
       <p>
         You scored{" "}
-        {`${stages.reduce(
+        {`${stages.list.reduce(
           (prev, curr) => prev + (curr as CompletedLocation).score,
           0
         )}/1000`}
@@ -22,7 +19,7 @@ export default function Outro({
 
       <h2 className="text-base font-bold text-slate-700 mt-3">Breakdown</h2>
       <ol>
-        {stages.map((stage) => {
+        {stages.list.map((stage) => {
           if (stage === null || !("score" in stage)) {
             throw new Error("Stage not completed");
           }
