@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import useStages from "../../hooks/useStages";
 
 export default function GuessInfo(stages: ReturnType<typeof useStages>) {

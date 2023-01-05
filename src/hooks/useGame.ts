@@ -21,7 +21,6 @@ export default function useGame(
   function advance() {
     switch (gameState) {
       case GameState.Intro:
-        stages.init();
         stages.setNext();
         setGameState(GameState.Guess);
         break;
@@ -37,7 +36,6 @@ export default function useGame(
         if (stages.onFinal()) {
           setGameState(GameState.LastAnswer);
         } else {
-          stages.setNext();
           setGameState(GameState.Answer);
         }
         break;
@@ -53,7 +51,7 @@ export default function useGame(
         break;
 
       case GameState.Outro:
-        stages.init();
+        stages.reset();
         setGameState(GameState.Intro);
         break;
 

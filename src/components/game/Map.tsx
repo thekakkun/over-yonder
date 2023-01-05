@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import colors from "tailwindcss/colors";
+
 import useStages from "../../hooks/useStages";
 import { Position } from "../../types/game";
 
@@ -9,8 +10,6 @@ interface MapProps {
   stages: ReturnType<typeof useStages>;
   position: Position;
 }
-
-let map: D3Map;
 
 export default function Map({ stages, position }: MapProps) {
   const svgRef = useRef<SVGSVGElement>(null);
@@ -24,9 +23,9 @@ export default function Map({ stages, position }: MapProps) {
     if (position.coordinates === null) {
       throw new Error("Coordinates not available.");
     } else if (svgRef.current) {
-      map = new D3Map(svgRef.current, target, position.coordinates);
+      new D3Map(svgRef.current, target, position.coordinates);
     }
-  }, [svgRef]);
+  }, [svgRef, target, position.coordinates]);
 
   const globe = <path id="globe" fill={colors.blue[100]}></path>;
   const countries = (

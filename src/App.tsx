@@ -1,8 +1,8 @@
 import { useEffect } from "react";
+
 import Button from "./components/Button";
 import Content from "./components/Content";
 import Game from "./components/game/Game";
-
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Outro from "./components/Outro";

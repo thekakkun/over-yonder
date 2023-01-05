@@ -8,21 +8,22 @@ interface WebkitDeviceOrientationEvent extends DeviceOrientationEvent {
 }
 
 export default function usePosition(): Position {
-  const coordinates = useCoordinates();
-  const heading = useHeading();
+  let coordinates = useCoordinates();
+  let heading = useHeading();
+
+  if (process.env.NODE_ENV === "development") {
+    coordinates = {
+      latitude: 43.6532,
+      longitude: -79.3832,
+    };
+    heading = 30;
+  }
 
   return { coordinates, heading };
 }
 
 function useCoordinates(): Coordinates | null {
   const [coordinates, setCoordinates] = useState<Coordinates | null>(null);
-
-  if (process.env.NODE_ENV === "development") {
-    setCoordinates({
-      latitude: 43.6532,
-      longitude: -79.3832,
-    });
-  }
 
   useEffect(() => {
     if ("geolocation" in navigator) {
@@ -40,10 +41,6 @@ function useCoordinates(): Coordinates | null {
 
 function useHeading(): Degrees | null {
   const [heading, setHeading] = useState<Degrees | null>(null);
-
-  if (process.env.NODE_ENV === "development") {
-    setHeading(30);
-  }
 
   function orientationHandler(
     orientation: DeviceOrientationEvent | WebkitDeviceOrientationEvent

@@ -9,18 +9,10 @@ import {
 import { getRandomCity } from "../utilities/game";
 
 export default function useStages(length = 5) {
-  const [stages, setStages] = useState<StageList | null>(null);
-
-  function init() {
-    const initialStages: StageList = new Array(length).fill(null);
-    setStages(initialStages);
-  }
+  const initialStages: StageList = new Array(length).fill(null);
+  const [stages, setStages] = useState<StageList>(initialStages);
 
   function current(): CurrentLocation | CompletedLocation {
-    if (stages === null) {
-      throw new Error("stage list not initialized.");
-    }
-
     let lastStage = stages.reduce(
       (accumulator, currentValue) =>
         (accumulator = currentValue !== null ? currentValue : accumulator)
@@ -34,10 +26,6 @@ export default function useStages(length = 5) {
   }
 
   function setNext(): CurrentLocation {
-    if (stages === null) {
-      throw new Error("stage list not initialized.");
-    }
-
     const nextStage = getRandomCity(stages);
 
     for (const [i, stage] of stages.entries()) {
@@ -51,10 +39,6 @@ export default function useStages(length = 5) {
   }
 
   function reroll() {
-    if (stages === null) {
-      throw new Error("stage list not initialized.");
-    }
-
     const newStage = getRandomCity(stages);
 
     for (const [i, stage] of stages.entries()) {
@@ -68,39 +52,32 @@ export default function useStages(length = 5) {
   }
 
   function makeGuess(guess: Guess): void {
-    if (stages === null) {
-      throw new Error("stage list not initialized.");
-    }
-
-    const completedStage: CompletedLocation = { ...current(), ...guess };
-
-    for (const [i, stage] of stages.entries()) {
+    const nextStages = stages.map((stage) => {
       if (stage !== null && !("score" in stage)) {
-        setStages([
-          ...stages.slice(0, i),
-          completedStage,
-          ...stages.slice(i + 1),
-        ]);
-        return;
+        return { ...stage, ...guess };
+      } else {
+        return stage;
       }
-    }
+    });
+
+    setStages(nextStages);
   }
 
   function onFinal(): boolean {
-    if (stages === null) {
-      throw new Error("stage list not initialized.");
-    }
-
     return stages[length - 1] !== null;
+  }
+
+  function reset() {
+    setStages(initialStages);
   }
 
   return {
     list: stages,
-    init,
     current,
     setNext,
     reroll,
     makeGuess,
     onFinal,
+    reset,
   };
 }
